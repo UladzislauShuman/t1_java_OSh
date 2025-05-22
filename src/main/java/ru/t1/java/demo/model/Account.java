@@ -23,7 +23,7 @@ import java.util.UUID;
 public class Account extends AbstractPersistable<Long> {
 
     @Column(name = "client_id")
-    private UUID clientId;
+    private Long clientId;
 
     @Column(name = "account_type")
     private AccountType accountType;

@@ -1,14 +1,35 @@
 spring:
   application:
     name: t1-java-demo
+#  datasource:
+#    url: "jdbc:postgresql://localhost:5432/t1_demo"
+#    username: "postgres"
+#    password: "0000"
+#    driverClassName: org.postgresql.Driver
   datasource:
-    url: "jdbc:postgresql://localhost:5432/t1_demo"
-    username: "postgres"
-    password: "0000"
-    driverClassName: org.postgresql.Driver
+    generate-unique-name: false
+    url: jdbc:h2:mem:t1_task1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
   liquibase:
-    enabled: true
+    enabled: false
     change-log: db/changelog/db.changelog-master.xml
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
 
 logging:
   level:

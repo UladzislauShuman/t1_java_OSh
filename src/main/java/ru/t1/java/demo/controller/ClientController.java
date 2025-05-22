@@ -8,7 +8,7 @@ import ru.t1.java.demo.aop.HandlingResult;
 import ru.t1.java.demo.aop.Track;
 import ru.t1.java.demo.aop.LogException;
 import ru.t1.java.demo.exception.ClientException;
-import ru.t1.java.demo.service.ClientService;
+import ru.t1.java.demo.service.impl.ClientServiceImpl;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ import java.io.IOException;
 @Slf4j
 public class ClientController {
 
-    private final ClientService clientService;
+    private final ClientServiceImpl clientService;
 
     @LogException
     @Track

@@ -1,37 +1,91 @@
 package ru.t1.java.demo.controller;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-import ru.t1.java.demo.aop.HandlingResult;
-import ru.t1.java.demo.aop.LogException;
-import ru.t1.java.demo.aop.Track;
-import ru.t1.java.demo.exception.ClientException;
-import ru.t1.java.demo.service.ClientService;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PagedModel;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
+
+import ru.t1.java.demo.dto.AccountDto;
+import ru.t1.java.demo.service.AccountService;
 
 import java.io.IOException;
+import java.util.Collection;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.StreamSupport;
 
 @RestController
+@RequestMapping("/accounts")
 @RequiredArgsConstructor
-@Slf4j
 public class AccountController {
 
-    private final ClientService clientService;
+    private final AccountService accountService;
 
-    @LogException
-    @Track
-    @GetMapping(value = "/account")
-    @HandlingResult
-    public void doSomething() throws IOException, InterruptedException {
-//        try {
-//            clientService.parseJson();
-        Thread.sleep(3000L);
-        throw new ClientException();
-//        } catch (Exception e) {
-//            log.info("Catching exception from ClientController");
-//            throw new ClientException();
-//        }
+    private final ObjectMapper objectMapper;
+
+    @GetMapping
+    public PagedModel<AccountDto> getAll(Pageable pageable) {
+        Page<AccountDto> accountDtos = accountService.findAll(pageable);
+        return new PagedModel<>(accountDtos);
     }
 
+    @GetMapping("/{id}")
+    public AccountDto getOne(@PathVariable Long id) {
+        Optional<AccountDto> accountOptional = accountService.findById(id);
+        return accountOptional.orElseThrow(() ->
+                new ResponseStatusException(HttpStatus.NOT_FOUND, "Entity with id `%s` not found".formatted(id)));
+    }
+
+    @GetMapping("/by-ids")
+    public Iterable<AccountDto> getMany(@RequestParam List<Long> ids) {
+        return accountService.findAllByIds(ids);
+    }
+
+    @PostMapping
+    public AccountDto create(@RequestBody AccountDto accountDto) {
+        return accountService.save(accountDto);
+    }
+
+    @PatchMapping("/{id}")
+    public AccountDto patch(@PathVariable Long id, @RequestBody JsonNode patchNode) throws IOException {
+        AccountDto accountDto = accountService.findById(id).orElseThrow(() ->
+                new ResponseStatusException(HttpStatus.NOT_FOUND, "Entity with id `%s` not found".formatted(id)));
+
+        objectMapper.readerForUpdating(accountDto).readValue(patchNode);
+
+        return accountService.save(accountDto);
+    }
+
+    @PatchMapping
+    public List<Long> patchMany(@RequestParam List<Long> ids, @RequestBody JsonNode patchNode) throws IOException {
+        Collection<AccountDto> accountDtos = accountService.findAllByIds(ids);
+
+        for (AccountDto account : accountDtos) {
+            objectMapper.readerForUpdating(account).readValue(patchNode);
+        }
+
+        Iterable<AccountDto> resultAccounts = accountService.saveAll(accountDtos);
+        return StreamSupport.stream(resultAccounts.spliterator(), false)
+                .map(AccountDto::getId)
+                .toList();
+    }
+
+    @DeleteMapping("/{id}")
+    public AccountDto delete(@PathVariable Long id) {
+        AccountDto accountDto = accountService.findById(id).orElse(null);
+        if (accountDto != null) {
+            accountService.delete(accountDto);
+        }
+        return accountDto;
+    }
+
+    @DeleteMapping
+    public void deleteMany(@RequestParam List<Long> ids) {
+        accountService.deleteAllByIds(ids);
+    }
 }
