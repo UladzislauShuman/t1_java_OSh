@@ -6,7 +6,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.METHOD) // для кого
+@Target({ElementType.METHOD, ElementType.TYPE}) // для кого
 @Retention(RetentionPolicy.RUNTIME)
 @Documented // должна отображаться в JavaDoc
 public @interface LogDataSourceError { }

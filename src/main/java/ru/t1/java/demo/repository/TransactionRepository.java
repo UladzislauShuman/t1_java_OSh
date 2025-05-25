@@ -6,8 +6,6 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import ru.t1.java.demo.model.Transaction;
 
-import java.util.List;
-
 @Repository
 public interface TransactionRepository extends CrudRepository<Transaction, Long> {
     Page<Transaction> findAll(Pageable pageable);

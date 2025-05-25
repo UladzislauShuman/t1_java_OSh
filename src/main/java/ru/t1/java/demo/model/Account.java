@@ -11,7 +11,6 @@ import lombok.Setter;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
 import java.math.BigDecimal;
-import java.util.UUID;
 
 @Getter
 @Setter
@@ -20,7 +19,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "account")
-public class Account extends AbstractPersistable<Long> {
+public class Account extends AbstractPersistable<Long> implements HasId{
 
     @Column(name = "client_id")
     private Long clientId;

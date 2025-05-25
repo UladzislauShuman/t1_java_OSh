@@ -3,7 +3,11 @@ package ru.t1.java.demo.model;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
 @Entity
@@ -13,7 +17,7 @@ import org.springframework.data.jpa.domain.AbstractPersistable;
 @AllArgsConstructor
 @Builder
 @Table(name = "data_source_error_log")
-public class DataSourceErrorLog extends AbstractPersistable<Long> {
+public class DataSourceErrorLog extends AbstractPersistable<Long> implements HasId {
     @Column(name = "stack_trace", columnDefinition = "TEXT")
     private String stackTrace;
 

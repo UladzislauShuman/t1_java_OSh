@@ -10,7 +10,6 @@ import ru.t1.java.demo.model.Account;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.util.UUID;
 
 /**
  * DTO for {@link ru.t1.java.demo.model.Account}

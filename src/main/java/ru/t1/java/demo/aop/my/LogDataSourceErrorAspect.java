@@ -19,14 +19,13 @@ public class LogDataSourceErrorAspect {
     private final DataSourceErrorLogRepository errorLogRepository;
 
     @AfterThrowing(
-            pointcut = "@annotation(logDataSourceError)",
+            pointcut = "@annotation(ru.t1.java.demo.aop.my.LogDataSourceError)",
             throwing = "exception"
     )
-    public void setErrorLogRepository(JoinPoint joinPoint, LogDataSourceError logDataSourceError, Throwable exception) {
+    public void setErrorLogRepository(JoinPoint joinPoint, Throwable exception) {
         String errorMessage = exception.getMessage() != null ? exception.getMessage() : "no message";
         String stackTrace = Arrays.toString(exception.getStackTrace());
         String methodSignature = joinPoint.getSignature().toShortString();
-
         DataSourceErrorLog errorLog = DataSourceErrorLog.builder()
                         .message(errorMessage)
                         .stackTrace(stackTrace)
@@ -35,6 +34,6 @@ public class LogDataSourceErrorAspect {
 
         errorLogRepository.save(errorLog);
 
-        log.error("Exception added to log:", exception);
+        log.error("Exception added to log FROM {}, INCLUDE: {}",joinPoint.getSignature().toShortString(), exception.getMessage());
     }
 }
