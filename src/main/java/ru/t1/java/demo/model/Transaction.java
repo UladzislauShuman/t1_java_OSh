@@ -10,26 +10,23 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
-import java.util.UUID;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
 @Entity
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "client")
-public class Client extends AbstractPersistable<Long> implements HasId {
+@Builder
+@Table(name = "transaction")
+public class Transaction extends AbstractPersistable<Long> implements HasId {
+    @Column(name = "account_id")
+    private Long accountId;
 
-    @Column(name = "first_name")
-    private String firstName;
+    @Column(name = "amount")
+    private BigDecimal amount;
 
-    @Column(name = "last_name")
-    private String lastName;
-
-    @Column(name = "middle_name")
-    private String middleName;
-
-    @Column(name = "client_id")
-    private UUID clientId;
+    @Column(name = "time")
+    private LocalDateTime time;
 }

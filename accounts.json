@@ -1,0 +1,5001 @@
+[ {
+  "id" : 1,
+  "client_id" : "91e5d976-ade4-4701-91b8-9d978f9883e6",
+  "account_type" : "CREDIT",
+  "balance" : 9868.274111435092
+}, {
+  "id" : 2,
+  "client_id" : "bfdcd524-c172-423d-8df1-f791c9b6124f",
+  "account_type" : "DEBIT",
+  "balance" : 7950.0340452143655
+}, {
+  "id" : 3,
+  "client_id" : "09a0c25f-4b33-4b92-8e06-d274089d4dfa",
+  "account_type" : "DEBIT",
+  "balance" : 5645.943427931994
+}, {
+  "id" : 4,
+  "client_id" : "03e4066b-364c-4d1a-9ae1-538934bdec50",
+  "account_type" : "CREDIT",
+  "balance" : 8975.00499071513
+}, {
+  "id" : 5,
+  "client_id" : "ba5f9259-2281-4bc0-87c3-c5f192ab8511",
+  "account_type" : "DEBIT",
+  "balance" : 7788.239338432575
+}, {
+  "id" : 6,
+  "client_id" : "c263a13c-9f27-4b84-8ed2-2238af59fa9d",
+  "account_type" : "CREDIT",
+  "balance" : 9342.431989481547
+}, {
+  "id" : 7,
+  "client_id" : "a8ed3c27-2150-4825-8074-e8c52b74f219",
+  "account_type" : "CREDIT",
+  "balance" : 2878.2892092640654
+}, {
+  "id" : 8,
+  "client_id" : "8865922d-05e1-4331-accc-088961f82db8",
+  "account_type" : "DEBIT",
+  "balance" : 112.64827561177415
+}, {
+  "id" : 9,
+  "client_id" : "e396a657-970c-4b80-9929-d2fb90e75b84",
+  "account_type" : "CREDIT",
+  "balance" : 7834.43183381503
+}, {
+  "id" : 10,
+  "client_id" : "75491eb0-a5fa-41bc-acf5-b40fdd71d7a7",
+  "account_type" : "CREDIT",
+  "balance" : 7186.408007561235
+}, {
+  "id" : 11,
+  "client_id" : "134f30e0-f02b-42f7-a720-bbc99f40ab1a",
+  "account_type" : "CREDIT",
+  "balance" : 4923.83939877181
+}, {
+  "id" : 12,
+  "client_id" : "1305cd37-34cd-483f-a3ed-54486d64f20a",
+  "account_type" : "DEBIT",
+  "balance" : 6362.705347440668
+}, {
+  "id" : 13,
+  "client_id" : "3eea320c-57dd-4eb8-a731-3480e91463af",
+  "account_type" : "DEBIT",
+  "balance" : 5863.441548943748
+}, {
+  "id" : 14,
+  "client_id" : "404e51eb-f7b2-4e06-a433-c31232e10f53",
+  "account_type" : "DEBIT",
+  "balance" : 9562.160502319224
+}, {
+  "id" : 15,
+  "client_id" : "09ae046d-5dc3-4076-a09a-bd1014d8a5a5",
+  "account_type" : "CREDIT",
+  "balance" : 7981.5239344853
+}, {
+  "id" : 16,
+  "client_id" : "d58fc212-3a18-4d85-bf6b-d07048d5232a",
+  "account_type" : "CREDIT",
+  "balance" : 6408.1970323297355
+}, {
+  "id" : 17,
+  "client_id" : "ec8a4499-320f-4597-8b13-07caec36638f",
+  "account_type" : "DEBIT",
+  "balance" : 9816.40158189791
+}, {
+  "id" : 18,
+  "client_id" : "4e02513b-c2e9-469f-bb45-f00938882055",
+  "account_type" : "CREDIT",
+  "balance" : 8852.413730870336
+}, {
+  "id" : 19,
+  "client_id" : "f8023642-eac5-4912-bc01-75e9c141c13b",
+  "account_type" : "DEBIT",
+  "balance" : 8671.95025686852
+}, {
+  "id" : 20,
+  "client_id" : "5976e551-5562-405d-adea-3cdeb8237511",
+  "account_type" : "CREDIT",
+  "balance" : 4487.3692761882585
+}, {
+  "id" : 21,
+  "client_id" : "49e13f18-6d8c-4e1a-800f-d3bcedc793a5",
+  "account_type" : "DEBIT",
+  "balance" : 3018.542638719055
+}, {
+  "id" : 22,
+  "client_id" : "988e3d3d-f5d8-47d2-ad6e-7894692cb291",
+  "account_type" : "CREDIT",
+  "balance" : 2204.774029008547
+}, {
+  "id" : 23,
+  "client_id" : "d710fe0a-2212-4be4-8262-110ec3faaf25",
+  "account_type" : "CREDIT",
+  "balance" : 8564.92996303916
+}, {
+  "id" : 24,
+  "client_id" : "c66382fe-d008-4888-9a5d-2e37bd6b2b21",
+  "account_type" : "CREDIT",
+  "balance" : 7391.406345855616
+}, {
+  "id" : 25,
+  "client_id" : "789c9a8f-9d39-464f-b3a3-9b299b454e41",
+  "account_type" : "DEBIT",
+  "balance" : 3764.0286721991356
+}, {
+  "id" : 26,
+  "client_id" : "b8f93742-c7e1-4f0d-8103-cc005a149cbf",
+  "account_type" : "CREDIT",
+  "balance" : 2275.493427738776
+}, {
+  "id" : 27,
+  "client_id" : "ec2129f2-9a43-44e2-8e20-6ec7b6d5c0aa",
+  "account_type" : "CREDIT",
+  "balance" : 5603.917464755096
+}, {
+  "id" : 28,
+  "client_id" : "5e3fe3d1-0fd9-4ed4-b96b-c302be786cbd",
+  "account_type" : "CREDIT",
+  "balance" : 1593.425361900661
+}, {
+  "id" : 29,
+  "client_id" : "734cc56b-df4e-4fa1-a7af-827efa93c10f",
+  "account_type" : "DEBIT",
+  "balance" : 3490.3904248059057
+}, {
+  "id" : 30,
+  "client_id" : "36f6654b-0d74-47b6-bd18-44d2d18fb25b",
+  "account_type" : "CREDIT",
+  "balance" : 7971.3302251105815
+}, {
+  "id" : 31,
+  "client_id" : "e9785442-913e-4b0e-bbb2-5b952be98c64",
+  "account_type" : "CREDIT",
+  "balance" : 5452.373794474009
+}, {
+  "id" : 32,
+  "client_id" : "030c5cc6-0f6e-4ac7-9061-47dc14b6e13d",
+  "account_type" : "DEBIT",
+  "balance" : 4596.414009060779
+}, {
+  "id" : 33,
+  "client_id" : "57ebe409-fb0a-457d-9f7e-e32180178ab6",
+  "account_type" : "DEBIT",
+  "balance" : 8280.547629546461
+}, {
+  "id" : 34,
+  "client_id" : "f1ee6e84-6469-4732-901e-7f11da1cf1e1",
+  "account_type" : "CREDIT",
+  "balance" : 1844.4072201994422
+}, {
+  "id" : 35,
+  "client_id" : "99f0f37b-7052-42e7-a52d-ec3629396b66",
+  "account_type" : "DEBIT",
+  "balance" : 8204.560157759306
+}, {
+  "id" : 36,
+  "client_id" : "09be10bd-3320-4722-a168-7479178bce23",
+  "account_type" : "CREDIT",
+  "balance" : 7035.937113581372
+}, {
+  "id" : 37,
+  "client_id" : "a4118a6a-10a9-49ef-bf09-becc2cdbf0a2",
+  "account_type" : "CREDIT",
+  "balance" : 5336.109262136593
+}, {
+  "id" : 38,
+  "client_id" : "049fab42-6efc-40b7-b14d-094fa462397f",
+  "account_type" : "DEBIT",
+  "balance" : 6548.482549658721
+}, {
+  "id" : 39,
+  "client_id" : "acd06f89-f25d-48ed-b704-386bf722fed5",
+  "account_type" : "CREDIT",
+  "balance" : 766.427026819062
+}, {
+  "id" : 40,
+  "client_id" : "5f4e2087-eed2-43c0-8220-8004c5aba58b",
+  "account_type" : "DEBIT",
+  "balance" : 1564.4381740804115
+}, {
+  "id" : 41,
+  "client_id" : "877d1ce8-408d-4e39-b1d6-5958a0c9c9a4",
+  "account_type" : "DEBIT",
+  "balance" : 9601.60546735755
+}, {
+  "id" : 42,
+  "client_id" : "892a0f3a-5167-4e3a-8855-bbdd60604551",
+  "account_type" : "CREDIT",
+  "balance" : 7968.639869887743
+}, {
+  "id" : 43,
+  "client_id" : "4cf75b47-7d7f-4f35-8d19-6ff1aa93400d",
+  "account_type" : "CREDIT",
+  "balance" : 7413.695066231112
+}, {
+  "id" : 44,
+  "client_id" : "98e9c247-1a9b-4d06-8762-69372d53f3f7",
+  "account_type" : "CREDIT",
+  "balance" : 6634.458443533916
+}, {
+  "id" : 45,
+  "client_id" : "b0d34d7d-c3e3-498e-8e38-92b00a947467",
+  "account_type" : "DEBIT",
+  "balance" : 1637.458847939629
+}, {
+  "id" : 46,
+  "client_id" : "e23c65cb-030e-4bb2-b20b-ec5e5041e03e",
+  "account_type" : "CREDIT",
+  "balance" : 8393.584040813243
+}, {
+  "id" : 47,
+  "client_id" : "95034b1e-f0f6-4eaa-ae89-96b9e837a1af",
+  "account_type" : "CREDIT",
+  "balance" : 310.22880138146024
+}, {
+  "id" : 48,
+  "client_id" : "5427bdbe-086a-4ed4-bf1c-67560e343f3e",
+  "account_type" : "DEBIT",
+  "balance" : 263.46261621042254
+}, {
+  "id" : 49,
+  "client_id" : "515a2bcc-3cfc-4bb5-b54f-0e0b70c4f33d",
+  "account_type" : "CREDIT",
+  "balance" : 7985.573019627015
+}, {
+  "id" : 50,
+  "client_id" : "e80c4071-2d24-459c-817c-d3e4a70963ff",
+  "account_type" : "DEBIT",
+  "balance" : 3482.7627379557625
+}, {
+  "id" : 51,
+  "client_id" : "11f6afb6-6557-405b-9de7-645441bb0f01",
+  "account_type" : "DEBIT",
+  "balance" : 5200.474021109473
+}, {
+  "id" : 52,
+  "client_id" : "dea130e3-fb94-4e2a-b605-4256799252a8",
+  "account_type" : "DEBIT",
+  "balance" : 2197.3526652143105
+}, {
+  "id" : 53,
+  "client_id" : "fdceb03b-a4e9-4826-827f-09c07eedffd3",
+  "account_type" : "DEBIT",
+  "balance" : 84.83366673959436
+}, {
+  "id" : 54,
+  "client_id" : "05e5913a-c141-4e88-b3d4-935c553b6d22",
+  "account_type" : "CREDIT",
+  "balance" : 1330.4367137212448
+}, {
+  "id" : 55,
+  "client_id" : "21b6b48e-8cd7-4941-9b0c-28d83dacc134",
+  "account_type" : "DEBIT",
+  "balance" : 1998.897890337361
+}, {
+  "id" : 56,
+  "client_id" : "52c49ecf-d709-410f-b9ed-58d7b0adad3f",
+  "account_type" : "CREDIT",
+  "balance" : 5806.04376797906
+}, {
+  "id" : 57,
+  "client_id" : "75f0471a-9b93-40db-8b16-df1d0371aa4f",
+  "account_type" : "DEBIT",
+  "balance" : 8807.807584897762
+}, {
+  "id" : 58,
+  "client_id" : "61cf60e9-8b40-4c91-8b25-8ba58776ee1e",
+  "account_type" : "DEBIT",
+  "balance" : 8155.360554079516
+}, {
+  "id" : 59,
+  "client_id" : "4757f679-ba15-42c3-b741-31e11c61cdd5",
+  "account_type" : "DEBIT",
+  "balance" : 4854.598297754142
+}, {
+  "id" : 60,
+  "client_id" : "2917b950-f7d9-4e84-9e94-8747800bdd32",
+  "account_type" : "DEBIT",
+  "balance" : 974.3311535223187
+}, {
+  "id" : 61,
+  "client_id" : "656bde6a-4988-419c-955b-4435ed1e171d",
+  "account_type" : "DEBIT",
+  "balance" : 4031.4196490974573
+}, {
+  "id" : 62,
+  "client_id" : "04d7aa98-f2d5-47c5-8058-0c92e7c1a16e",
+  "account_type" : "CREDIT",
+  "balance" : 1026.4317487147734
+}, {
+  "id" : 63,
+  "client_id" : "a1b3ef57-7ed4-4e4c-a3c1-2f125fbf6761",
+  "account_type" : "CREDIT",
+  "balance" : 5581.882429053707
+}, {
+  "id" : 64,
+  "client_id" : "17064d55-5df0-4dce-9100-d946d8ae9040",
+  "account_type" : "CREDIT",
+  "balance" : 345.05846663783757
+}, {
+  "id" : 65,
+  "client_id" : "f0165d26-2781-4f6c-9220-a046afc3e988",
+  "account_type" : "DEBIT",
+  "balance" : 3544.108167519794
+}, {
+  "id" : 66,
+  "client_id" : "639c4dfc-3500-4a83-8898-26d9e5b822ee",
+  "account_type" : "CREDIT",
+  "balance" : 4518.765683859368
+}, {
+  "id" : 67,
+  "client_id" : "5adcdf56-c3c2-4378-8a61-34431a934c7b",
+  "account_type" : "DEBIT",
+  "balance" : 9572.715129165825
+}, {
+  "id" : 68,
+  "client_id" : "7b5154fc-8496-476d-972f-959b038206b1",
+  "account_type" : "CREDIT",
+  "balance" : 6898.472413717946
+}, {
+  "id" : 69,
+  "client_id" : "445fad12-e1b9-487e-885e-1715efe43ca2",
+  "account_type" : "DEBIT",
+  "balance" : 2844.3470985740214
+}, {
+  "id" : 70,
+  "client_id" : "6e02f381-a1de-44c3-b5f5-2e2e499b6aa4",
+  "account_type" : "CREDIT",
+  "balance" : 1697.2041634990376
+}, {
+  "id" : 71,
+  "client_id" : "202b9126-fea8-48df-a2c4-4838b7218aee",
+  "account_type" : "DEBIT",
+  "balance" : 5743.351848730268
+}, {
+  "id" : 72,
+  "client_id" : "d1706018-b4c2-4821-b9d6-af7febdde3b9",
+  "account_type" : "DEBIT",
+  "balance" : 6099.483001551917
+}, {
+  "id" : 73,
+  "client_id" : "4ac43bbb-0904-42d6-9c34-2c26d5309cbc",
+  "account_type" : "DEBIT",
+  "balance" : 7908.681560163625
+}, {
+  "id" : 74,
+  "client_id" : "7c34f78a-2324-4749-9c32-dc439540fc90",
+  "account_type" : "DEBIT",
+  "balance" : 4729.9933843404615
+}, {
+  "id" : 75,
+  "client_id" : "06fa1eb4-d06c-4bd4-82c0-7886dc81c326",
+  "account_type" : "DEBIT",
+  "balance" : 5357.758985756611
+}, {
+  "id" : 76,
+  "client_id" : "8a5838fd-d14f-4c53-972e-943adc249124",
+  "account_type" : "CREDIT",
+  "balance" : 20.01148976969236
+}, {
+  "id" : 77,
+  "client_id" : "497d4124-5a91-4554-b261-10141b681dae",
+  "account_type" : "DEBIT",
+  "balance" : 1303.5172691834719
+}, {
+  "id" : 78,
+  "client_id" : "8a0dd8b0-2463-41a2-a91c-a08d63ca0c56",
+  "account_type" : "DEBIT",
+  "balance" : 1597.8304471415584
+}, {
+  "id" : 79,
+  "client_id" : "bdc73363-f1cf-42b1-9992-9199c7a6d632",
+  "account_type" : "CREDIT",
+  "balance" : 7200.924341908622
+}, {
+  "id" : 80,
+  "client_id" : "e2edb558-9e50-485c-9ad9-1fdbcf964678",
+  "account_type" : "CREDIT",
+  "balance" : 9972.05324407947
+}, {
+  "id" : 81,
+  "client_id" : "feef3429-945b-4564-a809-36e067b802d4",
+  "account_type" : "DEBIT",
+  "balance" : 8679.521450482178
+}, {
+  "id" : 82,
+  "client_id" : "7c18657c-3d67-4786-98d5-fe0ee5e2439f",
+  "account_type" : "DEBIT",
+  "balance" : 604.9024773527544
+}, {
+  "id" : 83,
+  "client_id" : "0c8699ea-7acd-48ca-a472-243faad5d1df",
+  "account_type" : "CREDIT",
+  "balance" : 4375.952283434485
+}, {
+  "id" : 84,
+  "client_id" : "8e6a71f4-4db2-4da0-8847-5874b3c24864",
+  "account_type" : "DEBIT",
+  "balance" : 3512.691702791262
+}, {
+  "id" : 85,
+  "client_id" : "a84c3064-ee3c-46b9-ba79-05d9de23ad44",
+  "account_type" : "CREDIT",
+  "balance" : 6910.09555583447
+}, {
+  "id" : 86,
+  "client_id" : "2f4103ab-caa6-4edc-92a9-7183a4bec282",
+  "account_type" : "DEBIT",
+  "balance" : 7009.972499094528
+}, {
+  "id" : 87,
+  "client_id" : "15952000-1a38-4874-8efc-ef0342168e00",
+  "account_type" : "DEBIT",
+  "balance" : 6643.739327952506
+}, {
+  "id" : 88,
+  "client_id" : "d9e28c22-6801-4aa1-9798-c344d706ae39",
+  "account_type" : "CREDIT",
+  "balance" : 8167.927276451911
+}, {
+  "id" : 89,
+  "client_id" : "df8dcfa5-8bfd-48fe-9885-83bf04e07dad",
+  "account_type" : "DEBIT",
+  "balance" : 7199.1711532509735
+}, {
+  "id" : 90,
+  "client_id" : "f32e5732-2128-44ac-bf23-38a5bcdbacb5",
+  "account_type" : "CREDIT",
+  "balance" : 7336.754202792218
+}, {
+  "id" : 91,
+  "client_id" : "3c484264-917c-4c0d-b966-99962397ec67",
+  "account_type" : "CREDIT",
+  "balance" : 9730.630621209795
+}, {
+  "id" : 92,
+  "client_id" : "bb9e922d-fe4a-41dd-b050-06218835cd45",
+  "account_type" : "CREDIT",
+  "balance" : 9049.497203321329
+}, {
+  "id" : 93,
+  "client_id" : "9d22fed7-80d9-4b5e-a34b-4ef62fc1a907",
+  "account_type" : "DEBIT",
+  "balance" : 265.5052236834121
+}, {
+  "id" : 94,
+  "client_id" : "e8310f6a-be3b-4c2c-bacf-fa414604a944",
+  "account_type" : "CREDIT",
+  "balance" : 8522.27934408964
+}, {
+  "id" : 95,
+  "client_id" : "bb3a21d9-1918-4d38-808b-b68f4897db32",
+  "account_type" : "CREDIT",
+  "balance" : 2259.0748296284437
+}, {
+  "id" : 96,
+  "client_id" : "e8bf4378-d7cb-47ba-b692-1dab54f97206",
+  "account_type" : "CREDIT",
+  "balance" : 8608.23380517201
+}, {
+  "id" : 97,
+  "client_id" : "5ec1f2df-452f-4e38-ad0e-74d78f79d4cf",
+  "account_type" : "CREDIT",
+  "balance" : 6181.42952807184
+}, {
+  "id" : 98,
+  "client_id" : "34f1f405-b87f-447d-a0d3-0ab57ba72a35",
+  "account_type" : "CREDIT",
+  "balance" : 5716.976744420423
+}, {
+  "id" : 99,
+  "client_id" : "c0bf2c8d-8d4e-434f-9676-5b87efadc1b9",
+  "account_type" : "CREDIT",
+  "balance" : 2114.0168946305516
+}, {
+  "id" : 100,
+  "client_id" : "9544cdd1-f004-42b6-ab8d-bb6b56881db3",
+  "account_type" : "DEBIT",
+  "balance" : 1198.0932792371225
+}, {
+  "id" : 101,
+  "client_id" : "9dd824db-aa33-4507-8325-10efa52ce00d",
+  "account_type" : "CREDIT",
+  "balance" : 7168.07128500042
+}, {
+  "id" : 102,
+  "client_id" : "836c473e-e753-4d7c-b748-6092ad69015e",
+  "account_type" : "CREDIT",
+  "balance" : 4426.730491161234
+}, {
+  "id" : 103,
+  "client_id" : "1bb9d33e-8ae5-44f5-8478-509bd0d26611",
+  "account_type" : "CREDIT",
+  "balance" : 7192.427771563951
+}, {
+  "id" : 104,
+  "client_id" : "ac943894-2ce5-4ce3-be88-f7d9fcde11eb",
+  "account_type" : "CREDIT",
+  "balance" : 1754.6551595800252
+}, {
+  "id" : 105,
+  "client_id" : "fc808b40-332c-4d0f-9e6e-6430bfb73aba",
+  "account_type" : "DEBIT",
+  "balance" : 7284.627865583558
+}, {
+  "id" : 106,
+  "client_id" : "b1a664db-1901-482f-b8e6-9087c3b3b3b2",
+  "account_type" : "CREDIT",
+  "balance" : 7920.088785176811
+}, {
+  "id" : 107,
+  "client_id" : "093bbbd0-adec-4b27-9c72-95dcae7aa360",
+  "account_type" : "DEBIT",
+  "balance" : 2987.5143303655373
+}, {
+  "id" : 108,
+  "client_id" : "3456561c-6eca-4f18-af6f-e097bd370986",
+  "account_type" : "CREDIT",
+  "balance" : 9777.320245285146
+}, {
+  "id" : 109,
+  "client_id" : "b8ab73d3-0086-4b3c-baa8-d7c4f6415f9b",
+  "account_type" : "CREDIT",
+  "balance" : 1748.3048999980854
+}, {
+  "id" : 110,
+  "client_id" : "39a8e53e-de1e-4f70-9af9-af2da66a68f2",
+  "account_type" : "CREDIT",
+  "balance" : 8016.510762679012
+}, {
+  "id" : 111,
+  "client_id" : "7b4b012d-517f-411c-898e-e486963162e6",
+  "account_type" : "DEBIT",
+  "balance" : 8569.161510999675
+}, {
+  "id" : 112,
+  "client_id" : "4e56acd0-e263-46c9-ad52-ec1e7b5c01aa",
+  "account_type" : "CREDIT",
+  "balance" : 6720.961198371039
+}, {
+  "id" : 113,
+  "client_id" : "8d2ab63b-71d5-4f2c-af71-1c4051689fa3",
+  "account_type" : "DEBIT",
+  "balance" : 9929.69101004509
+}, {
+  "id" : 114,
+  "client_id" : "0411ec4b-b4d1-4929-85c0-88f741e065a1",
+  "account_type" : "CREDIT",
+  "balance" : 8096.369797611429
+}, {
+  "id" : 115,
+  "client_id" : "28ff2c7f-071a-4851-9001-e0e93bf54e41",
+  "account_type" : "DEBIT",
+  "balance" : 7818.048207327745
+}, {
+  "id" : 116,
+  "client_id" : "2d55a279-d349-423e-a394-66abe6e880a0",
+  "account_type" : "CREDIT",
+  "balance" : 5844.603533585514
+}, {
+  "id" : 117,
+  "client_id" : "c51a637a-37fa-49db-9081-7b3e712dfdee",
+  "account_type" : "CREDIT",
+  "balance" : 7825.134016159562
+}, {
+  "id" : 118,
+  "client_id" : "aa6d29a2-9785-466c-9ee7-2121afd3fcce",
+  "account_type" : "DEBIT",
+  "balance" : 8471.38871664712
+}, {
+  "id" : 119,
+  "client_id" : "651eb205-d6c7-4ad2-a362-95605731fbfa",
+  "account_type" : "CREDIT",
+  "balance" : 8676.542740816609
+}, {
+  "id" : 120,
+  "client_id" : "b70f72ae-6deb-4173-be9f-8b8484628a38",
+  "account_type" : "DEBIT",
+  "balance" : 9244.677591794407
+}, {
+  "id" : 121,
+  "client_id" : "b6118a0f-afdf-4c68-8ba2-069416a37ce9",
+  "account_type" : "CREDIT",
+  "balance" : 7046.270569948412
+}, {
+  "id" : 122,
+  "client_id" : "a7de228a-7820-4f4a-8b0d-8c0cbca5bebb",
+  "account_type" : "CREDIT",
+  "balance" : 1135.0121947716207
+}, {
+  "id" : 123,
+  "client_id" : "1398cf2a-1768-4f70-980a-c715fa7e1969",
+  "account_type" : "DEBIT",
+  "balance" : 6462.433991856642
+}, {
+  "id" : 124,
+  "client_id" : "9c1d91e1-fe36-4003-8321-f16c4d65ce11",
+  "account_type" : "CREDIT",
+  "balance" : 2150.153134695455
+}, {
+  "id" : 125,
+  "client_id" : "d7c1f39e-04c9-482d-bea1-902b2a45a6c6",
+  "account_type" : "DEBIT",
+  "balance" : 714.225042758222
+}, {
+  "id" : 126,
+  "client_id" : "2f9ac102-d485-45a5-be58-8fa0baacc5b7",
+  "account_type" : "CREDIT",
+  "balance" : 8854.461758171576
+}, {
+  "id" : 127,
+  "client_id" : "e0d96870-eeaf-4da9-ac00-97bb060bd7fd",
+  "account_type" : "CREDIT",
+  "balance" : 9563.182937920854
+}, {
+  "id" : 128,
+  "client_id" : "2542d342-95be-420a-a7e8-232476c86e20",
+  "account_type" : "CREDIT",
+  "balance" : 1226.8302213660709
+}, {
+  "id" : 129,
+  "client_id" : "9c31b249-e9ec-4500-8437-29f549dae02e",
+  "account_type" : "DEBIT",
+  "balance" : 822.8165031282708
+}, {
+  "id" : 130,
+  "client_id" : "1de57161-24b9-4922-b54c-886589c1386a",
+  "account_type" : "CREDIT",
+  "balance" : 1017.1269668448213
+}, {
+  "id" : 131,
+  "client_id" : "a5a58684-d990-49a2-bcba-de75b155b6f1",
+  "account_type" : "CREDIT",
+  "balance" : 6043.706829293502
+}, {
+  "id" : 132,
+  "client_id" : "4e4b79aa-25db-4a6a-8535-7522a2d348c9",
+  "account_type" : "DEBIT",
+  "balance" : 2497.3470912490557
+}, {
+  "id" : 133,
+  "client_id" : "9032bad2-4018-49b3-a670-e2e1e27d6402",
+  "account_type" : "CREDIT",
+  "balance" : 3955.8617582576007
+}, {
+  "id" : 134,
+  "client_id" : "d7df88a3-74c2-413c-afe6-ab3f442c7a63",
+  "account_type" : "CREDIT",
+  "balance" : 9519.526213564768
+}, {
+  "id" : 135,
+  "client_id" : "747e2e47-b6e5-42cf-8de8-1b3337b26bf1",
+  "account_type" : "DEBIT",
+  "balance" : 6658.609936992224
+}, {
+  "id" : 136,
+  "client_id" : "03943400-31f3-4dc3-bf14-72ec25e23572",
+  "account_type" : "CREDIT",
+  "balance" : 8119.983068220837
+}, {
+  "id" : 137,
+  "client_id" : "80ec53de-c703-4496-bbd8-0a902a95ce47",
+  "account_type" : "DEBIT",
+  "balance" : 1116.5326684330635
+}, {
+  "id" : 138,
+  "client_id" : "49b1038d-1a61-4dca-b54c-fa835e740941",
+  "account_type" : "CREDIT",
+  "balance" : 4172.115804301837
+}, {
+  "id" : 139,
+  "client_id" : "4a42b636-c440-4b87-9855-79b2de6395ee",
+  "account_type" : "CREDIT",
+  "balance" : 4602.797112489143
+}, {
+  "id" : 140,
+  "client_id" : "15449720-4c10-4111-9725-5a759e6d958f",
+  "account_type" : "DEBIT",
+  "balance" : 6489.705906233876
+}, {
+  "id" : 141,
+  "client_id" : "69ab2826-054e-4b4b-bb62-3184265667be",
+  "account_type" : "DEBIT",
+  "balance" : 4853.677296138303
+}, {
+  "id" : 142,
+  "client_id" : "ff831362-c157-4751-9be1-a3b329d751ef",
+  "account_type" : "CREDIT",
+  "balance" : 941.2166119987342
+}, {
+  "id" : 143,
+  "client_id" : "e39ca2fe-0fa0-4502-8249-4765f19ec8f4",
+  "account_type" : "CREDIT",
+  "balance" : 1048.8902077949658
+}, {
+  "id" : 144,
+  "client_id" : "c74180a5-3c4d-4ff9-be05-d3f6c4a2555e",
+  "account_type" : "DEBIT",
+  "balance" : 454.5441829371233
+}, {
+  "id" : 145,
+  "client_id" : "48fa7d21-4248-4e12-9c39-ce5bf57c41a2",
+  "account_type" : "CREDIT",
+  "balance" : 946.7377910677887
+}, {
+  "id" : 146,
+  "client_id" : "85b4d651-81b8-4a4b-a9d1-f3690c36aa24",
+  "account_type" : "CREDIT",
+  "balance" : 3182.562998736459
+}, {
+  "id" : 147,
+  "client_id" : "079d201a-a511-474e-80f7-dd6543a5d10c",
+  "account_type" : "DEBIT",
+  "balance" : 1435.892749434261
+}, {
+  "id" : 148,
+  "client_id" : "003a2f9f-d043-41bf-849d-1399fefab244",
+  "account_type" : "DEBIT",
+  "balance" : 6623.381949746662
+}, {
+  "id" : 149,
+  "client_id" : "eec97a60-256f-4d3f-973a-f9cab2945981",
+  "account_type" : "CREDIT",
+  "balance" : 9326.866243895322
+}, {
+  "id" : 150,
+  "client_id" : "12273580-9505-4e21-808e-dfabf8266824",
+  "account_type" : "DEBIT",
+  "balance" : 6630.45023511112
+}, {
+  "id" : 151,
+  "client_id" : "59ddcb5c-423f-47bf-8ea7-7a12d21d94d0",
+  "account_type" : "CREDIT",
+  "balance" : 3764.936723414306
+}, {
+  "id" : 152,
+  "client_id" : "e344541d-5c96-463b-805f-e9c44ebda25c",
+  "account_type" : "CREDIT",
+  "balance" : 9240.586075347832
+}, {
+  "id" : 153,
+  "client_id" : "23574cca-5282-4a3b-a4e9-37bc77f96c9a",
+  "account_type" : "CREDIT",
+  "balance" : 7450.235080948168
+}, {
+  "id" : 154,
+  "client_id" : "2b9f0ecd-af17-4e3a-b5b4-bc138871d0cb",
+  "account_type" : "DEBIT",
+  "balance" : 2051.941555208897
+}, {
+  "id" : 155,
+  "client_id" : "5bd1a247-a49f-47e4-876e-6edcb16ed34d",
+  "account_type" : "CREDIT",
+  "balance" : 2342.2797504402083
+}, {
+  "id" : 156,
+  "client_id" : "96356e09-8712-4436-97c1-9db7cfd4b398",
+  "account_type" : "CREDIT",
+  "balance" : 3600.100098800647
+}, {
+  "id" : 157,
+  "client_id" : "70955978-19a4-4f88-a97c-4f23e9989af7",
+  "account_type" : "CREDIT",
+  "balance" : 377.32633868365673
+}, {
+  "id" : 158,
+  "client_id" : "450e283d-a958-4a6d-bcd4-c1b4e0275f11",
+  "account_type" : "CREDIT",
+  "balance" : 4385.606631195576
+}, {
+  "id" : 159,
+  "client_id" : "edb90474-0e4c-40da-a364-29f7c85e1253",
+  "account_type" : "DEBIT",
+  "balance" : 8848.326670472863
+}, {
+  "id" : 160,
+  "client_id" : "36319958-8af9-422a-9ad5-249b0d869978",
+  "account_type" : "CREDIT",
+  "balance" : 1867.1870554754444
+}, {
+  "id" : 161,
+  "client_id" : "b9a26713-0ba0-49f3-90f5-d194bc1c1856",
+  "account_type" : "CREDIT",
+  "balance" : 2819.8685088043585
+}, {
+  "id" : 162,
+  "client_id" : "3a40facb-bdd9-42c9-bd41-e55dbd284e59",
+  "account_type" : "CREDIT",
+  "balance" : 6056.070540718746
+}, {
+  "id" : 163,
+  "client_id" : "f081b44d-fc69-4a72-98d4-4c40d8d34d4c",
+  "account_type" : "DEBIT",
+  "balance" : 5009.4065987260765
+}, {
+  "id" : 164,
+  "client_id" : "06c8d5b2-33d1-4cf5-9c87-fc7cf062863e",
+  "account_type" : "DEBIT",
+  "balance" : 3089.0088686782356
+}, {
+  "id" : 165,
+  "client_id" : "178f2fde-1a5b-4682-9755-535e1430d4af",
+  "account_type" : "DEBIT",
+  "balance" : 5459.5130679297745
+}, {
+  "id" : 166,
+  "client_id" : "b82707c2-1763-49ce-8332-0eaf61e1556e",
+  "account_type" : "CREDIT",
+  "balance" : 2655.256816758895
+}, {
+  "id" : 167,
+  "client_id" : "4ec1f0dd-a8d1-4158-bd43-abd63d747501",
+  "account_type" : "CREDIT",
+  "balance" : 5055.170718730016
+}, {
+  "id" : 168,
+  "client_id" : "003e5bd0-141d-42a7-8b96-ed04283bb0e0",
+  "account_type" : "DEBIT",
+  "balance" : 5443.571048039294
+}, {
+  "id" : 169,
+  "client_id" : "af09659f-cecf-46e1-82b9-ae8fdeddd0ce",
+  "account_type" : "CREDIT",
+  "balance" : 8077.521914156045
+}, {
+  "id" : 170,
+  "client_id" : "67536796-d83a-4162-87c0-f572b6c36c85",
+  "account_type" : "CREDIT",
+  "balance" : 6943.397281877428
+}, {
+  "id" : 171,
+  "client_id" : "f4b6219b-b8e3-4e4b-98dc-461d08be2333",
+  "account_type" : "DEBIT",
+  "balance" : 1451.372619735537
+}, {
+  "id" : 172,
+  "client_id" : "1d892246-e129-4485-9da5-64eabe1d3bcd",
+  "account_type" : "CREDIT",
+  "balance" : 2956.9074752753822
+}, {
+  "id" : 173,
+  "client_id" : "d0409878-eb9f-426f-98d7-4b2795c59272",
+  "account_type" : "CREDIT",
+  "balance" : 6214.613481441238
+}, {
+  "id" : 174,
+  "client_id" : "aeaf9301-410e-4b7b-a88b-d38d74da8b13",
+  "account_type" : "CREDIT",
+  "balance" : 8251.15356987991
+}, {
+  "id" : 175,
+  "client_id" : "c3592d61-6e5b-4b17-a430-31955bb48314",
+  "account_type" : "CREDIT",
+  "balance" : 8841.764810085679
+}, {
+  "id" : 176,
+  "client_id" : "f7ab66ef-d264-4f24-a30f-43b8f2b65063",
+  "account_type" : "CREDIT",
+  "balance" : 8286.084033329053
+}, {
+  "id" : 177,
+  "client_id" : "36811f21-be65-41d1-9575-284016506232",
+  "account_type" : "CREDIT",
+  "balance" : 3050.3986926480197
+}, {
+  "id" : 178,
+  "client_id" : "dcfec6c6-5d0d-4ad3-aca8-cc44af152ac3",
+  "account_type" : "CREDIT",
+  "balance" : 7930.820382837628
+}, {
+  "id" : 179,
+  "client_id" : "d0b318cd-4225-4924-8ee6-6a041b7c01dd",
+  "account_type" : "CREDIT",
+  "balance" : 793.98966750304
+}, {
+  "id" : 180,
+  "client_id" : "855f7014-b309-4476-8791-4eabadeb8512",
+  "account_type" : "DEBIT",
+  "balance" : 4214.8383255733415
+}, {
+  "id" : 181,
+  "client_id" : "ae52820f-1ffa-4115-b10a-80150a731fdc",
+  "account_type" : "DEBIT",
+  "balance" : 9391.980640924841
+}, {
+  "id" : 182,
+  "client_id" : "f13e009b-9388-40c8-a21c-69077bac0880",
+  "account_type" : "CREDIT",
+  "balance" : 2050.5802052179624
+}, {
+  "id" : 183,
+  "client_id" : "3cd97aa7-1516-48bc-8f2f-64691ae4d426",
+  "account_type" : "DEBIT",
+  "balance" : 3746.472027228934
+}, {
+  "id" : 184,
+  "client_id" : "4a66f56b-e08d-4274-a66d-a82fa9898b3e",
+  "account_type" : "CREDIT",
+  "balance" : 7452.31550417698
+}, {
+  "id" : 185,
+  "client_id" : "4ce393bd-9dd2-4b6a-9683-c63f9155e6e2",
+  "account_type" : "CREDIT",
+  "balance" : 8624.495250843585
+}, {
+  "id" : 186,
+  "client_id" : "fa35f048-dac3-4303-94c3-7aa16dd9988a",
+  "account_type" : "DEBIT",
+  "balance" : 2560.9128936966217
+}, {
+  "id" : 187,
+  "client_id" : "75a15abd-8271-4541-bb06-9db5fffda5f7",
+  "account_type" : "DEBIT",
+  "balance" : 6764.024951086478
+}, {
+  "id" : 188,
+  "client_id" : "6ed043b7-84e8-4e20-946f-d6186c59d715",
+  "account_type" : "DEBIT",
+  "balance" : 1595.0434362334142
+}, {
+  "id" : 189,
+  "client_id" : "db369fce-4531-4ba8-9d70-95a0a844f439",
+  "account_type" : "CREDIT",
+  "balance" : 329.5878690658172
+}, {
+  "id" : 190,
+  "client_id" : "1e2045f4-7642-4bc9-b47e-67bf9183a6ec",
+  "account_type" : "DEBIT",
+  "balance" : 665.0469009692283
+}, {
+  "id" : 191,
+  "client_id" : "3941632e-25e3-4c2a-8723-0bff3ff19575",
+  "account_type" : "CREDIT",
+  "balance" : 3440.4737569159106
+}, {
+  "id" : 192,
+  "client_id" : "e34f0c70-871d-4eeb-a596-13aedb8d79ca",
+  "account_type" : "DEBIT",
+  "balance" : 858.4348438640787
+}, {
+  "id" : 193,
+  "client_id" : "63491fc8-036b-44e8-b3a5-b6a307ec3be1",
+  "account_type" : "CREDIT",
+  "balance" : 2241.756535874997
+}, {
+  "id" : 194,
+  "client_id" : "081a1da3-8916-4919-91b1-7dddca7dc240",
+  "account_type" : "CREDIT",
+  "balance" : 7043.0406772479955
+}, {
+  "id" : 195,
+  "client_id" : "e4193b99-f59d-4b98-94a3-2334246bf4a4",
+  "account_type" : "CREDIT",
+  "balance" : 9992.18165699608
+}, {
+  "id" : 196,
+  "client_id" : "628c258a-d368-4490-bb2d-11e8b944ef4e",
+  "account_type" : "CREDIT",
+  "balance" : 775.8041994425757
+}, {
+  "id" : 197,
+  "client_id" : "d0b6736d-94a3-4d97-a05e-e6e2bc6ef4df",
+  "account_type" : "DEBIT",
+  "balance" : 101.60031138806258
+}, {
+  "id" : 198,
+  "client_id" : "49b2c748-a5ae-42bf-90ae-0416a902b249",
+  "account_type" : "DEBIT",
+  "balance" : 4327.718192336481
+}, {
+  "id" : 199,
+  "client_id" : "9284da35-4230-47e8-8f7a-ccf16f73f9fd",
+  "account_type" : "CREDIT",
+  "balance" : 7565.7382424160705
+}, {
+  "id" : 200,
+  "client_id" : "0877099b-a253-46cf-bd21-dde72194ca80",
+  "account_type" : "DEBIT",
+  "balance" : 6588.081416316039
+}, {
+  "id" : 201,
+  "client_id" : "aaa0746f-ac76-4c2d-8ef0-8233b5814156",
+  "account_type" : "DEBIT",
+  "balance" : 4687.4895603444465
+}, {
+  "id" : 202,
+  "client_id" : "8d184b81-483d-406c-996c-0e8e53a2a686",
+  "account_type" : "DEBIT",
+  "balance" : 7195.015787412702
+}, {
+  "id" : 203,
+  "client_id" : "e8054f65-0152-4d9e-accd-15a6d117f7a1",
+  "account_type" : "CREDIT",
+  "balance" : 5678.826297698766
+}, {
+  "id" : 204,
+  "client_id" : "2035098b-89f9-4fea-a632-96ce36fe36da",
+  "account_type" : "DEBIT",
+  "balance" : 8812.696633974878
+}, {
+  "id" : 205,
+  "client_id" : "fa853640-197d-41cf-b3ca-5d110d117f82",
+  "account_type" : "DEBIT",
+  "balance" : 4364.9857193139305
+}, {
+  "id" : 206,
+  "client_id" : "96e6d4fb-74cc-44a7-8318-a33667431a92",
+  "account_type" : "CREDIT",
+  "balance" : 4464.838945093824
+}, {
+  "id" : 207,
+  "client_id" : "8d837467-67b6-4788-b7c2-6d684916b989",
+  "account_type" : "DEBIT",
+  "balance" : 1011.7595643831622
+}, {
+  "id" : 208,
+  "client_id" : "f93d0759-7267-4cd2-a8aa-365d2e7b3686",
+  "account_type" : "CREDIT",
+  "balance" : 9510.910453873548
+}, {
+  "id" : 209,
+  "client_id" : "e5d46151-2177-490c-8766-9ec409b85411",
+  "account_type" : "CREDIT",
+  "balance" : 5482.176527873269
+}, {
+  "id" : 210,
+  "client_id" : "908d940f-8ad2-4107-8970-f19a83cfcae7",
+  "account_type" : "DEBIT",
+  "balance" : 8533.56298872802
+}, {
+  "id" : 211,
+  "client_id" : "367c6e97-b351-4c34-ad01-cfbc8a29f5c7",
+  "account_type" : "DEBIT",
+  "balance" : 2298.4339881745996
+}, {
+  "id" : 212,
+  "client_id" : "81f2d08e-a02b-401d-8be8-f7f8a223213e",
+  "account_type" : "DEBIT",
+  "balance" : 2313.3095068113576
+}, {
+  "id" : 213,
+  "client_id" : "5954b12a-f4da-4680-960a-ee89e3ce8f09",
+  "account_type" : "CREDIT",
+  "balance" : 6048.409170135769
+}, {
+  "id" : 214,
+  "client_id" : "3e96d1ca-9d10-4f1a-9598-50837b822026",
+  "account_type" : "CREDIT",
+  "balance" : 8566.821626357507
+}, {
+  "id" : 215,
+  "client_id" : "38c10e31-bc48-4204-88db-8720a57600ed",
+  "account_type" : "DEBIT",
+  "balance" : 8503.316926961008
+}, {
+  "id" : 216,
+  "client_id" : "8e38efac-a803-4fd0-8fad-be75bf7e6681",
+  "account_type" : "CREDIT",
+  "balance" : 6276.163320943332
+}, {
+  "id" : 217,
+  "client_id" : "01fd221a-194d-4561-988d-8216f0dd95ee",
+  "account_type" : "DEBIT",
+  "balance" : 5646.919115311011
+}, {
+  "id" : 218,
+  "client_id" : "3e79d4df-5f06-4a90-beeb-5b2d308314df",
+  "account_type" : "DEBIT",
+  "balance" : 1431.0183536084687
+}, {
+  "id" : 219,
+  "client_id" : "2eb59c9c-0a32-4040-a341-aa992fa3415b",
+  "account_type" : "DEBIT",
+  "balance" : 6833.159508371845
+}, {
+  "id" : 220,
+  "client_id" : "a66bb0ec-9cc8-4fef-8414-c14f0a2ba1fd",
+  "account_type" : "CREDIT",
+  "balance" : 4308.489890533262
+}, {
+  "id" : 221,
+  "client_id" : "1c640d53-7b4d-46f9-ba8e-cb8abb16b59c",
+  "account_type" : "CREDIT",
+  "balance" : 5325.494944346977
+}, {
+  "id" : 222,
+  "client_id" : "ba5b6bb7-e815-40bc-9946-c8e13e0e334e",
+  "account_type" : "CREDIT",
+  "balance" : 5062.548904463067
+}, {
+  "id" : 223,
+  "client_id" : "b10ea2bb-656e-4ee0-9982-13fc0a784ef7",
+  "account_type" : "CREDIT",
+  "balance" : 7279.712376846489
+}, {
+  "id" : 224,
+  "client_id" : "a13443c7-44c4-4f81-b3cd-7ca14bcb2812",
+  "account_type" : "DEBIT",
+  "balance" : 4131.398337788449
+}, {
+  "id" : 225,
+  "client_id" : "ad551697-5b5b-4c9c-9307-bcfd739d4a36",
+  "account_type" : "CREDIT",
+  "balance" : 254.31304320502224
+}, {
+  "id" : 226,
+  "client_id" : "f554108b-5359-4023-8a66-b0871c2c0a05",
+  "account_type" : "CREDIT",
+  "balance" : 2562.322172716128
+}, {
+  "id" : 227,
+  "client_id" : "5c69d09f-daf9-44ab-ae0f-4ce42625df61",
+  "account_type" : "DEBIT",
+  "balance" : 6527.914591045472
+}, {
+  "id" : 228,
+  "client_id" : "cb0b0e9e-a0d2-4262-b676-6d74cf8dce6d",
+  "account_type" : "CREDIT",
+  "balance" : 5626.696555814492
+}, {
+  "id" : 229,
+  "client_id" : "4e79cb69-5d15-45fc-961c-8d7bd6f1a825",
+  "account_type" : "CREDIT",
+  "balance" : 8800.858114240793
+}, {
+  "id" : 230,
+  "client_id" : "e237f306-16c9-4f86-b872-6ede8e1ce68c",
+  "account_type" : "DEBIT",
+  "balance" : 6925.832088862869
+}, {
+  "id" : 231,
+  "client_id" : "96fd2ebd-54ae-4c5f-a292-332ff0b2f6c2",
+  "account_type" : "DEBIT",
+  "balance" : 1241.6471639321303
+}, {
+  "id" : 232,
+  "client_id" : "25df1456-80dd-4c7c-96e9-9c105ffed597",
+  "account_type" : "CREDIT",
+  "balance" : 6838.7784249256165
+}, {
+  "id" : 233,
+  "client_id" : "b2e62a2e-538d-4d46-a180-e943b41c9685",
+  "account_type" : "DEBIT",
+  "balance" : 9006.639884016471
+}, {
+  "id" : 234,
+  "client_id" : "41f477e6-bc9c-4e5e-a267-ebc9f3997017",
+  "account_type" : "CREDIT",
+  "balance" : 9110.503027818164
+}, {
+  "id" : 235,
+  "client_id" : "f3a11dca-2e77-43de-95da-69462b0b6e74",
+  "account_type" : "CREDIT",
+  "balance" : 6348.766770134179
+}, {
+  "id" : 236,
+  "client_id" : "726fa356-2cfc-4ff0-918f-bf2c362a8657",
+  "account_type" : "CREDIT",
+  "balance" : 9869.05444756126
+}, {
+  "id" : 237,
+  "client_id" : "1d885627-9498-4d9e-9681-e7275d67e88a",
+  "account_type" : "CREDIT",
+  "balance" : 5511.140299343572
+}, {
+  "id" : 238,
+  "client_id" : "6ef8e1ba-5cc4-46e6-81d6-56b395707a42",
+  "account_type" : "CREDIT",
+  "balance" : 9705.86033018367
+}, {
+  "id" : 239,
+  "client_id" : "3b129c2e-b635-435d-8503-7c2c88ae380b",
+  "account_type" : "CREDIT",
+  "balance" : 225.09867449163056
+}, {
+  "id" : 240,
+  "client_id" : "d2c8109b-377e-427d-99be-08764c2646ab",
+  "account_type" : "CREDIT",
+  "balance" : 2221.085236689181
+}, {
+  "id" : 241,
+  "client_id" : "4d67ec7d-bf67-4fcd-a100-4b3c094eb45e",
+  "account_type" : "DEBIT",
+  "balance" : 1100.8335668238244
+}, {
+  "id" : 242,
+  "client_id" : "fd20373b-c385-479f-9446-062c8ea63f9c",
+  "account_type" : "CREDIT",
+  "balance" : 3380.498604743397
+}, {
+  "id" : 243,
+  "client_id" : "f18a7ae0-72b4-49d8-ba88-915bf112425f",
+  "account_type" : "DEBIT",
+  "balance" : 5203.44311504895
+}, {
+  "id" : 244,
+  "client_id" : "5dba7084-f5fe-4936-831d-4990c810b704",
+  "account_type" : "CREDIT",
+  "balance" : 2811.2233413583663
+}, {
+  "id" : 245,
+  "client_id" : "d161b4cf-1e0b-4224-b368-0acf0e317776",
+  "account_type" : "DEBIT",
+  "balance" : 204.61122875900296
+}, {
+  "id" : 246,
+  "client_id" : "29ab6e90-b72d-4367-ae99-e9ccdc4ae9ea",
+  "account_type" : "CREDIT",
+  "balance" : 7573.862938859921
+}, {
+  "id" : 247,
+  "client_id" : "c63159a4-fe93-4fc5-86c6-884923d3940e",
+  "account_type" : "CREDIT",
+  "balance" : 8032.263615839103
+}, {
+  "id" : 248,
+  "client_id" : "2518c246-1fbf-4bf4-a094-92df75b00b26",
+  "account_type" : "CREDIT",
+  "balance" : 566.8875822663632
+}, {
+  "id" : 249,
+  "client_id" : "8fd8822e-5fcb-4f84-836a-1ed73d04bf00",
+  "account_type" : "DEBIT",
+  "balance" : 844.7608481094526
+}, {
+  "id" : 250,
+  "client_id" : "f3e7ef4f-6975-461a-8d46-c991ed98b68d",
+  "account_type" : "CREDIT",
+  "balance" : 2590.2920131665473
+}, {
+  "id" : 251,
+  "client_id" : "c524c3e4-9c8c-4df1-8431-784e195ad1e8",
+  "account_type" : "CREDIT",
+  "balance" : 2547.1638053787206
+}, {
+  "id" : 252,
+  "client_id" : "0d72cab6-a590-4c9b-b797-efbd01ddfdb2",
+  "account_type" : "CREDIT",
+  "balance" : 7224.205871732286
+}, {
+  "id" : 253,
+  "client_id" : "7b5bc649-cc8a-4d57-bd88-4ce58e04f57e",
+  "account_type" : "CREDIT",
+  "balance" : 4411.728562510941
+}, {
+  "id" : 254,
+  "client_id" : "1a57d0ee-b037-41e0-99c9-7a6a750aac3e",
+  "account_type" : "CREDIT",
+  "balance" : 9816.102102211471
+}, {
+  "id" : 255,
+  "client_id" : "410dbe6c-c916-480e-9fed-20c2f48919b2",
+  "account_type" : "DEBIT",
+  "balance" : 2507.837563882449
+}, {
+  "id" : 256,
+  "client_id" : "d81f9779-1da6-4072-8112-0c9e0bf22462",
+  "account_type" : "CREDIT",
+  "balance" : 1259.063394136123
+}, {
+  "id" : 257,
+  "client_id" : "6a9a03a6-eef4-40f3-a7dc-9baf000d3b31",
+  "account_type" : "DEBIT",
+  "balance" : 2881.932931494681
+}, {
+  "id" : 258,
+  "client_id" : "9610440f-cf27-464f-bae9-95ccf225a2de",
+  "account_type" : "CREDIT",
+  "balance" : 1664.9880441315368
+}, {
+  "id" : 259,
+  "client_id" : "303141d1-78a0-48df-b34b-e71e28f8fb52",
+  "account_type" : "CREDIT",
+  "balance" : 248.9930052466416
+}, {
+  "id" : 260,
+  "client_id" : "de6d6afd-201c-4609-9bcc-923669ce17b2",
+  "account_type" : "CREDIT",
+  "balance" : 2709.7365352723677
+}, {
+  "id" : 261,
+  "client_id" : "7823af66-a0e4-4b26-aa9b-daff4bea8b7b",
+  "account_type" : "DEBIT",
+  "balance" : 3055.3709425560482
+}, {
+  "id" : 262,
+  "client_id" : "d87e0b3f-218d-4be8-9d2f-0e6393231506",
+  "account_type" : "CREDIT",
+  "balance" : 9978.700783303051
+}, {
+  "id" : 263,
+  "client_id" : "87d25776-bddb-43bc-bed7-534cfc16e6fe",
+  "account_type" : "CREDIT",
+  "balance" : 294.60267473582877
+}, {
+  "id" : 264,
+  "client_id" : "472752bc-2c5f-4b8a-9984-198cc2e2ff02",
+  "account_type" : "CREDIT",
+  "balance" : 6563.135455496357
+}, {
+  "id" : 265,
+  "client_id" : "2540757b-863a-434d-9827-4d9362080849",
+  "account_type" : "DEBIT",
+  "balance" : 461.8430112518801
+}, {
+  "id" : 266,
+  "client_id" : "faa2c228-6de7-4956-89a2-405b6d59d512",
+  "account_type" : "CREDIT",
+  "balance" : 5853.591073848168
+}, {
+  "id" : 267,
+  "client_id" : "e43384e9-c67d-412c-8901-208ec821d23e",
+  "account_type" : "DEBIT",
+  "balance" : 2533.3395808897376
+}, {
+  "id" : 268,
+  "client_id" : "35dfe49d-3fe3-4692-b320-469f54f7e697",
+  "account_type" : "CREDIT",
+  "balance" : 7186.911764688335
+}, {
+  "id" : 269,
+  "client_id" : "6054153a-53b7-47c2-846d-3cad9efa51fa",
+  "account_type" : "CREDIT",
+  "balance" : 8773.292095745106
+}, {
+  "id" : 270,
+  "client_id" : "b17a44a7-2816-4755-ac37-893c451fb88a",
+  "account_type" : "CREDIT",
+  "balance" : 582.6981209878235
+}, {
+  "id" : 271,
+  "client_id" : "cc907119-792f-4b9e-b681-b6bad176131d",
+  "account_type" : "CREDIT",
+  "balance" : 7935.497437799712
+}, {
+  "id" : 272,
+  "client_id" : "144fd3de-b002-44d2-9b9b-bc766ee221bd",
+  "account_type" : "DEBIT",
+  "balance" : 6521.650315404478
+}, {
+  "id" : 273,
+  "client_id" : "05d0f6e3-b30d-4398-b4f5-fa27615ae3a1",
+  "account_type" : "DEBIT",
+  "balance" : 6960.701487056123
+}, {
+  "id" : 274,
+  "client_id" : "643b7ee5-33b1-42f3-bd94-88e476cd57d9",
+  "account_type" : "CREDIT",
+  "balance" : 4919.889667486001
+}, {
+  "id" : 275,
+  "client_id" : "c8b071ec-53ad-4842-8216-b6ca4b5f7cdb",
+  "account_type" : "DEBIT",
+  "balance" : 9438.199459446934
+}, {
+  "id" : 276,
+  "client_id" : "4fdfb398-c5fa-4f9c-b682-5dd29f961c01",
+  "account_type" : "CREDIT",
+  "balance" : 2145.2302705311654
+}, {
+  "id" : 277,
+  "client_id" : "01b89850-5be3-4328-a7f3-090a1e9031df",
+  "account_type" : "CREDIT",
+  "balance" : 7736.6719454705535
+}, {
+  "id" : 278,
+  "client_id" : "da43aa3c-cd90-4610-8697-f5a358036020",
+  "account_type" : "CREDIT",
+  "balance" : 7978.125183208758
+}, {
+  "id" : 279,
+  "client_id" : "d6f61889-9ee2-4417-9031-ac0fc2d0d736",
+  "account_type" : "CREDIT",
+  "balance" : 9710.048982784416
+}, {
+  "id" : 280,
+  "client_id" : "ff9824bd-5fea-4ccb-b232-3645971f2d08",
+  "account_type" : "CREDIT",
+  "balance" : 7348.094636997481
+}, {
+  "id" : 281,
+  "client_id" : "cf95c949-8888-4379-a984-0cf5e5abb7c0",
+  "account_type" : "DEBIT",
+  "balance" : 9812.42291120764
+}, {
+  "id" : 282,
+  "client_id" : "31f010d1-155e-4eaa-a4f4-26cf1cdf5d2d",
+  "account_type" : "DEBIT",
+  "balance" : 1527.992067644126
+}, {
+  "id" : 283,
+  "client_id" : "0f69ffff-4669-46ed-9de6-9b4a92dabcfd",
+  "account_type" : "CREDIT",
+  "balance" : 6546.180860556102
+}, {
+  "id" : 284,
+  "client_id" : "ec1961cd-1d3e-4999-88fc-655259b60570",
+  "account_type" : "CREDIT",
+  "balance" : 7695.236993469355
+}, {
+  "id" : 285,
+  "client_id" : "1ebb76bb-1290-44c7-884d-c95217750986",
+  "account_type" : "CREDIT",
+  "balance" : 9547.464404070974
+}, {
+  "id" : 286,
+  "client_id" : "340bd829-b37e-4b4e-bdab-033eeb076be7",
+  "account_type" : "CREDIT",
+  "balance" : 4493.7734802621535
+}, {
+  "id" : 287,
+  "client_id" : "e5661ee8-fe76-4cd0-95ce-2df90d529d8e",
+  "account_type" : "CREDIT",
+  "balance" : 1001.2490672201058
+}, {
+  "id" : 288,
+  "client_id" : "b4c8dd3e-ecc9-4068-9416-249de2cd7b09",
+  "account_type" : "DEBIT",
+  "balance" : 7598.60587547376
+}, {
+  "id" : 289,
+  "client_id" : "abdb6258-f57b-4ffc-832c-a4a4e668d985",
+  "account_type" : "DEBIT",
+  "balance" : 7152.289099113127
+}, {
+  "id" : 290,
+  "client_id" : "67f3ef21-67e7-430c-b99c-ed98f16ca985",
+  "account_type" : "DEBIT",
+  "balance" : 3249.697182325383
+}, {
+  "id" : 291,
+  "client_id" : "c04d08bb-cb63-4c80-8591-27dfc4d2ee88",
+  "account_type" : "DEBIT",
+  "balance" : 5746.3085933759085
+}, {
+  "id" : 292,
+  "client_id" : "2911c213-8a12-48cf-99cf-ec846b4c3543",
+  "account_type" : "DEBIT",
+  "balance" : 5801.473101348213
+}, {
+  "id" : 293,
+  "client_id" : "b536821a-ff84-4754-85db-f6610a140998",
+  "account_type" : "CREDIT",
+  "balance" : 9783.57616246675
+}, {
+  "id" : 294,
+  "client_id" : "5338010e-5d19-4dd1-a787-a93823c345d1",
+  "account_type" : "CREDIT",
+  "balance" : 8564.726113347755
+}, {
+  "id" : 295,
+  "client_id" : "53f4f3c7-e8a6-40f6-b89b-099e40db5ed6",
+  "account_type" : "DEBIT",
+  "balance" : 4084.656616620159
+}, {
+  "id" : 296,
+  "client_id" : "01a3f382-d654-4524-ac1d-d4deba2a972f",
+  "account_type" : "CREDIT",
+  "balance" : 1722.0045032764485
+}, {
+  "id" : 297,
+  "client_id" : "efaca1b1-2d32-442c-b627-b39ae569be79",
+  "account_type" : "DEBIT",
+  "balance" : 805.8010614811407
+}, {
+  "id" : 298,
+  "client_id" : "b86c0877-a55f-4ce0-880e-514dced96779",
+  "account_type" : "DEBIT",
+  "balance" : 365.02577746067465
+}, {
+  "id" : 299,
+  "client_id" : "67751d06-5a85-452d-9568-c10af018d877",
+  "account_type" : "DEBIT",
+  "balance" : 8474.056351459074
+}, {
+  "id" : 300,
+  "client_id" : "aeeef995-e381-4580-a94a-32232638fa7a",
+  "account_type" : "CREDIT",
+  "balance" : 873.4514495541868
+}, {
+  "id" : 301,
+  "client_id" : "312ab170-c366-4d6a-883d-4f107a8f9edc",
+  "account_type" : "DEBIT",
+  "balance" : 6934.730885989474
+}, {
+  "id" : 302,
+  "client_id" : "085dc181-4a66-470a-8733-ad4684a04bbc",
+  "account_type" : "CREDIT",
+  "balance" : 7982.608653145256
+}, {
+  "id" : 303,
+  "client_id" : "4c863709-2539-484f-9b54-e1eb69022736",
+  "account_type" : "CREDIT",
+  "balance" : 1014.7168879824575
+}, {
+  "id" : 304,
+  "client_id" : "3e8f26ba-527d-4819-a5a0-1e00c5f01f3d",
+  "account_type" : "DEBIT",
+  "balance" : 9348.437641920958
+}, {
+  "id" : 305,
+  "client_id" : "2704b0bf-c421-4a0d-a3c0-9a0d9c91a9fc",
+  "account_type" : "CREDIT",
+  "balance" : 4772.8005045032
+}, {
+  "id" : 306,
+  "client_id" : "6bde31a6-1c18-403c-9969-64264bfc71b1",
+  "account_type" : "DEBIT",
+  "balance" : 308.88199175468924
+}, {
+  "id" : 307,
+  "client_id" : "2d9f6881-466d-4b3e-b9ad-71f6f1e65dc2",
+  "account_type" : "CREDIT",
+  "balance" : 4254.007201568162
+}, {
+  "id" : 308,
+  "client_id" : "e0907af7-c8e8-4971-a777-9fb78223f885",
+  "account_type" : "CREDIT",
+  "balance" : 6118.896138018219
+}, {
+  "id" : 309,
+  "client_id" : "fb1bfd40-a552-40a7-85dd-d77b3b3752d4",
+  "account_type" : "CREDIT",
+  "balance" : 5833.21065442568
+}, {
+  "id" : 310,
+  "client_id" : "ec644ba6-7468-42ec-8b64-ea0836527acf",
+  "account_type" : "CREDIT",
+  "balance" : 6813.91169476071
+}, {
+  "id" : 311,
+  "client_id" : "2345926c-dcc1-4c29-b260-81e15329d3dd",
+  "account_type" : "CREDIT",
+  "balance" : 5753.986567679347
+}, {
+  "id" : 312,
+  "client_id" : "276d84a3-bccd-4290-9fa6-eceffc98dbe7",
+  "account_type" : "DEBIT",
+  "balance" : 874.1898010053195
+}, {
+  "id" : 313,
+  "client_id" : "274e91cd-1180-4722-ba61-be577b850714",
+  "account_type" : "DEBIT",
+  "balance" : 6062.02803725397
+}, {
+  "id" : 314,
+  "client_id" : "e8ad7290-e03b-48b3-bf54-71cf4b2c8827",
+  "account_type" : "CREDIT",
+  "balance" : 4235.946804360511
+}, {
+  "id" : 315,
+  "client_id" : "6be56a5d-ec1a-4bf8-91b3-82fa97e54ef4",
+  "account_type" : "CREDIT",
+  "balance" : 3434.0005946935057
+}, {
+  "id" : 316,
+  "client_id" : "e7739f95-2725-4583-9f0e-f984c99890fc",
+  "account_type" : "CREDIT",
+  "balance" : 1729.493726546264
+}, {
+  "id" : 317,
+  "client_id" : "7d08f626-ac59-497f-bf97-d438885a79e0",
+  "account_type" : "CREDIT",
+  "balance" : 7232.48623219448
+}, {
+  "id" : 318,
+  "client_id" : "906876aa-9e1f-4757-a84b-a0e4d19dc3bd",
+  "account_type" : "DEBIT",
+  "balance" : 2869.62163778526
+}, {
+  "id" : 319,
+  "client_id" : "9e410e66-4141-43f4-bc8f-be04ba710a71",
+  "account_type" : "CREDIT",
+  "balance" : 4849.160745197938
+}, {
+  "id" : 320,
+  "client_id" : "d526de46-c863-4f4e-b097-c0c5c393066c",
+  "account_type" : "DEBIT",
+  "balance" : 5534.981739840641
+}, {
+  "id" : 321,
+  "client_id" : "63bcf03c-8705-4be3-b8a0-d9a4bb8527db",
+  "account_type" : "CREDIT",
+  "balance" : 4623.857886154183
+}, {
+  "id" : 322,
+  "client_id" : "1194b320-51cb-40a9-975c-ca45077fe81c",
+  "account_type" : "CREDIT",
+  "balance" : 1732.5553321804089
+}, {
+  "id" : 323,
+  "client_id" : "f986cace-d4f0-4cbe-a519-df9df6a10e00",
+  "account_type" : "CREDIT",
+  "balance" : 3751.5694096610564
+}, {
+  "id" : 324,
+  "client_id" : "686cdb1a-bde7-440b-8b04-4f1db2d7cf41",
+  "account_type" : "CREDIT",
+  "balance" : 7072.927197000541
+}, {
+  "id" : 325,
+  "client_id" : "4cac94ed-385a-46a9-a9a8-5729f38f2a2e",
+  "account_type" : "DEBIT",
+  "balance" : 7923.081262768647
+}, {
+  "id" : 326,
+  "client_id" : "e696d046-da69-4c79-9d5a-58a2a48769e1",
+  "account_type" : "CREDIT",
+  "balance" : 9884.791157004913
+}, {
+  "id" : 327,
+  "client_id" : "a6c36de8-def8-4e4a-8945-92e7a8c82bf3",
+  "account_type" : "DEBIT",
+  "balance" : 2803.4953333705216
+}, {
+  "id" : 328,
+  "client_id" : "99f11eb8-7cf5-44c9-b397-e01c53054453",
+  "account_type" : "CREDIT",
+  "balance" : 7232.348024211998
+}, {
+  "id" : 329,
+  "client_id" : "394f5806-c52d-4412-886a-c567a347e3cf",
+  "account_type" : "DEBIT",
+  "balance" : 1209.0296002942314
+}, {
+  "id" : 330,
+  "client_id" : "6aa72735-1638-46b7-a8fd-43c936afc81c",
+  "account_type" : "DEBIT",
+  "balance" : 6198.444093727893
+}, {
+  "id" : 331,
+  "client_id" : "780e586f-8a25-4085-9cc9-39d5c07af79c",
+  "account_type" : "DEBIT",
+  "balance" : 5812.933766220834
+}, {
+  "id" : 332,
+  "client_id" : "f4369b48-0b92-400a-8560-d2a88fa1daf0",
+  "account_type" : "CREDIT",
+  "balance" : 3605.9725208844707
+}, {
+  "id" : 333,
+  "client_id" : "7cdc8dee-e439-45e0-be2b-fe6b8bcce308",
+  "account_type" : "DEBIT",
+  "balance" : 7698.840696211186
+}, {
+  "id" : 334,
+  "client_id" : "4824fa4e-a7fc-4d2e-b5e3-deae58522706",
+  "account_type" : "DEBIT",
+  "balance" : 6779.572500437309
+}, {
+  "id" : 335,
+  "client_id" : "96bcaef4-7d60-4bda-86a2-fa31bb8e5473",
+  "account_type" : "CREDIT",
+  "balance" : 4828.430081468658
+}, {
+  "id" : 336,
+  "client_id" : "f3aeddf3-1531-4f2e-8e4f-e22e279a9438",
+  "account_type" : "CREDIT",
+  "balance" : 5887.44215281975
+}, {
+  "id" : 337,
+  "client_id" : "99c2743b-0163-458a-bf52-d2442ff72c35",
+  "account_type" : "CREDIT",
+  "balance" : 6248.773272727663
+}, {
+  "id" : 338,
+  "client_id" : "ff018512-6b01-445a-9731-a876513825cf",
+  "account_type" : "DEBIT",
+  "balance" : 5852.897237387896
+}, {
+  "id" : 339,
+  "client_id" : "4c910403-c9e6-42ad-a6e6-77e776a303b3",
+  "account_type" : "DEBIT",
+  "balance" : 2691.7593822494155
+}, {
+  "id" : 340,
+  "client_id" : "448827ee-202c-4bc7-a2fc-1e011f00644e",
+  "account_type" : "DEBIT",
+  "balance" : 8201.957334104505
+}, {
+  "id" : 341,
+  "client_id" : "d81f986e-cda7-4520-9912-c5ddf425e0c1",
+  "account_type" : "CREDIT",
+  "balance" : 8598.104389102655
+}, {
+  "id" : 342,
+  "client_id" : "6c7b9076-6360-4349-bb5d-93a350bb2b74",
+  "account_type" : "CREDIT",
+  "balance" : 5523.62100452429
+}, {
+  "id" : 343,
+  "client_id" : "3653a422-e5c8-42d0-b761-957eae55e22a",
+  "account_type" : "CREDIT",
+  "balance" : 5877.9114083736395
+}, {
+  "id" : 344,
+  "client_id" : "3c4b0863-6233-4174-9ee6-00198eeb36ee",
+  "account_type" : "DEBIT",
+  "balance" : 8043.891251989807
+}, {
+  "id" : 345,
+  "client_id" : "9c0118e1-06b1-4e99-a4e2-59d9525fb750",
+  "account_type" : "CREDIT",
+  "balance" : 9306.807079359658
+}, {
+  "id" : 346,
+  "client_id" : "4e737f5b-a0bf-4aa5-aa36-568b4081f3b8",
+  "account_type" : "DEBIT",
+  "balance" : 3688.9613157300196
+}, {
+  "id" : 347,
+  "client_id" : "2a1892bb-6ba2-49f3-aa7a-d467fea462b3",
+  "account_type" : "DEBIT",
+  "balance" : 3669.355080421188
+}, {
+  "id" : 348,
+  "client_id" : "96ae27bb-72e0-4d34-a7c7-ecefd685716a",
+  "account_type" : "DEBIT",
+  "balance" : 8001.8960908742965
+}, {
+  "id" : 349,
+  "client_id" : "78017815-b001-47fc-bffa-6d379fcaa379",
+  "account_type" : "DEBIT",
+  "balance" : 8143.110792237989
+}, {
+  "id" : 350,
+  "client_id" : "cc4333d6-faff-4ac6-bfa6-882a9b2717cc",
+  "account_type" : "CREDIT",
+  "balance" : 9213.675254207825
+}, {
+  "id" : 351,
+  "client_id" : "6c7c8f2f-43cb-4b17-a438-d96dc3d8bc80",
+  "account_type" : "DEBIT",
+  "balance" : 777.124545604938
+}, {
+  "id" : 352,
+  "client_id" : "986e70b8-9ff5-42b7-abed-8b60c4570f81",
+  "account_type" : "DEBIT",
+  "balance" : 9826.082865141943
+}, {
+  "id" : 353,
+  "client_id" : "a87e877a-2775-4785-91fc-bbd4a788b7ac",
+  "account_type" : "CREDIT",
+  "balance" : 7296.259994649789
+}, {
+  "id" : 354,
+  "client_id" : "88ae91af-0a19-4630-a51f-f3d6512f49a6",
+  "account_type" : "CREDIT",
+  "balance" : 4006.0391764731808
+}, {
+  "id" : 355,
+  "client_id" : "c64bed0e-a377-45c5-8663-27dde6f1dacb",
+  "account_type" : "DEBIT",
+  "balance" : 1639.9242213157695
+}, {
+  "id" : 356,
+  "client_id" : "b100b4e4-cfef-44f2-8d42-f5937824075f",
+  "account_type" : "DEBIT",
+  "balance" : 7752.129891180849
+}, {
+  "id" : 357,
+  "client_id" : "944b6858-cc21-4faf-88f2-48c3109866b5",
+  "account_type" : "DEBIT",
+  "balance" : 1787.290844668603
+}, {
+  "id" : 358,
+  "client_id" : "14d1e594-b488-47e8-8bc1-01cbe6bb46bc",
+  "account_type" : "DEBIT",
+  "balance" : 2999.5034418694268
+}, {
+  "id" : 359,
+  "client_id" : "28ef5a1a-38f0-48f9-9dd4-2f83d3d99a84",
+  "account_type" : "CREDIT",
+  "balance" : 5853.041270976085
+}, {
+  "id" : 360,
+  "client_id" : "b9f54f45-7bea-425f-82ac-044db6514f91",
+  "account_type" : "DEBIT",
+  "balance" : 8181.533219742902
+}, {
+  "id" : 361,
+  "client_id" : "ac2f77cd-9daf-4a8f-b29b-986b11334f46",
+  "account_type" : "DEBIT",
+  "balance" : 484.64940888007015
+}, {
+  "id" : 362,
+  "client_id" : "be716ed9-703e-4006-ba19-fea9e40c8928",
+  "account_type" : "CREDIT",
+  "balance" : 3395.3129976177775
+}, {
+  "id" : 363,
+  "client_id" : "718e28f9-315e-4d42-94bc-6835a8d55a73",
+  "account_type" : "DEBIT",
+  "balance" : 7893.94693021846
+}, {
+  "id" : 364,
+  "client_id" : "eaf96601-7918-416a-9dbc-c35ee47997b1",
+  "account_type" : "DEBIT",
+  "balance" : 8882.31761338997
+}, {
+  "id" : 365,
+  "client_id" : "db4b152e-fd26-44a0-8be9-3c4f8167ae3f",
+  "account_type" : "CREDIT",
+  "balance" : 453.93090679651584
+}, {
+  "id" : 366,
+  "client_id" : "f1ab5be7-4cc1-4d11-8f69-dda62eaf1401",
+  "account_type" : "DEBIT",
+  "balance" : 2456.3023470303337
+}, {
+  "id" : 367,
+  "client_id" : "d8098847-1013-4126-bdb6-853de9bb9631",
+  "account_type" : "DEBIT",
+  "balance" : 7757.401443283781
+}, {
+  "id" : 368,
+  "client_id" : "a2fdaf2d-044f-42fc-b9f7-a9a97af2056f",
+  "account_type" : "DEBIT",
+  "balance" : 2595.755515731839
+}, {
+  "id" : 369,
+  "client_id" : "b9f77530-44aa-40c8-b8ce-6ce079d8b476",
+  "account_type" : "CREDIT",
+  "balance" : 8327.630346777583
+}, {
+  "id" : 370,
+  "client_id" : "487886a4-b3e6-409e-93ca-18644850ff17",
+  "account_type" : "DEBIT",
+  "balance" : 234.0879954322772
+}, {
+  "id" : 371,
+  "client_id" : "cb4e3059-0169-4406-87fd-eec97c258f23",
+  "account_type" : "DEBIT",
+  "balance" : 6869.7192741312565
+}, {
+  "id" : 372,
+  "client_id" : "c6131a32-b6dd-4a36-9c6e-f91a5e648c51",
+  "account_type" : "DEBIT",
+  "balance" : 6306.138349674479
+}, {
+  "id" : 373,
+  "client_id" : "7ae0d82d-7c77-4875-a35b-085cf8bf84c3",
+  "account_type" : "CREDIT",
+  "balance" : 6911.02110604395
+}, {
+  "id" : 374,
+  "client_id" : "c42921b3-3114-4064-bf3e-dd5a52ddcb11",
+  "account_type" : "CREDIT",
+  "balance" : 6902.021083352279
+}, {
+  "id" : 375,
+  "client_id" : "e57ef411-0edc-46f4-92ff-12f7d8157f7e",
+  "account_type" : "DEBIT",
+  "balance" : 143.4371088758246
+}, {
+  "id" : 376,
+  "client_id" : "fce60b82-e121-4f45-9cf0-172ef689e294",
+  "account_type" : "DEBIT",
+  "balance" : 9165.304983656604
+}, {
+  "id" : 377,
+  "client_id" : "5cadcb12-e078-4749-a832-bd724cee62ce",
+  "account_type" : "DEBIT",
+  "balance" : 2377.2969912479925
+}, {
+  "id" : 378,
+  "client_id" : "17ed5815-d308-4af2-8a33-ad703e1ddd7d",
+  "account_type" : "CREDIT",
+  "balance" : 8864.288899172783
+}, {
+  "id" : 379,
+  "client_id" : "14a9333a-c00d-4152-8d77-6b42c33643a2",
+  "account_type" : "CREDIT",
+  "balance" : 7027.528574032744
+}, {
+  "id" : 380,
+  "client_id" : "7b6a28dc-4d4f-4b23-8665-e2d4f354e34f",
+  "account_type" : "DEBIT",
+  "balance" : 4093.0822286885737
+}, {
+  "id" : 381,
+  "client_id" : "66dadb93-2c4d-473e-bc2b-9c6a9ee4523b",
+  "account_type" : "DEBIT",
+  "balance" : 9775.92592432598
+}, {
+  "id" : 382,
+  "client_id" : "43712399-f463-4b60-b7be-b39bfd95e4af",
+  "account_type" : "DEBIT",
+  "balance" : 8995.974073228452
+}, {
+  "id" : 383,
+  "client_id" : "d8ac3cbe-2e6d-4372-b92c-3c0e64992967",
+  "account_type" : "DEBIT",
+  "balance" : 3515.865421949105
+}, {
+  "id" : 384,
+  "client_id" : "773234cf-de83-487c-845c-07580f3fd145",
+  "account_type" : "CREDIT",
+  "balance" : 2049.451381078525
+}, {
+  "id" : 385,
+  "client_id" : "44499966-6263-4898-9e07-b0808b87974e",
+  "account_type" : "DEBIT",
+  "balance" : 903.4102539244393
+}, {
+  "id" : 386,
+  "client_id" : "8efba86c-1dda-44d3-bc4b-7673a5869797",
+  "account_type" : "CREDIT",
+  "balance" : 2686.9807666149627
+}, {
+  "id" : 387,
+  "client_id" : "c246e68f-4f9f-4e48-bc90-7c491961a42f",
+  "account_type" : "DEBIT",
+  "balance" : 2252.8991660784036
+}, {
+  "id" : 388,
+  "client_id" : "5c21f8b1-7dfe-44e5-8bff-b02b7fc297f8",
+  "account_type" : "DEBIT",
+  "balance" : 4763.220215716297
+}, {
+  "id" : 389,
+  "client_id" : "b4bd283f-1e80-4141-9c08-46fb991792a7",
+  "account_type" : "DEBIT",
+  "balance" : 6179.848370572203
+}, {
+  "id" : 390,
+  "client_id" : "e8364cc0-0fc0-4e07-904e-3329ce7405f8",
+  "account_type" : "DEBIT",
+  "balance" : 6730.500801658319
+}, {
+  "id" : 391,
+  "client_id" : "5d3b4cda-f042-437a-b153-0d73fa90cc93",
+  "account_type" : "CREDIT",
+  "balance" : 7919.367208808401
+}, {
+  "id" : 392,
+  "client_id" : "570eb6e1-65d5-4e62-8ac3-3856647103f0",
+  "account_type" : "CREDIT",
+  "balance" : 3893.189578880388
+}, {
+  "id" : 393,
+  "client_id" : "2ce9471e-bf06-4064-8255-a8263fbf6ad4",
+  "account_type" : "DEBIT",
+  "balance" : 9445.991624834633
+}, {
+  "id" : 394,
+  "client_id" : "9b85490a-d612-41f4-ad9c-fc42f2c4a425",
+  "account_type" : "CREDIT",
+  "balance" : 4398.929623117372
+}, {
+  "id" : 395,
+  "client_id" : "4e586922-8af6-426f-add6-9e53a993e0f4",
+  "account_type" : "CREDIT",
+  "balance" : 1134.7944917772345
+}, {
+  "id" : 396,
+  "client_id" : "565c513a-e5f0-457b-b51a-76f261c206bd",
+  "account_type" : "DEBIT",
+  "balance" : 8997.863538180969
+}, {
+  "id" : 397,
+  "client_id" : "b382a108-eb1a-405d-9f11-1bb9d95635b5",
+  "account_type" : "DEBIT",
+  "balance" : 3545.880235739428
+}, {
+  "id" : 398,
+  "client_id" : "53f9f23b-317b-4e0b-8b11-21b83a159bf9",
+  "account_type" : "CREDIT",
+  "balance" : 9640.315723531454
+}, {
+  "id" : 399,
+  "client_id" : "c55961ff-6a79-4279-904b-5cfdd802947f",
+  "account_type" : "DEBIT",
+  "balance" : 2163.97894875112
+}, {
+  "id" : 400,
+  "client_id" : "5cd6c580-3491-4630-980b-81cbfbfa688c",
+  "account_type" : "DEBIT",
+  "balance" : 6824.0653495377155
+}, {
+  "id" : 401,
+  "client_id" : "a7182e99-b0a6-4e07-97be-47827c18cfa9",
+  "account_type" : "CREDIT",
+  "balance" : 3285.3087762671794
+}, {
+  "id" : 402,
+  "client_id" : "ab1fcca9-2c52-47f0-b58f-7f87db2ea885",
+  "account_type" : "CREDIT",
+  "balance" : 1528.8536309919132
+}, {
+  "id" : 403,
+  "client_id" : "02ff87ec-9524-44b9-ba8a-db0e4ca6c1e8",
+  "account_type" : "DEBIT",
+  "balance" : 9091.613871564443
+}, {
+  "id" : 404,
+  "client_id" : "cbb0010c-49b0-47c2-b8a2-3a75472ca99d",
+  "account_type" : "CREDIT",
+  "balance" : 3037.533453626713
+}, {
+  "id" : 405,
+  "client_id" : "8adde7e0-a6d5-4f9e-9c38-dd9265d6d3d7",
+  "account_type" : "CREDIT",
+  "balance" : 7545.767928407065
+}, {
+  "id" : 406,
+  "client_id" : "9ed636c2-4254-4539-87a7-4806d77c120e",
+  "account_type" : "DEBIT",
+  "balance" : 7704.58738823957
+}, {
+  "id" : 407,
+  "client_id" : "02fe02ff-66a1-4f3e-9a0c-8126a61a85e4",
+  "account_type" : "DEBIT",
+  "balance" : 7006.5260973054465
+}, {
+  "id" : 408,
+  "client_id" : "3308717f-98e8-4b6b-8d48-0a1150680ec7",
+  "account_type" : "CREDIT",
+  "balance" : 9072.562979920336
+}, {
+  "id" : 409,
+  "client_id" : "b1c5702b-4840-4a85-9980-4a6dbfe7cb93",
+  "account_type" : "CREDIT",
+  "balance" : 1770.3522905309942
+}, {
+  "id" : 410,
+  "client_id" : "30e47191-f9d1-4a72-8886-6e267582242b",
+  "account_type" : "CREDIT",
+  "balance" : 1300.162748044813
+}, {
+  "id" : 411,
+  "client_id" : "89c7c8b0-8496-4b9d-992f-9b84ca7c3bbc",
+  "account_type" : "CREDIT",
+  "balance" : 632.2780827991547
+}, {
+  "id" : 412,
+  "client_id" : "0fbacab0-8919-409f-b25a-92922a43bd59",
+  "account_type" : "DEBIT",
+  "balance" : 9954.67989045473
+}, {
+  "id" : 413,
+  "client_id" : "8ff4cf94-b7e2-4fde-b215-ecc67ba30420",
+  "account_type" : "DEBIT",
+  "balance" : 7099.341069409699
+}, {
+  "id" : 414,
+  "client_id" : "c07b6b8a-907d-4fc0-af47-f9d4a33c6235",
+  "account_type" : "DEBIT",
+  "balance" : 9004.67203118319
+}, {
+  "id" : 415,
+  "client_id" : "b538b432-7fe1-42dc-b63a-ba39a8fbe62c",
+  "account_type" : "CREDIT",
+  "balance" : 3115.4299424009146
+}, {
+  "id" : 416,
+  "client_id" : "a006b08f-1a6d-4764-a0a0-2a7d5c959369",
+  "account_type" : "DEBIT",
+  "balance" : 9150.559884688057
+}, {
+  "id" : 417,
+  "client_id" : "8a87c8ad-6a61-4b41-89a3-a458a4639fef",
+  "account_type" : "CREDIT",
+  "balance" : 589.4843522234249
+}, {
+  "id" : 418,
+  "client_id" : "90607bad-a0db-4e83-aa5e-afa85a95f3d6",
+  "account_type" : "DEBIT",
+  "balance" : 653.6172921802086
+}, {
+  "id" : 419,
+  "client_id" : "02a5fa9c-f4d7-4c35-8b95-0c6b1d217859",
+  "account_type" : "CREDIT",
+  "balance" : 6041.647981353806
+}, {
+  "id" : 420,
+  "client_id" : "03749d11-adc9-418f-b4c9-eff0e986117f",
+  "account_type" : "DEBIT",
+  "balance" : 8342.10679032793
+}, {
+  "id" : 421,
+  "client_id" : "09a94857-ed0e-4a79-9327-336aaa597375",
+  "account_type" : "DEBIT",
+  "balance" : 8266.889468161036
+}, {
+  "id" : 422,
+  "client_id" : "05020fad-903d-4aac-a4eb-66ad25bed004",
+  "account_type" : "DEBIT",
+  "balance" : 725.8209975983409
+}, {
+  "id" : 423,
+  "client_id" : "691caa82-0c54-4ed3-a069-9614998d592c",
+  "account_type" : "DEBIT",
+  "balance" : 7741.920812087252
+}, {
+  "id" : 424,
+  "client_id" : "5486a48e-1b4c-49cc-bbb6-c4861f2cfb53",
+  "account_type" : "CREDIT",
+  "balance" : 9844.627367886234
+}, {
+  "id" : 425,
+  "client_id" : "c7d3257a-e5a7-4ee2-ad8f-0bdd246076b8",
+  "account_type" : "CREDIT",
+  "balance" : 6397.014689715832
+}, {
+  "id" : 426,
+  "client_id" : "9b48c77a-3a62-47b4-b550-42f2408ab1e2",
+  "account_type" : "CREDIT",
+  "balance" : 5007.487020540557
+}, {
+  "id" : 427,
+  "client_id" : "f9aba3cc-5122-43f5-9cd0-8efb9f2fa9b3",
+  "account_type" : "DEBIT",
+  "balance" : 8468.975455452746
+}, {
+  "id" : 428,
+  "client_id" : "2092d4b2-3f51-4baf-ae4f-9d7350920ecb",
+  "account_type" : "DEBIT",
+  "balance" : 7749.072334435251
+}, {
+  "id" : 429,
+  "client_id" : "ef0eba5b-f17b-471f-8409-cfb42d804e10",
+  "account_type" : "CREDIT",
+  "balance" : 7058.594121305853
+}, {
+  "id" : 430,
+  "client_id" : "3ba30e81-0d19-47dc-b6c8-a63794827c6f",
+  "account_type" : "CREDIT",
+  "balance" : 7554.068658049716
+}, {
+  "id" : 431,
+  "client_id" : "ff5ad431-e453-414d-85d4-53b5ccfbff43",
+  "account_type" : "CREDIT",
+  "balance" : 6803.897278405978
+}, {
+  "id" : 432,
+  "client_id" : "316450d5-d72b-48e3-98f7-ac99bc8b2ab4",
+  "account_type" : "CREDIT",
+  "balance" : 8040.714628484185
+}, {
+  "id" : 433,
+  "client_id" : "da0ea08d-9ad2-47d8-b189-ee8bcac35c67",
+  "account_type" : "DEBIT",
+  "balance" : 8727.041219979117
+}, {
+  "id" : 434,
+  "client_id" : "a0f0f65d-f237-4033-86e3-86758d9c44d5",
+  "account_type" : "DEBIT",
+  "balance" : 3014.421576623856
+}, {
+  "id" : 435,
+  "client_id" : "19310b58-aa6c-4b67-98e6-ce19169d0629",
+  "account_type" : "CREDIT",
+  "balance" : 3775.039126727152
+}, {
+  "id" : 436,
+  "client_id" : "7c722bf0-bce7-4243-abfa-f978f8a9a110",
+  "account_type" : "CREDIT",
+  "balance" : 4425.547352799574
+}, {
+  "id" : 437,
+  "client_id" : "a8f561aa-2114-42f1-923b-c5991a3de4de",
+  "account_type" : "CREDIT",
+  "balance" : 6546.450609528888
+}, {
+  "id" : 438,
+  "client_id" : "0d35143d-39ca-44b5-bd7a-98e1ef1362cc",
+  "account_type" : "CREDIT",
+  "balance" : 1919.9022520347676
+}, {
+  "id" : 439,
+  "client_id" : "cc542aff-b8d9-463e-a4db-511e84832169",
+  "account_type" : "DEBIT",
+  "balance" : 1559.3716579957572
+}, {
+  "id" : 440,
+  "client_id" : "88bc910e-1737-4849-8cd1-091dfb9ca835",
+  "account_type" : "DEBIT",
+  "balance" : 3594.0246836423707
+}, {
+  "id" : 441,
+  "client_id" : "fe8d9a39-ff79-4359-8e6c-188579ee436c",
+  "account_type" : "CREDIT",
+  "balance" : 6830.9684404915415
+}, {
+  "id" : 442,
+  "client_id" : "b5288f74-5e71-46be-88e4-69465b21b65c",
+  "account_type" : "CREDIT",
+  "balance" : 4193.391882395051
+}, {
+  "id" : 443,
+  "client_id" : "a094438f-4172-471a-95e3-b54c41d51a66",
+  "account_type" : "DEBIT",
+  "balance" : 6558.067820535547
+}, {
+  "id" : 444,
+  "client_id" : "599fd341-da54-4c3e-84e3-e02b61869a15",
+  "account_type" : "DEBIT",
+  "balance" : 3601.1392688459655
+}, {
+  "id" : 445,
+  "client_id" : "8e314ecf-0597-4e1b-8840-5170bd561a38",
+  "account_type" : "DEBIT",
+  "balance" : 6212.949349242084
+}, {
+  "id" : 446,
+  "client_id" : "99440806-6326-4beb-99ac-1290ccb9ba80",
+  "account_type" : "CREDIT",
+  "balance" : 1878.2018592103489
+}, {
+  "id" : 447,
+  "client_id" : "0a15589a-e6bb-4466-8ed2-e57a20527dd4",
+  "account_type" : "CREDIT",
+  "balance" : 1204.6459837085577
+}, {
+  "id" : 448,
+  "client_id" : "57543690-c89a-4c29-b124-7c1bb3fe0e33",
+  "account_type" : "DEBIT",
+  "balance" : 1092.6519515620314
+}, {
+  "id" : 449,
+  "client_id" : "1d5ebedd-6fd6-47c2-b638-342f1ac4e3d4",
+  "account_type" : "DEBIT",
+  "balance" : 3967.694115458836
+}, {
+  "id" : 450,
+  "client_id" : "074c85d3-6510-4885-bc2a-e8f2c744660b",
+  "account_type" : "DEBIT",
+  "balance" : 1871.7010483220708
+}, {
+  "id" : 451,
+  "client_id" : "d2f13088-4d87-4f55-9b8d-b94ec93297bd",
+  "account_type" : "CREDIT",
+  "balance" : 1530.5134952781784
+}, {
+  "id" : 452,
+  "client_id" : "9d46e76c-4d1a-4a0b-af45-5b3e20ed2680",
+  "account_type" : "CREDIT",
+  "balance" : 5628.69316127863
+}, {
+  "id" : 453,
+  "client_id" : "b727f6e1-f874-4a88-bc26-a4f77cc7725f",
+  "account_type" : "CREDIT",
+  "balance" : 1207.1079073467283
+}, {
+  "id" : 454,
+  "client_id" : "1aa4de62-7a64-4260-b557-5da80f5471a0",
+  "account_type" : "CREDIT",
+  "balance" : 4689.332049928024
+}, {
+  "id" : 455,
+  "client_id" : "0d6cb6e1-6adb-467b-9c5f-bf0b7590ade1",
+  "account_type" : "DEBIT",
+  "balance" : 4578.064646534381
+}, {
+  "id" : 456,
+  "client_id" : "ab2233ea-ff08-47b2-830e-d08d9d2f9153",
+  "account_type" : "CREDIT",
+  "balance" : 2435.820122291714
+}, {
+  "id" : 457,
+  "client_id" : "deda294a-a0c5-4aaa-81fb-7012510ae694",
+  "account_type" : "DEBIT",
+  "balance" : 8755.535115001916
+}, {
+  "id" : 458,
+  "client_id" : "fd355d68-ce08-4841-b785-be62b369a711",
+  "account_type" : "CREDIT",
+  "balance" : 5366.199646061504
+}, {
+  "id" : 459,
+  "client_id" : "5119114a-493a-4f72-873a-e37498d446e1",
+  "account_type" : "DEBIT",
+  "balance" : 9858.180442025623
+}, {
+  "id" : 460,
+  "client_id" : "6be8de8f-357f-40c9-8413-cb3d3fb01d00",
+  "account_type" : "DEBIT",
+  "balance" : 2863.606761127444
+}, {
+  "id" : 461,
+  "client_id" : "8c6ee253-c0a2-4b6d-ba14-225e8da25e9f",
+  "account_type" : "DEBIT",
+  "balance" : 6102.272747291509
+}, {
+  "id" : 462,
+  "client_id" : "fcc48586-ab50-4669-8d82-8576fb06c6ef",
+  "account_type" : "DEBIT",
+  "balance" : 7379.152700954227
+}, {
+  "id" : 463,
+  "client_id" : "fffda08b-9252-4280-b888-9bdb7eb69837",
+  "account_type" : "DEBIT",
+  "balance" : 5683.395596907422
+}, {
+  "id" : 464,
+  "client_id" : "f8bb37eb-7913-4f31-a3ac-a2b805df30e8",
+  "account_type" : "CREDIT",
+  "balance" : 5657.323579898342
+}, {
+  "id" : 465,
+  "client_id" : "e792d743-452f-4ba3-bfbf-5053b987ede9",
+  "account_type" : "DEBIT",
+  "balance" : 2462.540722889027
+}, {
+  "id" : 466,
+  "client_id" : "eb73f39f-d641-4118-8f05-a1820151a98e",
+  "account_type" : "CREDIT",
+  "balance" : 2764.487296251649
+}, {
+  "id" : 467,
+  "client_id" : "1997af63-a046-4fa5-87fc-d8cdf7ecaaba",
+  "account_type" : "DEBIT",
+  "balance" : 5200.178198551674
+}, {
+  "id" : 468,
+  "client_id" : "4e0c3d01-4634-4369-b607-49cd79ce718f",
+  "account_type" : "DEBIT",
+  "balance" : 2128.4028065292014
+}, {
+  "id" : 469,
+  "client_id" : "39643d9f-c51f-4643-8387-8af944db274a",
+  "account_type" : "CREDIT",
+  "balance" : 1861.4451850790747
+}, {
+  "id" : 470,
+  "client_id" : "84dcd720-e6e4-4e60-abe6-9d57a685a2ad",
+  "account_type" : "DEBIT",
+  "balance" : 9706.117330199113
+}, {
+  "id" : 471,
+  "client_id" : "eedbce32-e5dd-418d-8384-4c06fd2eb8f0",
+  "account_type" : "DEBIT",
+  "balance" : 8967.59300434558
+}, {
+  "id" : 472,
+  "client_id" : "2fdcffce-8594-46c4-a436-4ad2f01b89f4",
+  "account_type" : "DEBIT",
+  "balance" : 6372.039450223196
+}, {
+  "id" : 473,
+  "client_id" : "bab94c9e-b92f-4df7-9d4b-c0ca91e01798",
+  "account_type" : "DEBIT",
+  "balance" : 2566.9185659812733
+}, {
+  "id" : 474,
+  "client_id" : "ab421b4b-8406-4b5d-851a-03b6b3711b45",
+  "account_type" : "CREDIT",
+  "balance" : 9036.018413822976
+}, {
+  "id" : 475,
+  "client_id" : "c9fda2fa-fdea-4856-a0be-d18fceb8062a",
+  "account_type" : "CREDIT",
+  "balance" : 4002.6150927290682
+}, {
+  "id" : 476,
+  "client_id" : "8907253c-ae7c-4c20-9f61-ab9f23c69a19",
+  "account_type" : "CREDIT",
+  "balance" : 4028.1297884937107
+}, {
+  "id" : 477,
+  "client_id" : "26fbb891-56ae-4010-a5ab-41400f94d4ec",
+  "account_type" : "DEBIT",
+  "balance" : 6014.703678960396
+}, {
+  "id" : 478,
+  "client_id" : "a763a935-49ab-4b47-b6bb-bffee8cdcff8",
+  "account_type" : "CREDIT",
+  "balance" : 51.50391592905979
+}, {
+  "id" : 479,
+  "client_id" : "93c0d5b5-ee6c-4049-be19-da88f1f862da",
+  "account_type" : "CREDIT",
+  "balance" : 1195.8958197649094
+}, {
+  "id" : 480,
+  "client_id" : "f9414e3f-03b8-4e65-93ab-76a159a514e2",
+  "account_type" : "CREDIT",
+  "balance" : 2608.1464445115275
+}, {
+  "id" : 481,
+  "client_id" : "43bf7385-3eff-402c-912a-709449e81bb6",
+  "account_type" : "CREDIT",
+  "balance" : 6561.877368043591
+}, {
+  "id" : 482,
+  "client_id" : "1dcebb54-36b7-4f33-8212-27b42feb26e6",
+  "account_type" : "CREDIT",
+  "balance" : 3509.673251859403
+}, {
+  "id" : 483,
+  "client_id" : "4f6ef326-61ca-4d56-975d-eff0ff1ccf8a",
+  "account_type" : "CREDIT",
+  "balance" : 9100.902540375366
+}, {
+  "id" : 484,
+  "client_id" : "189e483f-8ae1-4f5c-b846-752aa4d74330",
+  "account_type" : "DEBIT",
+  "balance" : 5235.663053854685
+}, {
+  "id" : 485,
+  "client_id" : "849a393f-3e08-4c93-a524-4dfcfab6cea3",
+  "account_type" : "CREDIT",
+  "balance" : 4539.633430537844
+}, {
+  "id" : 486,
+  "client_id" : "be7c8799-e02f-42d4-a7b8-284e8e1b0737",
+  "account_type" : "CREDIT",
+  "balance" : 774.2257382057438
+}, {
+  "id" : 487,
+  "client_id" : "602292bd-f19e-4b57-936f-f12b53903c51",
+  "account_type" : "DEBIT",
+  "balance" : 7362.926067279624
+}, {
+  "id" : 488,
+  "client_id" : "69c4bd89-37bb-4f3c-928c-287fffe9b930",
+  "account_type" : "CREDIT",
+  "balance" : 1609.9497256459683
+}, {
+  "id" : 489,
+  "client_id" : "202f7fc2-d510-4a81-847a-08f4f7303c67",
+  "account_type" : "DEBIT",
+  "balance" : 5809.269756773395
+}, {
+  "id" : 490,
+  "client_id" : "c505116c-87cc-4193-a2ed-c1aed073d118",
+  "account_type" : "CREDIT",
+  "balance" : 5998.492532281586
+}, {
+  "id" : 491,
+  "client_id" : "4a21e5c2-86ab-43d3-86ba-69cb5719bd4e",
+  "account_type" : "DEBIT",
+  "balance" : 4874.9935957464095
+}, {
+  "id" : 492,
+  "client_id" : "bbfd2386-ca7b-4886-97bf-cb7a75f81948",
+  "account_type" : "CREDIT",
+  "balance" : 3157.0068760584245
+}, {
+  "id" : 493,
+  "client_id" : "acae8f6f-3292-45bd-9a98-87a323b6c976",
+  "account_type" : "DEBIT",
+  "balance" : 9609.493361657762
+}, {
+  "id" : 494,
+  "client_id" : "ce7f72a9-8d02-4801-8648-57881dff5ded",
+  "account_type" : "DEBIT",
+  "balance" : 6534.554652777034
+}, {
+  "id" : 495,
+  "client_id" : "e5bdadb1-cfb0-4389-a0b2-6b2566d0fb7e",
+  "account_type" : "CREDIT",
+  "balance" : 8361.64615615146
+}, {
+  "id" : 496,
+  "client_id" : "ceea06f7-8dc3-4f93-a51d-f0d02984caca",
+  "account_type" : "CREDIT",
+  "balance" : 8455.97593814385
+}, {
+  "id" : 497,
+  "client_id" : "ab88bbb4-6206-4964-b612-ace48aa02b27",
+  "account_type" : "CREDIT",
+  "balance" : 7263.995567676784
+}, {
+  "id" : 498,
+  "client_id" : "7e78a3f7-a005-498f-9371-4663655be91f",
+  "account_type" : "CREDIT",
+  "balance" : 2033.921040729697
+}, {
+  "id" : 499,
+  "client_id" : "6f3442b3-085f-4679-9887-e6471066333b",
+  "account_type" : "DEBIT",
+  "balance" : 6078.833086989655
+}, {
+  "id" : 500,
+  "client_id" : "4343786c-1ce3-4cbb-85ef-277caa2fdc3e",
+  "account_type" : "DEBIT",
+  "balance" : 4115.207074706915
+}, {
+  "id" : 501,
+  "client_id" : "1a72120c-d2f8-43fa-a0e7-6900265dd1a1",
+  "account_type" : "DEBIT",
+  "balance" : 235.1833784243662
+}, {
+  "id" : 502,
+  "client_id" : "af66d908-bb32-4a61-ad10-bded7b56915f",
+  "account_type" : "DEBIT",
+  "balance" : 6991.479179118531
+}, {
+  "id" : 503,
+  "client_id" : "b8f3181f-f950-448d-968a-5714f7c6e70c",
+  "account_type" : "CREDIT",
+  "balance" : 8102.74212582164
+}, {
+  "id" : 504,
+  "client_id" : "68a3c647-094d-4845-93bf-c482651e7f8c",
+  "account_type" : "DEBIT",
+  "balance" : 1034.2721467177573
+}, {
+  "id" : 505,
+  "client_id" : "e8bc181c-88e6-4796-add7-7ea415b433b7",
+  "account_type" : "CREDIT",
+  "balance" : 1096.201789800736
+}, {
+  "id" : 506,
+  "client_id" : "f8254d27-f1c9-4c75-bb41-b30e5434beeb",
+  "account_type" : "DEBIT",
+  "balance" : 4791.03815609352
+}, {
+  "id" : 507,
+  "client_id" : "9b272666-8763-409a-89bc-7798a19530ed",
+  "account_type" : "DEBIT",
+  "balance" : 1029.7497718962468
+}, {
+  "id" : 508,
+  "client_id" : "ae2d14f0-a99b-4bb6-8870-2679421e981b",
+  "account_type" : "CREDIT",
+  "balance" : 6357.497945785446
+}, {
+  "id" : 509,
+  "client_id" : "d06998d1-dcff-428b-889f-fcf3c4ed2853",
+  "account_type" : "DEBIT",
+  "balance" : 2875.9037085269233
+}, {
+  "id" : 510,
+  "client_id" : "9f0f3bfe-2f7d-44de-be5e-99f43f12b9bf",
+  "account_type" : "DEBIT",
+  "balance" : 4116.31589787035
+}, {
+  "id" : 511,
+  "client_id" : "b601e957-149c-4c69-bb77-bd3828e7fcc6",
+  "account_type" : "DEBIT",
+  "balance" : 7435.201785262404
+}, {
+  "id" : 512,
+  "client_id" : "7085a78c-1c4c-44e8-aad1-a44d8e6a799a",
+  "account_type" : "CREDIT",
+  "balance" : 4051.6031609901515
+}, {
+  "id" : 513,
+  "client_id" : "52c48fd9-6534-426b-a016-d9392db7e2f3",
+  "account_type" : "DEBIT",
+  "balance" : 4630.899470087058
+}, {
+  "id" : 514,
+  "client_id" : "de38c784-6175-4235-aeac-56561562c84d",
+  "account_type" : "DEBIT",
+  "balance" : 4342.899098332067
+}, {
+  "id" : 515,
+  "client_id" : "81413f1d-061d-4e26-b05f-02f1cee50285",
+  "account_type" : "CREDIT",
+  "balance" : 3095.47272518265
+}, {
+  "id" : 516,
+  "client_id" : "df32411f-4876-4bd2-987d-00cabb09cbcf",
+  "account_type" : "CREDIT",
+  "balance" : 7793.8294874887115
+}, {
+  "id" : 517,
+  "client_id" : "5b11bd93-6b4a-425a-956e-8e69dd3e4774",
+  "account_type" : "DEBIT",
+  "balance" : 6329.723596888075
+}, {
+  "id" : 518,
+  "client_id" : "4d6400f3-851f-4913-a32d-c4e5e0fa70f2",
+  "account_type" : "CREDIT",
+  "balance" : 4140.5744939412325
+}, {
+  "id" : 519,
+  "client_id" : "1c257619-5566-4086-8e79-7e558e34462c",
+  "account_type" : "CREDIT",
+  "balance" : 1564.5619739084636
+}, {
+  "id" : 520,
+  "client_id" : "049c7d4f-26c0-44ea-a9d7-d81bbcc9a9b9",
+  "account_type" : "CREDIT",
+  "balance" : 6325.511467290567
+}, {
+  "id" : 521,
+  "client_id" : "1ef2d7ec-d9b6-41d6-8992-feb5acf1fed8",
+  "account_type" : "DEBIT",
+  "balance" : 7604.690716705601
+}, {
+  "id" : 522,
+  "client_id" : "b217fb82-ca14-486f-9426-98d107bbd724",
+  "account_type" : "CREDIT",
+  "balance" : 3876.252426196187
+}, {
+  "id" : 523,
+  "client_id" : "459a7a62-d1d9-446b-9b0f-1197072907f3",
+  "account_type" : "CREDIT",
+  "balance" : 2355.9078955454247
+}, {
+  "id" : 524,
+  "client_id" : "6adbf820-e082-4d89-b373-34af58905e63",
+  "account_type" : "CREDIT",
+  "balance" : 5415.931054946066
+}, {
+  "id" : 525,
+  "client_id" : "c657022e-d203-43fd-8972-471e33123f75",
+  "account_type" : "DEBIT",
+  "balance" : 9639.103535784232
+}, {
+  "id" : 526,
+  "client_id" : "1aedf8f8-c3cb-4166-be94-e62b895030e7",
+  "account_type" : "CREDIT",
+  "balance" : 4868.976983603979
+}, {
+  "id" : 527,
+  "client_id" : "0b9b8d99-d2b3-45a1-9676-8ed2e10b6755",
+  "account_type" : "DEBIT",
+  "balance" : 6698.4961812772735
+}, {
+  "id" : 528,
+  "client_id" : "28f87bda-f2cc-4213-a034-b9fc89767339",
+  "account_type" : "CREDIT",
+  "balance" : 617.9653079885894
+}, {
+  "id" : 529,
+  "client_id" : "2cd8ae65-0d03-4b23-86cc-4a79dc91c730",
+  "account_type" : "CREDIT",
+  "balance" : 506.87725546261
+}, {
+  "id" : 530,
+  "client_id" : "f7916916-115e-40e0-81bc-0f14293e3bd3",
+  "account_type" : "CREDIT",
+  "balance" : 7432.533720960457
+}, {
+  "id" : 531,
+  "client_id" : "3817b8a5-c4ba-4d9f-8c13-0fb00ed0a572",
+  "account_type" : "DEBIT",
+  "balance" : 1943.7668959010234
+}, {
+  "id" : 532,
+  "client_id" : "817fdf07-40ba-4a23-bcd1-dfdc2d2c4c42",
+  "account_type" : "DEBIT",
+  "balance" : 8824.583085294742
+}, {
+  "id" : 533,
+  "client_id" : "ba81b8a0-1141-4e00-98cf-7b2b1ffaccc9",
+  "account_type" : "CREDIT",
+  "balance" : 3357.74885347741
+}, {
+  "id" : 534,
+  "client_id" : "531d4355-bcac-4de1-819f-bed391b07e45",
+  "account_type" : "CREDIT",
+  "balance" : 738.915805300423
+}, {
+  "id" : 535,
+  "client_id" : "0138c632-9650-4211-8756-f2297f5ea7b7",
+  "account_type" : "CREDIT",
+  "balance" : 370.12412274490816
+}, {
+  "id" : 536,
+  "client_id" : "f6c9cf86-7478-4f34-94fb-383681c423f5",
+  "account_type" : "CREDIT",
+  "balance" : 3716.591821967943
+}, {
+  "id" : 537,
+  "client_id" : "bcc533c4-8024-46ec-8f8c-95837ea30dfc",
+  "account_type" : "CREDIT",
+  "balance" : 6727.304605172093
+}, {
+  "id" : 538,
+  "client_id" : "1a3edb83-dbe5-4f91-9fe5-4465e8defba8",
+  "account_type" : "DEBIT",
+  "balance" : 4607.182569852534
+}, {
+  "id" : 539,
+  "client_id" : "a07f87ec-9892-49a6-a392-21b56f7b549c",
+  "account_type" : "DEBIT",
+  "balance" : 882.5849044782485
+}, {
+  "id" : 540,
+  "client_id" : "d14c97cc-0a37-491c-98a9-50f3432c864b",
+  "account_type" : "DEBIT",
+  "balance" : 4208.7886574013
+}, {
+  "id" : 541,
+  "client_id" : "7f9f04b7-8c67-4bca-9cff-b1baa0820709",
+  "account_type" : "DEBIT",
+  "balance" : 3323.9972438122154
+}, {
+  "id" : 542,
+  "client_id" : "a7927d9c-8d20-4bed-a893-f9eab893056e",
+  "account_type" : "DEBIT",
+  "balance" : 595.527376468401
+}, {
+  "id" : 543,
+  "client_id" : "a9cbe714-67e1-420d-8136-f6e936e02de3",
+  "account_type" : "DEBIT",
+  "balance" : 8297.62443992997
+}, {
+  "id" : 544,
+  "client_id" : "e64552ab-78b5-4e2c-bfb0-5a554ebbf870",
+  "account_type" : "CREDIT",
+  "balance" : 6354.252575988948
+}, {
+  "id" : 545,
+  "client_id" : "88006227-9584-4113-a176-fa096ffd016b",
+  "account_type" : "CREDIT",
+  "balance" : 375.868244585823
+}, {
+  "id" : 546,
+  "client_id" : "7f76b452-bb89-40d0-a878-640da9f239d9",
+  "account_type" : "CREDIT",
+  "balance" : 4446.967114762572
+}, {
+  "id" : 547,
+  "client_id" : "fdb5fe75-6912-4b15-87c6-fd2cbbaee152",
+  "account_type" : "DEBIT",
+  "balance" : 7242.631436375073
+}, {
+  "id" : 548,
+  "client_id" : "0e097956-38c7-4d55-aa3e-18becfa98240",
+  "account_type" : "DEBIT",
+  "balance" : 7474.048275064553
+}, {
+  "id" : 549,
+  "client_id" : "170937f4-f506-4dd1-ba03-616b5c504d60",
+  "account_type" : "DEBIT",
+  "balance" : 2072.26658578763
+}, {
+  "id" : 550,
+  "client_id" : "350f7774-02c4-4c0b-b8d8-e6385322b9a1",
+  "account_type" : "DEBIT",
+  "balance" : 6676.949822905381
+}, {
+  "id" : 551,
+  "client_id" : "c1a731d4-a271-4f27-90ec-2c6edbc4a050",
+  "account_type" : "CREDIT",
+  "balance" : 8734.43403580845
+}, {
+  "id" : 552,
+  "client_id" : "4db1021a-bf81-461a-9ca0-097eee916f20",
+  "account_type" : "CREDIT",
+  "balance" : 7879.985561165414
+}, {
+  "id" : 553,
+  "client_id" : "08b479b4-31b2-4274-a5a3-10e72062c336",
+  "account_type" : "DEBIT",
+  "balance" : 4968.692347831221
+}, {
+  "id" : 554,
+  "client_id" : "0145551d-f379-4120-a1c7-2ee3efa12930",
+  "account_type" : "DEBIT",
+  "balance" : 3529.142310171718
+}, {
+  "id" : 555,
+  "client_id" : "d4ccf1b6-b7c2-490b-b285-3add3d24ec4b",
+  "account_type" : "DEBIT",
+  "balance" : 2124.653050643729
+}, {
+  "id" : 556,
+  "client_id" : "e03089b8-c7d2-4b5b-a47e-97f5b4fa5505",
+  "account_type" : "CREDIT",
+  "balance" : 6007.9567567115455
+}, {
+  "id" : 557,
+  "client_id" : "276e42af-bb3e-48a5-9057-69e848c2aaa8",
+  "account_type" : "CREDIT",
+  "balance" : 6187.928419076233
+}, {
+  "id" : 558,
+  "client_id" : "34675cf7-5fdf-4f56-ac26-39c33683e74d",
+  "account_type" : "DEBIT",
+  "balance" : 7767.224233865747
+}, {
+  "id" : 559,
+  "client_id" : "2ab7b83d-c00e-4987-9a59-fa5316d8af8d",
+  "account_type" : "DEBIT",
+  "balance" : 3047.521623956158
+}, {
+  "id" : 560,
+  "client_id" : "a4a0db7f-a2d9-4ffc-b3a4-34d33d69f30b",
+  "account_type" : "CREDIT",
+  "balance" : 9354.106182237821
+}, {
+  "id" : 561,
+  "client_id" : "fe4e0252-de1a-48ae-ba09-f1e9eb8b7873",
+  "account_type" : "DEBIT",
+  "balance" : 3693.561392250568
+}, {
+  "id" : 562,
+  "client_id" : "0998c292-8e52-4822-ac33-db0d17e9d069",
+  "account_type" : "DEBIT",
+  "balance" : 1887.9062944070013
+}, {
+  "id" : 563,
+  "client_id" : "53632ba6-b431-4b06-a57b-5460a379698b",
+  "account_type" : "DEBIT",
+  "balance" : 6358.359779304663
+}, {
+  "id" : 564,
+  "client_id" : "1c4d78f3-19e2-472f-8cb0-841a5f922669",
+  "account_type" : "CREDIT",
+  "balance" : 7799.861372491335
+}, {
+  "id" : 565,
+  "client_id" : "d8899ee4-3a9d-4aa8-9ea3-0912772066b4",
+  "account_type" : "DEBIT",
+  "balance" : 8272.288263837809
+}, {
+  "id" : 566,
+  "client_id" : "7dc22378-817e-4582-8bb1-94fc71bf4a63",
+  "account_type" : "CREDIT",
+  "balance" : 4874.687091181637
+}, {
+  "id" : 567,
+  "client_id" : "080ca5a2-8fd9-40be-b60b-fa8cf6eb4344",
+  "account_type" : "DEBIT",
+  "balance" : 8731.929464239014
+}, {
+  "id" : 568,
+  "client_id" : "82192d1a-9094-40ee-aeae-2a45c63b6315",
+  "account_type" : "CREDIT",
+  "balance" : 937.5224791767489
+}, {
+  "id" : 569,
+  "client_id" : "38505b13-26aa-45bc-8f7a-1207396e8f96",
+  "account_type" : "CREDIT",
+  "balance" : 9672.274613752128
+}, {
+  "id" : 570,
+  "client_id" : "aa5562e5-52f1-4ebf-9d18-b0215569e3a6",
+  "account_type" : "CREDIT",
+  "balance" : 5072.764947169246
+}, {
+  "id" : 571,
+  "client_id" : "10f9eeed-6cfe-43b6-ba73-40dab4a08999",
+  "account_type" : "CREDIT",
+  "balance" : 7867.0015040120725
+}, {
+  "id" : 572,
+  "client_id" : "204b80e0-bb4f-42d8-a2f1-df3521cc7732",
+  "account_type" : "DEBIT",
+  "balance" : 4297.328552967468
+}, {
+  "id" : 573,
+  "client_id" : "44f1ed6e-9fec-4403-a22c-86c59190ee4b",
+  "account_type" : "DEBIT",
+  "balance" : 9733.191453455094
+}, {
+  "id" : 574,
+  "client_id" : "a4aeb3a5-326c-4bc3-80d8-1aa1031b400f",
+  "account_type" : "DEBIT",
+  "balance" : 4131.593275653357
+}, {
+  "id" : 575,
+  "client_id" : "219b20f1-9d37-4eea-819f-3590063d9f78",
+  "account_type" : "CREDIT",
+  "balance" : 8227.9727118114
+}, {
+  "id" : 576,
+  "client_id" : "9f04fef1-89f2-4062-88a9-3f2e23ac2440",
+  "account_type" : "DEBIT",
+  "balance" : 5080.086327642045
+}, {
+  "id" : 577,
+  "client_id" : "88945902-e17b-4125-bda4-f484a9e9ade0",
+  "account_type" : "DEBIT",
+  "balance" : 4530.160580976045
+}, {
+  "id" : 578,
+  "client_id" : "be80e36a-8605-458e-84d7-3f938c1232ff",
+  "account_type" : "DEBIT",
+  "balance" : 1180.049753386012
+}, {
+  "id" : 579,
+  "client_id" : "b21bea70-cc43-49a3-827a-e16d112ae146",
+  "account_type" : "CREDIT",
+  "balance" : 8401.348785021815
+}, {
+  "id" : 580,
+  "client_id" : "304f068a-49df-4b09-8422-bc96e448943e",
+  "account_type" : "DEBIT",
+  "balance" : 9485.689275387438
+}, {
+  "id" : 581,
+  "client_id" : "631f0d83-8f87-4a4f-82ee-87d02e598153",
+  "account_type" : "CREDIT",
+  "balance" : 5353.096971254603
+}, {
+  "id" : 582,
+  "client_id" : "1347d2a5-d78e-4602-8ec0-51983370c747",
+  "account_type" : "CREDIT",
+  "balance" : 8886.102629647361
+}, {
+  "id" : 583,
+  "client_id" : "39a3e669-754f-445a-9fac-bc8d1368dd98",
+  "account_type" : "DEBIT",
+  "balance" : 3753.19729354091
+}, {
+  "id" : 584,
+  "client_id" : "3af1fe8b-a995-4f9c-82cf-e28cdd0720b4",
+  "account_type" : "DEBIT",
+  "balance" : 6085.067898582778
+}, {
+  "id" : 585,
+  "client_id" : "799ff473-87d2-454a-a8d5-b3d5d4f54857",
+  "account_type" : "DEBIT",
+  "balance" : 5663.071929694747
+}, {
+  "id" : 586,
+  "client_id" : "a1481f0d-7553-414a-b777-3766eb72cedb",
+  "account_type" : "DEBIT",
+  "balance" : 8192.977741310933
+}, {
+  "id" : 587,
+  "client_id" : "341b04e4-156c-4988-aeab-df984e643e6f",
+  "account_type" : "DEBIT",
+  "balance" : 3785.8350119897154
+}, {
+  "id" : 588,
+  "client_id" : "f74e92c9-cbec-44be-9a62-21b2f0398e8f",
+  "account_type" : "CREDIT",
+  "balance" : 2217.9461758618313
+}, {
+  "id" : 589,
+  "client_id" : "8c1fc4ac-dad8-4c07-ac0e-6bb102f6dbd9",
+  "account_type" : "DEBIT",
+  "balance" : 2510.289828258626
+}, {
+  "id" : 590,
+  "client_id" : "d24d5114-6f28-49c3-94a7-02e870bd15bf",
+  "account_type" : "CREDIT",
+  "balance" : 1170.6477224311118
+}, {
+  "id" : 591,
+  "client_id" : "8c0e2ec5-3379-4423-87ad-ec1298c802ea",
+  "account_type" : "CREDIT",
+  "balance" : 4894.394794619964
+}, {
+  "id" : 592,
+  "client_id" : "bfed7f8e-559e-4ccf-a51a-b1d09a5601e5",
+  "account_type" : "DEBIT",
+  "balance" : 9136.60611186003
+}, {
+  "id" : 593,
+  "client_id" : "b4a2932c-ba6a-4bcc-9603-089849e9cdda",
+  "account_type" : "CREDIT",
+  "balance" : 6859.760363492366
+}, {
+  "id" : 594,
+  "client_id" : "73cad4c0-e75f-4fc3-89d9-9c74471df14b",
+  "account_type" : "CREDIT",
+  "balance" : 9397.282888518384
+}, {
+  "id" : 595,
+  "client_id" : "a10843b6-1fb5-4164-9254-225a8560fcd3",
+  "account_type" : "DEBIT",
+  "balance" : 1946.5777514269766
+}, {
+  "id" : 596,
+  "client_id" : "c0727bd5-c4f9-494e-8c3d-f8502fc8a8bd",
+  "account_type" : "DEBIT",
+  "balance" : 1800.8367343559917
+}, {
+  "id" : 597,
+  "client_id" : "0632a5a9-fa97-4be0-ad09-7633b0193479",
+  "account_type" : "DEBIT",
+  "balance" : 7040.231808313166
+}, {
+  "id" : 598,
+  "client_id" : "074451cf-6cc8-4f57-877e-13843eccace9",
+  "account_type" : "CREDIT",
+  "balance" : 1881.0967878676388
+}, {
+  "id" : 599,
+  "client_id" : "d38a7ecb-faaf-43a1-bafa-c2f67425fb45",
+  "account_type" : "CREDIT",
+  "balance" : 1925.678690881386
+}, {
+  "id" : 600,
+  "client_id" : "fad01eee-fc22-4c1f-9217-b44c9bc1667c",
+  "account_type" : "CREDIT",
+  "balance" : 7824.255578395091
+}, {
+  "id" : 601,
+  "client_id" : "4f97f889-6cad-4b09-8523-e12de23770db",
+  "account_type" : "DEBIT",
+  "balance" : 3392.6071507262045
+}, {
+  "id" : 602,
+  "client_id" : "481c4480-8e81-49cd-a24d-2c7640625e82",
+  "account_type" : "DEBIT",
+  "balance" : 3008.587781167652
+}, {
+  "id" : 603,
+  "client_id" : "f8acf378-a116-47c8-a54e-348f63a20b0b",
+  "account_type" : "CREDIT",
+  "balance" : 7805.444177816404
+}, {
+  "id" : 604,
+  "client_id" : "51633ea0-0b23-4566-aa93-3aaa48bb2d09",
+  "account_type" : "DEBIT",
+  "balance" : 8258.87203139035
+}, {
+  "id" : 605,
+  "client_id" : "95d768bf-29d3-4a4d-aea0-85d4f4115aea",
+  "account_type" : "CREDIT",
+  "balance" : 4022.879896469723
+}, {
+  "id" : 606,
+  "client_id" : "b402a71f-d566-45b3-a2d3-3b1251ba5212",
+  "account_type" : "DEBIT",
+  "balance" : 9089.014113155286
+}, {
+  "id" : 607,
+  "client_id" : "8cf53502-b092-4edc-8f14-f14da0b3c2a3",
+  "account_type" : "CREDIT",
+  "balance" : 3726.826541125815
+}, {
+  "id" : 608,
+  "client_id" : "0e130800-ef44-4157-b6f4-729af30b7fcf",
+  "account_type" : "DEBIT",
+  "balance" : 8583.511500281047
+}, {
+  "id" : 609,
+  "client_id" : "7bc478a8-1b0e-4a0d-9888-1e3a4ccf89a1",
+  "account_type" : "CREDIT",
+  "balance" : 1332.2615346112843
+}, {
+  "id" : 610,
+  "client_id" : "78ed7bcb-d8d8-46de-a75d-1bc82bd095e4",
+  "account_type" : "CREDIT",
+  "balance" : 6454.325896900551
+}, {
+  "id" : 611,
+  "client_id" : "7a5abf0a-679d-4d7f-ad53-94176a351295",
+  "account_type" : "DEBIT",
+  "balance" : 3626.281889271462
+}, {
+  "id" : 612,
+  "client_id" : "c285c16b-9d3c-42ab-8dbd-3df225681f35",
+  "account_type" : "CREDIT",
+  "balance" : 8551.67590413802
+}, {
+  "id" : 613,
+  "client_id" : "369b50b1-fcb6-43d1-9f05-4a31f22319d9",
+  "account_type" : "DEBIT",
+  "balance" : 5268.124690743733
+}, {
+  "id" : 614,
+  "client_id" : "837fc336-bb15-4b5f-a7db-8ece1ae9ab5d",
+  "account_type" : "CREDIT",
+  "balance" : 4934.708498957126
+}, {
+  "id" : 615,
+  "client_id" : "71e3c22e-58c5-4d52-acb1-0e23e193aa72",
+  "account_type" : "CREDIT",
+  "balance" : 4771.801763708936
+}, {
+  "id" : 616,
+  "client_id" : "a430c364-e222-42a0-aac3-c1d3e5d182a6",
+  "account_type" : "CREDIT",
+  "balance" : 3293.4647288352626
+}, {
+  "id" : 617,
+  "client_id" : "ffa7a070-1581-464b-b953-887ef645a20e",
+  "account_type" : "DEBIT",
+  "balance" : 1671.822001242067
+}, {
+  "id" : 618,
+  "client_id" : "cdfe8e9b-3791-4ce6-8769-19e05afbc446",
+  "account_type" : "DEBIT",
+  "balance" : 5997.16523272395
+}, {
+  "id" : 619,
+  "client_id" : "3d77efdd-5000-4403-92fc-6662ad5e58a4",
+  "account_type" : "DEBIT",
+  "balance" : 7588.889260189711
+}, {
+  "id" : 620,
+  "client_id" : "b10bf383-9a29-4a58-8783-8b7a68ee5938",
+  "account_type" : "CREDIT",
+  "balance" : 8310.973131183842
+}, {
+  "id" : 621,
+  "client_id" : "bc8c8e9f-4721-4738-a509-0bb07e5fdeac",
+  "account_type" : "CREDIT",
+  "balance" : 5945.336798827091
+}, {
+  "id" : 622,
+  "client_id" : "78491090-b261-4af0-96cf-c65ac33d76fd",
+  "account_type" : "CREDIT",
+  "balance" : 3511.6556400539134
+}, {
+  "id" : 623,
+  "client_id" : "ed471ba4-ab77-4136-b180-bb1d8a09d123",
+  "account_type" : "DEBIT",
+  "balance" : 940.5626698793701
+}, {
+  "id" : 624,
+  "client_id" : "5d3389d6-7f97-4801-9d76-8530c16b6c37",
+  "account_type" : "CREDIT",
+  "balance" : 7532.500742238921
+}, {
+  "id" : 625,
+  "client_id" : "d50a882b-6e5c-4463-b65d-0901ebf1c98d",
+  "account_type" : "CREDIT",
+  "balance" : 2863.770106451453
+}, {
+  "id" : 626,
+  "client_id" : "81726c6b-5d44-4c68-9fd2-d490677db714",
+  "account_type" : "DEBIT",
+  "balance" : 8568.524159294913
+}, {
+  "id" : 627,
+  "client_id" : "9eb5f53b-9669-4fb2-9c2b-5df2f7000ef1",
+  "account_type" : "DEBIT",
+  "balance" : 2243.253093949622
+}, {
+  "id" : 628,
+  "client_id" : "b4d25263-74c5-4a33-97ac-54d5e6c2f76b",
+  "account_type" : "CREDIT",
+  "balance" : 5392.084916025028
+}, {
+  "id" : 629,
+  "client_id" : "224b7f22-9978-4724-bceb-37fd7ae79081",
+  "account_type" : "DEBIT",
+  "balance" : 664.3290297671833
+}, {
+  "id" : 630,
+  "client_id" : "01ef642b-0581-4768-9803-6afc8f687a34",
+  "account_type" : "DEBIT",
+  "balance" : 5053.267788436413
+}, {
+  "id" : 631,
+  "client_id" : "d6fb2b04-aa4a-4a2e-b654-11a63dcedd17",
+  "account_type" : "DEBIT",
+  "balance" : 8877.979189528094
+}, {
+  "id" : 632,
+  "client_id" : "e31ac71f-753d-462f-ad2a-24aba276256c",
+  "account_type" : "CREDIT",
+  "balance" : 1690.2262805780176
+}, {
+  "id" : 633,
+  "client_id" : "1ab4a258-754e-4ea2-964c-93a6f94423b9",
+  "account_type" : "CREDIT",
+  "balance" : 577.9430833496191
+}, {
+  "id" : 634,
+  "client_id" : "48bc04dd-7d3e-4f70-9ebe-e7b59728306f",
+  "account_type" : "CREDIT",
+  "balance" : 4799.9122893223275
+}, {
+  "id" : 635,
+  "client_id" : "10a1d96b-c6ee-4600-9ac7-b3c1bb0de80b",
+  "account_type" : "DEBIT",
+  "balance" : 8061.030492918583
+}, {
+  "id" : 636,
+  "client_id" : "f7c01d7e-de34-48cc-9a65-58814224eac6",
+  "account_type" : "DEBIT",
+  "balance" : 6700.810006365577
+}, {
+  "id" : 637,
+  "client_id" : "2c09b8db-05d8-4cd0-bdbe-3c83ba9e0549",
+  "account_type" : "DEBIT",
+  "balance" : 4363.878888594614
+}, {
+  "id" : 638,
+  "client_id" : "bd77020b-89d8-4d08-b461-69f63e8fdebc",
+  "account_type" : "CREDIT",
+  "balance" : 5570.87458636324
+}, {
+  "id" : 639,
+  "client_id" : "8632a83f-8462-4f2b-ab68-076d23335c53",
+  "account_type" : "DEBIT",
+  "balance" : 8281.872993285655
+}, {
+  "id" : 640,
+  "client_id" : "b013ea84-7820-4fb0-b562-bed48c6d55c5",
+  "account_type" : "CREDIT",
+  "balance" : 5268.566693281438
+}, {
+  "id" : 641,
+  "client_id" : "c8a51583-f602-4083-984c-db0444820961",
+  "account_type" : "CREDIT",
+  "balance" : 881.4161456832026
+}, {
+  "id" : 642,
+  "client_id" : "6002526d-8f28-49bf-b04a-fe61d3329543",
+  "account_type" : "DEBIT",
+  "balance" : 296.4675849184373
+}, {
+  "id" : 643,
+  "client_id" : "cc62ff17-0567-4d19-8e55-66ebaf8fb1a8",
+  "account_type" : "DEBIT",
+  "balance" : 5553.2111640183375
+}, {
+  "id" : 644,
+  "client_id" : "6d4d1c77-34f6-4a88-887e-6d3d307a7e3c",
+  "account_type" : "CREDIT",
+  "balance" : 3360.0819509568446
+}, {
+  "id" : 645,
+  "client_id" : "3c899a5a-0bfd-4c36-9f2b-bbbc24bcb085",
+  "account_type" : "DEBIT",
+  "balance" : 5600.275643750645
+}, {
+  "id" : 646,
+  "client_id" : "f9a86c50-235a-4b13-8b38-55f33c9a4340",
+  "account_type" : "CREDIT",
+  "balance" : 5867.1723463378075
+}, {
+  "id" : 647,
+  "client_id" : "6f1df9dd-e8e1-48f2-a7cc-818e6b93abc0",
+  "account_type" : "DEBIT",
+  "balance" : 847.905631711312
+}, {
+  "id" : 648,
+  "client_id" : "f91f8889-a7fe-4a28-bd58-2b9ecea2ab33",
+  "account_type" : "CREDIT",
+  "balance" : 1277.249404992542
+}, {
+  "id" : 649,
+  "client_id" : "b3ac4bd3-7edd-4f4e-833e-277c27468c4e",
+  "account_type" : "DEBIT",
+  "balance" : 2621.2351710090697
+}, {
+  "id" : 650,
+  "client_id" : "0a41e232-67b0-4d5b-9bda-ffb5552b2639",
+  "account_type" : "DEBIT",
+  "balance" : 6191.204539350137
+}, {
+  "id" : 651,
+  "client_id" : "7259e771-cc94-47d9-ab34-c7739cf6cce7",
+  "account_type" : "DEBIT",
+  "balance" : 2362.3457092642066
+}, {
+  "id" : 652,
+  "client_id" : "0b8e2786-bf7c-4fa7-a24c-d8aca321c647",
+  "account_type" : "CREDIT",
+  "balance" : 1321.8132024070583
+}, {
+  "id" : 653,
+  "client_id" : "12cb46ab-0028-4c38-8b91-2aa5e8bde33c",
+  "account_type" : "CREDIT",
+  "balance" : 9252.19065339485
+}, {
+  "id" : 654,
+  "client_id" : "cd724acc-30ff-4704-8718-63a78e48069b",
+  "account_type" : "DEBIT",
+  "balance" : 9562.285771458983
+}, {
+  "id" : 655,
+  "client_id" : "6688aada-3ebd-4b90-a927-cfee11feedcf",
+  "account_type" : "DEBIT",
+  "balance" : 3632.239227893245
+}, {
+  "id" : 656,
+  "client_id" : "b926cd3b-787e-40ca-99d7-16509955cb01",
+  "account_type" : "CREDIT",
+  "balance" : 7638.651343022602
+}, {
+  "id" : 657,
+  "client_id" : "7d9660af-9c9f-4cba-9c25-07137e20b989",
+  "account_type" : "CREDIT",
+  "balance" : 6558.526584524849
+}, {
+  "id" : 658,
+  "client_id" : "cf2809f2-072e-4d0e-a34b-9d5af07da56a",
+  "account_type" : "CREDIT",
+  "balance" : 9950.125876882339
+}, {
+  "id" : 659,
+  "client_id" : "4de65fdd-7aca-4e33-9dbe-8dde907fa8c5",
+  "account_type" : "CREDIT",
+  "balance" : 9364.677180020295
+}, {
+  "id" : 660,
+  "client_id" : "9d7388b7-ae57-4fb5-a7fa-6d6f14e8fa6d",
+  "account_type" : "DEBIT",
+  "balance" : 5007.843714363021
+}, {
+  "id" : 661,
+  "client_id" : "27ea2934-8b3f-46eb-bfe5-69407f545625",
+  "account_type" : "DEBIT",
+  "balance" : 2269.4954614522876
+}, {
+  "id" : 662,
+  "client_id" : "b81fa7e1-4343-4deb-8eb6-9c4db4e0baa6",
+  "account_type" : "CREDIT",
+  "balance" : 6419.979415208393
+}, {
+  "id" : 663,
+  "client_id" : "86de0417-877d-4eb5-9271-a617c9eccf42",
+  "account_type" : "CREDIT",
+  "balance" : 8313.596349992345
+}, {
+  "id" : 664,
+  "client_id" : "f1bd389e-9d7b-48d2-89d8-d13c28c16392",
+  "account_type" : "DEBIT",
+  "balance" : 5964.251421553581
+}, {
+  "id" : 665,
+  "client_id" : "90d15f5d-fbc5-4d16-9037-46494f701032",
+  "account_type" : "DEBIT",
+  "balance" : 2757.580986686037
+}, {
+  "id" : 666,
+  "client_id" : "c844f9a0-ea9c-497e-ba19-70bb1d88896f",
+  "account_type" : "DEBIT",
+  "balance" : 3267.4926981218655
+}, {
+  "id" : 667,
+  "client_id" : "da57cac0-8a49-437c-8550-e5d6e1d93efa",
+  "account_type" : "CREDIT",
+  "balance" : 2131.9717715426746
+}, {
+  "id" : 668,
+  "client_id" : "e6cb1f98-f8b6-42a1-a917-8a6412ae7abc",
+  "account_type" : "CREDIT",
+  "balance" : 479.94022347484844
+}, {
+  "id" : 669,
+  "client_id" : "716cdb0a-84a3-49a7-96a1-8ac900b571b5",
+  "account_type" : "CREDIT",
+  "balance" : 9892.478944330624
+}, {
+  "id" : 670,
+  "client_id" : "94203b8f-d4e5-4b0c-aab6-ddef7f3c0a14",
+  "account_type" : "DEBIT",
+  "balance" : 4849.447729802562
+}, {
+  "id" : 671,
+  "client_id" : "1f9aaa94-ecce-4ed1-8896-a8e0a9666221",
+  "account_type" : "DEBIT",
+  "balance" : 1244.5533823806488
+}, {
+  "id" : 672,
+  "client_id" : "7ad39b31-65c4-401b-86e4-5a2163bf3816",
+  "account_type" : "DEBIT",
+  "balance" : 4949.700695264841
+}, {
+  "id" : 673,
+  "client_id" : "b82bed94-a468-40ac-a5f7-960596ca6e98",
+  "account_type" : "CREDIT",
+  "balance" : 3876.0943501141855
+}, {
+  "id" : 674,
+  "client_id" : "3c5115d8-dd7b-4c3d-b9fc-333dd8f92d2d",
+  "account_type" : "DEBIT",
+  "balance" : 5697.188502925962
+}, {
+  "id" : 675,
+  "client_id" : "fc04519e-dc06-4943-96c9-572b2aa59168",
+  "account_type" : "DEBIT",
+  "balance" : 1104.7907782183686
+}, {
+  "id" : 676,
+  "client_id" : "34b6fa13-deb7-4225-a5a1-919dad44a0ca",
+  "account_type" : "DEBIT",
+  "balance" : 1992.2947178617633
+}, {
+  "id" : 677,
+  "client_id" : "4a9d9fc5-9e36-49a3-9bfc-3da38255ef52",
+  "account_type" : "DEBIT",
+  "balance" : 754.245186810244
+}, {
+  "id" : 678,
+  "client_id" : "9b7c9148-06c6-46ef-a604-5098c9ac348a",
+  "account_type" : "DEBIT",
+  "balance" : 5983.497578388675
+}, {
+  "id" : 679,
+  "client_id" : "faa00133-460d-4cfd-b21b-45bc1c5464c5",
+  "account_type" : "CREDIT",
+  "balance" : 2277.601298981109
+}, {
+  "id" : 680,
+  "client_id" : "109a6d09-0cc6-41e4-ae0e-2d51033ba460",
+  "account_type" : "DEBIT",
+  "balance" : 5957.782461485573
+}, {
+  "id" : 681,
+  "client_id" : "a3e75573-8b79-44b6-bef0-49d0975f6644",
+  "account_type" : "CREDIT",
+  "balance" : 332.8216281266771
+}, {
+  "id" : 682,
+  "client_id" : "c0ca0f99-fd74-47dd-a421-ffc054ba98c7",
+  "account_type" : "CREDIT",
+  "balance" : 410.252240627631
+}, {
+  "id" : 683,
+  "client_id" : "c05bfc3b-5b10-4317-b85c-7daac030924e",
+  "account_type" : "CREDIT",
+  "balance" : 5518.406045793578
+}, {
+  "id" : 684,
+  "client_id" : "43bcd847-4a96-4554-b2e8-c6d499d1cd01",
+  "account_type" : "DEBIT",
+  "balance" : 1570.9952521894177
+}, {
+  "id" : 685,
+  "client_id" : "a66c60cf-6fb6-4aff-96ef-254b683641ee",
+  "account_type" : "DEBIT",
+  "balance" : 7452.901532196782
+}, {
+  "id" : 686,
+  "client_id" : "0e417e12-e551-4d13-9725-a79807743977",
+  "account_type" : "DEBIT",
+  "balance" : 1196.8376423173354
+}, {
+  "id" : 687,
+  "client_id" : "7bc5c6bc-24fe-4340-96d5-ef65c32930fb",
+  "account_type" : "DEBIT",
+  "balance" : 3134.7089059626787
+}, {
+  "id" : 688,
+  "client_id" : "afea2f12-87ed-422d-8fd1-76c943bbb6b0",
+  "account_type" : "DEBIT",
+  "balance" : 2118.3049060757075
+}, {
+  "id" : 689,
+  "client_id" : "cfe390d5-9bdb-4ffb-bf69-2290b774a7c1",
+  "account_type" : "DEBIT",
+  "balance" : 3846.4775514581715
+}, {
+  "id" : 690,
+  "client_id" : "fe55fa37-044e-4a23-862b-9060f70cc7a7",
+  "account_type" : "DEBIT",
+  "balance" : 2150.2968522362885
+}, {
+  "id" : 691,
+  "client_id" : "feb50c30-334a-413f-a182-f2d99e89052e",
+  "account_type" : "DEBIT",
+  "balance" : 2499.5071306368677
+}, {
+  "id" : 692,
+  "client_id" : "39bda403-d528-49a8-be13-6e43c16530a6",
+  "account_type" : "CREDIT",
+  "balance" : 5493.455449310899
+}, {
+  "id" : 693,
+  "client_id" : "fdbbaeb3-ffb7-48ca-aea7-bf9cad697784",
+  "account_type" : "CREDIT",
+  "balance" : 4541.472877541553
+}, {
+  "id" : 694,
+  "client_id" : "291d9f45-4238-4dba-8424-c865827a295d",
+  "account_type" : "DEBIT",
+  "balance" : 5328.567391534685
+}, {
+  "id" : 695,
+  "client_id" : "2a4b66ca-3125-468a-b0c5-37fd3e1c7c96",
+  "account_type" : "CREDIT",
+  "balance" : 8559.834409710907
+}, {
+  "id" : 696,
+  "client_id" : "11565020-5f0b-4fe4-b0e4-50fc1202f17c",
+  "account_type" : "DEBIT",
+  "balance" : 9471.230333491429
+}, {
+  "id" : 697,
+  "client_id" : "678e16e7-4f1e-492a-874b-4e1ad1462743",
+  "account_type" : "CREDIT",
+  "balance" : 8544.80004575848
+}, {
+  "id" : 698,
+  "client_id" : "e0c59759-af3a-428c-92b7-0ac03223c8a1",
+  "account_type" : "DEBIT",
+  "balance" : 7077.66940314127
+}, {
+  "id" : 699,
+  "client_id" : "18af8530-c53b-4c1b-9fd6-09a1e98e3a95",
+  "account_type" : "CREDIT",
+  "balance" : 3816.3079238618734
+}, {
+  "id" : 700,
+  "client_id" : "1d734528-30a0-432e-9763-95f30621adab",
+  "account_type" : "DEBIT",
+  "balance" : 4206.801905585403
+}, {
+  "id" : 701,
+  "client_id" : "f3ebfa56-42d7-4a69-8c21-a672309a80b5",
+  "account_type" : "CREDIT",
+  "balance" : 8432.306600802161
+}, {
+  "id" : 702,
+  "client_id" : "4322e409-eea3-4627-92ce-673a260f457b",
+  "account_type" : "DEBIT",
+  "balance" : 9210.859801353094
+}, {
+  "id" : 703,
+  "client_id" : "eea834dd-b858-48ef-ba44-57482c362611",
+  "account_type" : "DEBIT",
+  "balance" : 5652.025204923844
+}, {
+  "id" : 704,
+  "client_id" : "836ccd17-5afa-4e45-ac4a-5a8b96564770",
+  "account_type" : "CREDIT",
+  "balance" : 9314.114434209412
+}, {
+  "id" : 705,
+  "client_id" : "8e1bc750-40bc-40f2-81b4-6359749b6968",
+  "account_type" : "CREDIT",
+  "balance" : 3735.267566811553
+}, {
+  "id" : 706,
+  "client_id" : "0da49a38-42d4-42c0-a626-9a2e8c95fb30",
+  "account_type" : "DEBIT",
+  "balance" : 9749.853712211703
+}, {
+  "id" : 707,
+  "client_id" : "c046bb86-9408-4b9c-9518-946e9eceea41",
+  "account_type" : "DEBIT",
+  "balance" : 8516.610374127971
+}, {
+  "id" : 708,
+  "client_id" : "df7de65a-3d69-4974-9374-71bb40beedc6",
+  "account_type" : "CREDIT",
+  "balance" : 3327.737847981528
+}, {
+  "id" : 709,
+  "client_id" : "a37d0e28-0419-4707-9edb-fe3b28540cb6",
+  "account_type" : "DEBIT",
+  "balance" : 3449.0638543370455
+}, {
+  "id" : 710,
+  "client_id" : "83a83e66-a3dc-4ef9-90e7-63e04e138edc",
+  "account_type" : "DEBIT",
+  "balance" : 7381.217602430223
+}, {
+  "id" : 711,
+  "client_id" : "ebc3ce4f-21cb-4778-8b2c-f87332d1b0a2",
+  "account_type" : "DEBIT",
+  "balance" : 8622.454210203123
+}, {
+  "id" : 712,
+  "client_id" : "5e3bf6c0-fe61-4525-83dc-3dd0fc3c2977",
+  "account_type" : "CREDIT",
+  "balance" : 4987.193011821511
+}, {
+  "id" : 713,
+  "client_id" : "3160dfa1-0762-4123-9c92-c3a2af8503eb",
+  "account_type" : "DEBIT",
+  "balance" : 9509.038981613281
+}, {
+  "id" : 714,
+  "client_id" : "4100780d-2978-42e9-a4b4-34af1636895e",
+  "account_type" : "DEBIT",
+  "balance" : 3979.748184632449
+}, {
+  "id" : 715,
+  "client_id" : "7cd2d91f-2b01-4d54-beb2-fb61449d4d38",
+  "account_type" : "DEBIT",
+  "balance" : 127.83477005201772
+}, {
+  "id" : 716,
+  "client_id" : "dce66d9b-3fc7-400f-a9a0-a26c0d1b6821",
+  "account_type" : "DEBIT",
+  "balance" : 2907.416941129728
+}, {
+  "id" : 717,
+  "client_id" : "c6a1d80e-ec77-4fa0-869b-218bd292464d",
+  "account_type" : "CREDIT",
+  "balance" : 5183.216758279995
+}, {
+  "id" : 718,
+  "client_id" : "7f866cca-172a-4a9a-863a-81a1e37c1455",
+  "account_type" : "DEBIT",
+  "balance" : 68.57161619703844
+}, {
+  "id" : 719,
+  "client_id" : "2abfac62-3b98-4162-a18b-c2af13dddeca",
+  "account_type" : "CREDIT",
+  "balance" : 7751.944086076116
+}, {
+  "id" : 720,
+  "client_id" : "995d00cc-5b47-416f-827a-bb64b7f29278",
+  "account_type" : "DEBIT",
+  "balance" : 3839.2168860403076
+}, {
+  "id" : 721,
+  "client_id" : "50ea11e5-da58-4913-aa67-c6130d9ad98b",
+  "account_type" : "CREDIT",
+  "balance" : 5617.265060599679
+}, {
+  "id" : 722,
+  "client_id" : "ae348920-5280-4ef7-b2cf-c06777128bfe",
+  "account_type" : "DEBIT",
+  "balance" : 1745.1019418039948
+}, {
+  "id" : 723,
+  "client_id" : "8fbe53d8-7a08-4cdc-b2c5-8fa3c5e44b93",
+  "account_type" : "DEBIT",
+  "balance" : 2219.983248666844
+}, {
+  "id" : 724,
+  "client_id" : "53433c07-9de1-4007-a101-f90d8b93ebd4",
+  "account_type" : "CREDIT",
+  "balance" : 123.37266457603025
+}, {
+  "id" : 725,
+  "client_id" : "db6d0b6f-cbed-410b-9625-d520220021c2",
+  "account_type" : "CREDIT",
+  "balance" : 6423.300391145159
+}, {
+  "id" : 726,
+  "client_id" : "be259896-4abc-4bcf-a027-67636ac40fba",
+  "account_type" : "CREDIT",
+  "balance" : 2693.88582755131
+}, {
+  "id" : 727,
+  "client_id" : "b5958e18-524e-4fab-8d93-d54444a335ad",
+  "account_type" : "DEBIT",
+  "balance" : 2546.232723345474
+}, {
+  "id" : 728,
+  "client_id" : "08eed150-d499-4eec-90ae-9e971ec8f26c",
+  "account_type" : "CREDIT",
+  "balance" : 6064.407545295667
+}, {
+  "id" : 729,
+  "client_id" : "520f3848-be21-4db2-a445-e089c6a26a89",
+  "account_type" : "CREDIT",
+  "balance" : 5513.99718588579
+}, {
+  "id" : 730,
+  "client_id" : "58c4171b-7825-4f87-aeb4-089849c426e0",
+  "account_type" : "DEBIT",
+  "balance" : 7691.528529609702
+}, {
+  "id" : 731,
+  "client_id" : "70e30d7a-72c0-4138-af3e-9fe436ae3f29",
+  "account_type" : "CREDIT",
+  "balance" : 5946.953114265574
+}, {
+  "id" : 732,
+  "client_id" : "cc7d41a2-df25-416a-88fb-a4522d974a96",
+  "account_type" : "DEBIT",
+  "balance" : 6976.570479721174
+}, {
+  "id" : 733,
+  "client_id" : "a95319a6-64c6-4b34-afc8-26e9f7b6ab72",
+  "account_type" : "CREDIT",
+  "balance" : 2224.0001252145303
+}, {
+  "id" : 734,
+  "client_id" : "468ed11e-cffa-4b1e-9c51-07e45c46cb3c",
+  "account_type" : "DEBIT",
+  "balance" : 1213.8191009579025
+}, {
+  "id" : 735,
+  "client_id" : "c10c9ec8-067f-4c9f-a772-6282b37839bf",
+  "account_type" : "CREDIT",
+  "balance" : 9994.433146912621
+}, {
+  "id" : 736,
+  "client_id" : "54af1a3d-3237-43c6-853a-cada21983448",
+  "account_type" : "CREDIT",
+  "balance" : 6485.6641918115765
+}, {
+  "id" : 737,
+  "client_id" : "6981e1c6-7eea-4cd3-be5c-276c2f1ae55f",
+  "account_type" : "DEBIT",
+  "balance" : 1102.4977808472393
+}, {
+  "id" : 738,
+  "client_id" : "c339ec32-2ae8-49ec-893d-50f7e50632f9",
+  "account_type" : "DEBIT",
+  "balance" : 6078.154271547563
+}, {
+  "id" : 739,
+  "client_id" : "2d74ffa7-2b72-4651-a074-4b6e1f2f943c",
+  "account_type" : "DEBIT",
+  "balance" : 7683.568868029869
+}, {
+  "id" : 740,
+  "client_id" : "36b8e49e-080c-464b-9a7c-3fe5e3291eb4",
+  "account_type" : "DEBIT",
+  "balance" : 9425.159432541066
+}, {
+  "id" : 741,
+  "client_id" : "6372f0ee-65c7-4d05-accf-7ab4ba5d10ea",
+  "account_type" : "DEBIT",
+  "balance" : 9168.476124871271
+}, {
+  "id" : 742,
+  "client_id" : "c19d0869-fcdc-4e51-8a33-cab221e3a751",
+  "account_type" : "CREDIT",
+  "balance" : 7661.3888658075775
+}, {
+  "id" : 743,
+  "client_id" : "af27748b-cbcd-479f-8aa6-01c6cecbbe91",
+  "account_type" : "CREDIT",
+  "balance" : 9431.85334292307
+}, {
+  "id" : 744,
+  "client_id" : "50bb7376-077f-461c-8c05-3ce773a8567d",
+  "account_type" : "CREDIT",
+  "balance" : 3181.422733028064
+}, {
+  "id" : 745,
+  "client_id" : "d2635a91-7355-462a-9962-b5dd5ff60292",
+  "account_type" : "DEBIT",
+  "balance" : 9551.835247518442
+}, {
+  "id" : 746,
+  "client_id" : "3bb185c0-ebab-4216-8f0b-8874ae6768da",
+  "account_type" : "CREDIT",
+  "balance" : 2259.1038251116847
+}, {
+  "id" : 747,
+  "client_id" : "cbcb26c0-422d-49d6-953f-e7696e86c092",
+  "account_type" : "CREDIT",
+  "balance" : 4065.160288345158
+}, {
+  "id" : 748,
+  "client_id" : "f53fe0f7-0115-4a1d-b980-4f108aec9658",
+  "account_type" : "DEBIT",
+  "balance" : 7677.521628103351
+}, {
+  "id" : 749,
+  "client_id" : "28f5988c-cb91-47f2-bc29-f073946b873e",
+  "account_type" : "CREDIT",
+  "balance" : 9551.162303979518
+}, {
+  "id" : 750,
+  "client_id" : "6d571d7a-f226-4ac5-bf4d-9a260aabc471",
+  "account_type" : "DEBIT",
+  "balance" : 7200.4663733220705
+}, {
+  "id" : 751,
+  "client_id" : "36922330-f365-4cfe-b41d-497acab8d13a",
+  "account_type" : "CREDIT",
+  "balance" : 5791.534149713992
+}, {
+  "id" : 752,
+  "client_id" : "0018836b-c81d-4697-bf89-d435e6f5769e",
+  "account_type" : "CREDIT",
+  "balance" : 8113.335912953321
+}, {
+  "id" : 753,
+  "client_id" : "3245b61d-dee6-4ce7-8e81-008445dd7ebf",
+  "account_type" : "DEBIT",
+  "balance" : 1568.2216249197756
+}, {
+  "id" : 754,
+  "client_id" : "26bb7510-e876-4fc1-9522-3b749a7c1d6c",
+  "account_type" : "CREDIT",
+  "balance" : 1975.6669264736804
+}, {
+  "id" : 755,
+  "client_id" : "1a5c6eaf-fffd-42d8-bbc8-b865a810a65b",
+  "account_type" : "DEBIT",
+  "balance" : 5613.460583263398
+}, {
+  "id" : 756,
+  "client_id" : "c83a3127-2388-4151-bb54-bc246fee3944",
+  "account_type" : "DEBIT",
+  "balance" : 9095.725642053976
+}, {
+  "id" : 757,
+  "client_id" : "5159d302-c4a3-485d-ba35-9ae000ce90bf",
+  "account_type" : "DEBIT",
+  "balance" : 4069.6003486190502
+}, {
+  "id" : 758,
+  "client_id" : "330b16f9-13aa-4671-88ee-027417c91a8c",
+  "account_type" : "DEBIT",
+  "balance" : 5911.332784521416
+}, {
+  "id" : 759,
+  "client_id" : "4f1fb071-20a0-4d2a-8f8f-8f169d0bb34c",
+  "account_type" : "DEBIT",
+  "balance" : 2999.571422348721
+}, {
+  "id" : 760,
+  "client_id" : "018b1c32-60db-409b-90c6-c9f13796e469",
+  "account_type" : "CREDIT",
+  "balance" : 9609.199671601955
+}, {
+  "id" : 761,
+  "client_id" : "0630db01-60e6-4f73-bd2f-02dcb41c20af",
+  "account_type" : "DEBIT",
+  "balance" : 710.6349294316327
+}, {
+  "id" : 762,
+  "client_id" : "2713b613-7399-47d6-b4f9-ec10590e3a6a",
+  "account_type" : "CREDIT",
+  "balance" : 8853.12111344525
+}, {
+  "id" : 763,
+  "client_id" : "b652fc79-2fac-4a69-bc8d-6d2060c2844e",
+  "account_type" : "DEBIT",
+  "balance" : 8697.054570821092
+}, {
+  "id" : 764,
+  "client_id" : "45aebd79-304b-45b8-924c-d77ee0ca7528",
+  "account_type" : "DEBIT",
+  "balance" : 5326.516632236568
+}, {
+  "id" : 765,
+  "client_id" : "5c4eb084-73c1-4cbd-8167-222550ad499f",
+  "account_type" : "DEBIT",
+  "balance" : 6662.697690297005
+}, {
+  "id" : 766,
+  "client_id" : "26932b8a-4120-48be-8f1a-0da2aa841fea",
+  "account_type" : "DEBIT",
+  "balance" : 7362.405965107733
+}, {
+  "id" : 767,
+  "client_id" : "f34b16cd-dbdc-4dc6-a64a-9c91d02fda0a",
+  "account_type" : "DEBIT",
+  "balance" : 8927.495795221466
+}, {
+  "id" : 768,
+  "client_id" : "63f54a0c-93b8-4d0f-bd9b-b57dcd1d1546",
+  "account_type" : "DEBIT",
+  "balance" : 4690.327795732673
+}, {
+  "id" : 769,
+  "client_id" : "9545711c-130d-4a59-9e12-dfc0e8bdf370",
+  "account_type" : "CREDIT",
+  "balance" : 5732.839793115191
+}, {
+  "id" : 770,
+  "client_id" : "41e59f8d-0fb5-44fa-b4c6-01ce2533746c",
+  "account_type" : "CREDIT",
+  "balance" : 3552.8419077452036
+}, {
+  "id" : 771,
+  "client_id" : "10a08e89-b08b-4634-8734-871216a3f221",
+  "account_type" : "DEBIT",
+  "balance" : 8826.562344102582
+}, {
+  "id" : 772,
+  "client_id" : "6ddb22fa-e0cc-4de3-b286-f0acdc2fe21c",
+  "account_type" : "DEBIT",
+  "balance" : 3880.4801061861804
+}, {
+  "id" : 773,
+  "client_id" : "4d6eda26-35b9-4b2a-9a1a-7a9dc4aa064f",
+  "account_type" : "DEBIT",
+  "balance" : 2369.131264155263
+}, {
+  "id" : 774,
+  "client_id" : "23612009-24d2-4df2-96e1-bea2a4b2e9ec",
+  "account_type" : "CREDIT",
+  "balance" : 5798.647585540542
+}, {
+  "id" : 775,
+  "client_id" : "84eb7a5a-b7bc-46a0-b21f-5b162a97b07e",
+  "account_type" : "CREDIT",
+  "balance" : 2660.6761162633697
+}, {
+  "id" : 776,
+  "client_id" : "4ebff31d-804a-4425-a24a-e2f3e695f0ec",
+  "account_type" : "DEBIT",
+  "balance" : 804.8341504607704
+}, {
+  "id" : 777,
+  "client_id" : "2fa082fa-dc85-4388-9cf3-071eb7f88c88",
+  "account_type" : "DEBIT",
+  "balance" : 2514.003270284325
+}, {
+  "id" : 778,
+  "client_id" : "3c7b1b7b-c3d1-4639-9c6a-a817d226b55b",
+  "account_type" : "DEBIT",
+  "balance" : 7024.455804172075
+}, {
+  "id" : 779,
+  "client_id" : "8087d566-a5a7-452d-b4e6-078a757594d1",
+  "account_type" : "DEBIT",
+  "balance" : 6224.191644486856
+}, {
+  "id" : 780,
+  "client_id" : "40d4119f-bb47-4388-8e83-7a6126aebe0b",
+  "account_type" : "DEBIT",
+  "balance" : 1421.0379225199054
+}, {
+  "id" : 781,
+  "client_id" : "d7aa51da-3a7d-4865-bfe8-387a0c8f5c02",
+  "account_type" : "CREDIT",
+  "balance" : 3503.4383272546156
+}, {
+  "id" : 782,
+  "client_id" : "550c15d0-c70f-4b8a-b039-dfb84c4cdd61",
+  "account_type" : "DEBIT",
+  "balance" : 4490.041700179134
+}, {
+  "id" : 783,
+  "client_id" : "0c525377-4db2-4945-8704-8c014256d830",
+  "account_type" : "DEBIT",
+  "balance" : 3874.9263254302823
+}, {
+  "id" : 784,
+  "client_id" : "d17520ab-6b27-474b-b9b7-a54329074220",
+  "account_type" : "CREDIT",
+  "balance" : 1538.0515945075424
+}, {
+  "id" : 785,
+  "client_id" : "01745323-6ab3-4e4d-96db-fb12a2cf86dd",
+  "account_type" : "DEBIT",
+  "balance" : 8907.677867127593
+}, {
+  "id" : 786,
+  "client_id" : "e4eb8fe6-c5bd-4a5e-a652-218b68d45330",
+  "account_type" : "CREDIT",
+  "balance" : 5234.444892262544
+}, {
+  "id" : 787,
+  "client_id" : "6764e2ae-dcd5-402c-96bc-96fe6ee05e5b",
+  "account_type" : "CREDIT",
+  "balance" : 7234.251271916721
+}, {
+  "id" : 788,
+  "client_id" : "ed5e988c-85bd-4306-8fbc-cdd611955155",
+  "account_type" : "DEBIT",
+  "balance" : 1503.4529965806387
+}, {
+  "id" : 789,
+  "client_id" : "7655294f-e21d-4ef8-8c49-09329f4f4403",
+  "account_type" : "DEBIT",
+  "balance" : 1058.6744753116661
+}, {
+  "id" : 790,
+  "client_id" : "2a45d0f1-9498-49ca-890e-e3d962601eff",
+  "account_type" : "CREDIT",
+  "balance" : 9433.93695907384
+}, {
+  "id" : 791,
+  "client_id" : "49612dca-f0eb-46cc-b26c-9b18d83dece2",
+  "account_type" : "CREDIT",
+  "balance" : 2834.1930955117577
+}, {
+  "id" : 792,
+  "client_id" : "97bae412-4428-4bc5-a5db-d07195d3282d",
+  "account_type" : "CREDIT",
+  "balance" : 9318.581945524691
+}, {
+  "id" : 793,
+  "client_id" : "3cf1d6f9-2f49-4611-b11f-33ea723413dd",
+  "account_type" : "CREDIT",
+  "balance" : 4794.003480738991
+}, {
+  "id" : 794,
+  "client_id" : "c95a7ca6-9be3-409c-bf44-bf2b2feb24e4",
+  "account_type" : "DEBIT",
+  "balance" : 3616.746149587644
+}, {
+  "id" : 795,
+  "client_id" : "fd47f139-1e80-470a-b93f-3202f8bd0231",
+  "account_type" : "CREDIT",
+  "balance" : 2455.664761447456
+}, {
+  "id" : 796,
+  "client_id" : "26163e58-4000-4808-aeaa-5747a026989a",
+  "account_type" : "CREDIT",
+  "balance" : 3420.0281276709666
+}, {
+  "id" : 797,
+  "client_id" : "ede22176-410f-4cca-a67e-e39ef361a4a5",
+  "account_type" : "DEBIT",
+  "balance" : 7043.337198167877
+}, {
+  "id" : 798,
+  "client_id" : "e7899f07-8f01-4383-bc6f-adc8e295498e",
+  "account_type" : "CREDIT",
+  "balance" : 1192.9256507346997
+}, {
+  "id" : 799,
+  "client_id" : "5bcb7f62-6645-4ee4-928c-29e58d71d4fa",
+  "account_type" : "CREDIT",
+  "balance" : 7930.403508472289
+}, {
+  "id" : 800,
+  "client_id" : "c427a6b1-7c6c-404c-bffd-0e9dd91af04c",
+  "account_type" : "DEBIT",
+  "balance" : 23.234311271133066
+}, {
+  "id" : 801,
+  "client_id" : "8a156bb4-8449-4bc5-9fce-ea9dd78dace7",
+  "account_type" : "CREDIT",
+  "balance" : 762.5550718445528
+}, {
+  "id" : 802,
+  "client_id" : "a666710d-03ee-46a1-86a7-82ee5d7ba55d",
+  "account_type" : "DEBIT",
+  "balance" : 6297.528577965265
+}, {
+  "id" : 803,
+  "client_id" : "bf0ac98f-9001-46bb-8211-7c5bf2ed8382",
+  "account_type" : "CREDIT",
+  "balance" : 4479.483731753622
+}, {
+  "id" : 804,
+  "client_id" : "a979796a-1153-401f-84df-6542cd735728",
+  "account_type" : "CREDIT",
+  "balance" : 1161.2046324205548
+}, {
+  "id" : 805,
+  "client_id" : "7cb4cbf3-6488-4963-bb17-30a60151a547",
+  "account_type" : "DEBIT",
+  "balance" : 9446.586170534389
+}, {
+  "id" : 806,
+  "client_id" : "18e42f52-6a74-4ec1-b305-4e2b257f93c2",
+  "account_type" : "CREDIT",
+  "balance" : 1175.3280076519611
+}, {
+  "id" : 807,
+  "client_id" : "45e6d4fb-8c54-4886-bfb8-cc3e22131bfc",
+  "account_type" : "DEBIT",
+  "balance" : 5782.2625778448855
+}, {
+  "id" : 808,
+  "client_id" : "b6254a16-ed75-464c-ae1e-9a88eb476491",
+  "account_type" : "DEBIT",
+  "balance" : 9706.378678119081
+}, {
+  "id" : 809,
+  "client_id" : "f28866d2-162b-4c75-a1ce-991895247b89",
+  "account_type" : "DEBIT",
+  "balance" : 2183.348291958388
+}, {
+  "id" : 810,
+  "client_id" : "cac3f7fa-e52d-4c12-ae0f-946ebafb8283",
+  "account_type" : "CREDIT",
+  "balance" : 7890.476808502688
+}, {
+  "id" : 811,
+  "client_id" : "64f3ccc7-197f-4d32-b5c4-8949af0fdcb6",
+  "account_type" : "CREDIT",
+  "balance" : 4803.845451491293
+}, {
+  "id" : 812,
+  "client_id" : "3c86f596-649c-453a-b2f8-c9bb310b1708",
+  "account_type" : "CREDIT",
+  "balance" : 2293.28241004359
+}, {
+  "id" : 813,
+  "client_id" : "c16877b4-917e-4562-9840-2f3e1dd1fb6f",
+  "account_type" : "CREDIT",
+  "balance" : 4699.623487973491
+}, {
+  "id" : 814,
+  "client_id" : "adf183ea-9211-40e9-bbce-a5b84d72c57a",
+  "account_type" : "CREDIT",
+  "balance" : 3128.2424921530637
+}, {
+  "id" : 815,
+  "client_id" : "d24ee68e-71ab-4f46-b55b-12027228f8cc",
+  "account_type" : "CREDIT",
+  "balance" : 6692.981234937414
+}, {
+  "id" : 816,
+  "client_id" : "5c2e22f4-36d6-4060-bc94-ce1ab6d60f18",
+  "account_type" : "DEBIT",
+  "balance" : 2439.0045883924004
+}, {
+  "id" : 817,
+  "client_id" : "6a277028-6601-4a37-9ba7-e315dbadf3e2",
+  "account_type" : "DEBIT",
+  "balance" : 941.0833735182
+}, {
+  "id" : 818,
+  "client_id" : "e2b5b0ee-e25b-4361-b55e-a5191b3b44e9",
+  "account_type" : "CREDIT",
+  "balance" : 4340.546422423363
+}, {
+  "id" : 819,
+  "client_id" : "5cb2dfc5-d582-4f00-a22d-ff9f4c934a2d",
+  "account_type" : "CREDIT",
+  "balance" : 875.781161913567
+}, {
+  "id" : 820,
+  "client_id" : "520b0673-81a0-4844-89f7-255213e28e05",
+  "account_type" : "CREDIT",
+  "balance" : 5781.994680462515
+}, {
+  "id" : 821,
+  "client_id" : "acb2dcc3-b05e-487c-8288-1cc0d16f55e5",
+  "account_type" : "CREDIT",
+  "balance" : 2862.4145195796723
+}, {
+  "id" : 822,
+  "client_id" : "49a7cacd-30c4-4468-8229-77bc44448d8c",
+  "account_type" : "DEBIT",
+  "balance" : 6013.508691087694
+}, {
+  "id" : 823,
+  "client_id" : "c92c9f05-e118-4810-adce-c777b4847162",
+  "account_type" : "CREDIT",
+  "balance" : 5737.63311441821
+}, {
+  "id" : 824,
+  "client_id" : "f3895c72-554e-4254-bc2b-ad35ddb0465d",
+  "account_type" : "DEBIT",
+  "balance" : 440.0399830897139
+}, {
+  "id" : 825,
+  "client_id" : "2a7d651f-7969-4f72-adfd-69960fd0fe6d",
+  "account_type" : "DEBIT",
+  "balance" : 4812.793537477201
+}, {
+  "id" : 826,
+  "client_id" : "1d15bde5-7c50-4637-9e9d-34628012ad56",
+  "account_type" : "CREDIT",
+  "balance" : 3913.2956449837884
+}, {
+  "id" : 827,
+  "client_id" : "8e254ead-4b7a-49e8-a6b4-3362b606dd6d",
+  "account_type" : "CREDIT",
+  "balance" : 273.7243290980651
+}, {
+  "id" : 828,
+  "client_id" : "ee70cb49-0e9c-4115-8fbc-5e87c5cc23be",
+  "account_type" : "CREDIT",
+  "balance" : 5457.191336545863
+}, {
+  "id" : 829,
+  "client_id" : "3ffcb92b-e3f6-49e6-91fc-c841ab3c98d3",
+  "account_type" : "DEBIT",
+  "balance" : 8313.768572185258
+}, {
+  "id" : 830,
+  "client_id" : "4dcc74b6-9f13-42ef-9aaa-d4e05a1110b5",
+  "account_type" : "CREDIT",
+  "balance" : 774.8238849978218
+}, {
+  "id" : 831,
+  "client_id" : "e2b02621-9448-4ec8-a4a1-b464360b8b44",
+  "account_type" : "DEBIT",
+  "balance" : 6909.028415957804
+}, {
+  "id" : 832,
+  "client_id" : "36939cf5-2cfd-4835-9079-c98df43fe2a6",
+  "account_type" : "DEBIT",
+  "balance" : 3317.2541777221477
+}, {
+  "id" : 833,
+  "client_id" : "ee731f53-65ed-4de8-96de-b4aea43c4ed7",
+  "account_type" : "CREDIT",
+  "balance" : 4361.639217625413
+}, {
+  "id" : 834,
+  "client_id" : "fa37f3b0-0fbb-4a9d-8966-713bd2b9af18",
+  "account_type" : "DEBIT",
+  "balance" : 9983.546229913594
+}, {
+  "id" : 835,
+  "client_id" : "97a509e1-db69-44c2-97cc-0724e516ac52",
+  "account_type" : "CREDIT",
+  "balance" : 9796.5334468525
+}, {
+  "id" : 836,
+  "client_id" : "5afb5ba6-a9e5-4408-9cb1-f3f541c5da73",
+  "account_type" : "CREDIT",
+  "balance" : 1917.3966066260507
+}, {
+  "id" : 837,
+  "client_id" : "c8c64ff8-0acc-41f0-8389-502911f468ec",
+  "account_type" : "DEBIT",
+  "balance" : 3459.1222343392124
+}, {
+  "id" : 838,
+  "client_id" : "34d3ee9e-7696-4820-93cf-1e40284e61a9",
+  "account_type" : "CREDIT",
+  "balance" : 779.6436117846716
+}, {
+  "id" : 839,
+  "client_id" : "b41d2c8f-8631-4edc-8f24-6476effdf2cd",
+  "account_type" : "CREDIT",
+  "balance" : 4596.705499931377
+}, {
+  "id" : 840,
+  "client_id" : "d26487a1-6ab2-4112-8c8a-6ea95114c60e",
+  "account_type" : "CREDIT",
+  "balance" : 2307.3295553718453
+}, {
+  "id" : 841,
+  "client_id" : "88b742f9-fc83-44c9-93d3-8d152692ba25",
+  "account_type" : "CREDIT",
+  "balance" : 9299.668445739928
+}, {
+  "id" : 842,
+  "client_id" : "1de0b4f3-ba2b-465c-b951-8a11416665b3",
+  "account_type" : "DEBIT",
+  "balance" : 3771.254949508446
+}, {
+  "id" : 843,
+  "client_id" : "f65b4948-840c-4ab3-90a1-6a84964f6ba6",
+  "account_type" : "CREDIT",
+  "balance" : 2664.2857801952114
+}, {
+  "id" : 844,
+  "client_id" : "640c768e-a16b-49f7-94b8-09297dcdc8e2",
+  "account_type" : "DEBIT",
+  "balance" : 214.02398715422265
+}, {
+  "id" : 845,
+  "client_id" : "d8dc4ece-1bbb-4447-bd14-e791d9826953",
+  "account_type" : "DEBIT",
+  "balance" : 4894.196165279232
+}, {
+  "id" : 846,
+  "client_id" : "e533ea52-6240-420b-8c3d-fbe4f5d3a750",
+  "account_type" : "DEBIT",
+  "balance" : 3932.385235789586
+}, {
+  "id" : 847,
+  "client_id" : "77ea4574-a247-4077-996c-bfe844e14bee",
+  "account_type" : "CREDIT",
+  "balance" : 3206.8385928403577
+}, {
+  "id" : 848,
+  "client_id" : "9c3c7d19-4d4f-4548-b455-0898c0c8e041",
+  "account_type" : "DEBIT",
+  "balance" : 7914.459019220271
+}, {
+  "id" : 849,
+  "client_id" : "d70aa362-4be9-4cf9-b9d8-0260798f0063",
+  "account_type" : "DEBIT",
+  "balance" : 539.9393359401095
+}, {
+  "id" : 850,
+  "client_id" : "76772959-6fb6-490e-9c52-1870f741b3eb",
+  "account_type" : "CREDIT",
+  "balance" : 7604.130695243246
+}, {
+  "id" : 851,
+  "client_id" : "e2d6e0fc-359d-4205-86c3-47d3391e7c1e",
+  "account_type" : "CREDIT",
+  "balance" : 7163.057358443722
+}, {
+  "id" : 852,
+  "client_id" : "24b58c0c-69e3-40fd-ad76-a48a277adafa",
+  "account_type" : "CREDIT",
+  "balance" : 3633.546876244458
+}, {
+  "id" : 853,
+  "client_id" : "cb520dce-5a14-48f7-b054-9cb1207a757f",
+  "account_type" : "CREDIT",
+  "balance" : 574.0232972533521
+}, {
+  "id" : 854,
+  "client_id" : "7d2ba969-71af-442c-993d-4006eb1e44f7",
+  "account_type" : "DEBIT",
+  "balance" : 3605.8507503687943
+}, {
+  "id" : 855,
+  "client_id" : "44b0d395-7850-4acd-b711-418541c047c7",
+  "account_type" : "CREDIT",
+  "balance" : 1951.566575926147
+}, {
+  "id" : 856,
+  "client_id" : "49d521ce-7fa1-490b-ba15-bc6ea140765c",
+  "account_type" : "CREDIT",
+  "balance" : 5294.082979556436
+}, {
+  "id" : 857,
+  "client_id" : "29a103eb-2801-4ea9-a59e-e1febfc378f7",
+  "account_type" : "DEBIT",
+  "balance" : 613.4831811628417
+}, {
+  "id" : 858,
+  "client_id" : "7276a379-0c11-41c8-9d38-04aabc94ca9c",
+  "account_type" : "DEBIT",
+  "balance" : 7655.662495789953
+}, {
+  "id" : 859,
+  "client_id" : "869a914f-149b-4c93-8307-87e84b944c5e",
+  "account_type" : "CREDIT",
+  "balance" : 4880.358989701866
+}, {
+  "id" : 860,
+  "client_id" : "3007f0d5-08fb-4e3e-9f24-04ce67bdbd85",
+  "account_type" : "CREDIT",
+  "balance" : 5311.9392521330265
+}, {
+  "id" : 861,
+  "client_id" : "30e871ee-8368-42ca-8c38-cb95b9776873",
+  "account_type" : "DEBIT",
+  "balance" : 2835.680528440435
+}, {
+  "id" : 862,
+  "client_id" : "79174972-50e7-4c27-b7aa-c2800d0a8f4c",
+  "account_type" : "CREDIT",
+  "balance" : 5625.665900524252
+}, {
+  "id" : 863,
+  "client_id" : "74343324-65e1-4ee0-a14e-b12bc5257e00",
+  "account_type" : "CREDIT",
+  "balance" : 7744.447662205042
+}, {
+  "id" : 864,
+  "client_id" : "d59e670a-27dc-4fea-9be3-b3406763e495",
+  "account_type" : "DEBIT",
+  "balance" : 1113.15358922094
+}, {
+  "id" : 865,
+  "client_id" : "40d5abef-cd3c-40bd-b79f-2e52789a4794",
+  "account_type" : "CREDIT",
+  "balance" : 3769.161179301942
+}, {
+  "id" : 866,
+  "client_id" : "5ae70462-a20f-410d-a7f8-2abad6ba8e35",
+  "account_type" : "DEBIT",
+  "balance" : 9413.870857743828
+}, {
+  "id" : 867,
+  "client_id" : "9878bc39-cc6c-4771-8217-f1063eb480b9",
+  "account_type" : "CREDIT",
+  "balance" : 6179.845839740965
+}, {
+  "id" : 868,
+  "client_id" : "8742ec6b-5f9f-4dd8-956e-b20cc940d8f1",
+  "account_type" : "CREDIT",
+  "balance" : 9269.21471204435
+}, {
+  "id" : 869,
+  "client_id" : "0029a863-54a2-4962-aa0d-844dcddcfd5b",
+  "account_type" : "DEBIT",
+  "balance" : 5609.373305522485
+}, {
+  "id" : 870,
+  "client_id" : "8f115eef-6194-4fa0-a621-4d4ec127093c",
+  "account_type" : "CREDIT",
+  "balance" : 9567.930888578037
+}, {
+  "id" : 871,
+  "client_id" : "024b5850-62fa-41b4-adcd-1732d6c8e549",
+  "account_type" : "CREDIT",
+  "balance" : 4734.450647849585
+}, {
+  "id" : 872,
+  "client_id" : "e6f8578f-cd22-4ad1-9360-4b00c235649a",
+  "account_type" : "DEBIT",
+  "balance" : 8440.57558227285
+}, {
+  "id" : 873,
+  "client_id" : "053c5656-c9be-4be4-9f69-62901266dcd8",
+  "account_type" : "CREDIT",
+  "balance" : 7904.546609238546
+}, {
+  "id" : 874,
+  "client_id" : "64babdbe-6476-4593-bc03-e29739b2069d",
+  "account_type" : "CREDIT",
+  "balance" : 9380.230864012608
+}, {
+  "id" : 875,
+  "client_id" : "5f307160-80a7-446a-8257-a5f97ffe3099",
+  "account_type" : "DEBIT",
+  "balance" : 4753.377228327708
+}, {
+  "id" : 876,
+  "client_id" : "dc3b7c91-2604-496a-a186-6f8b0b593f0e",
+  "account_type" : "DEBIT",
+  "balance" : 742.911369170921
+}, {
+  "id" : 877,
+  "client_id" : "2eaf72b9-9b62-40c4-91f5-026912127609",
+  "account_type" : "CREDIT",
+  "balance" : 4826.364156880924
+}, {
+  "id" : 878,
+  "client_id" : "5579720d-2451-44dd-a2a8-abd3a9c01196",
+  "account_type" : "DEBIT",
+  "balance" : 4593.167790249229
+}, {
+  "id" : 879,
+  "client_id" : "0e9590a5-fc86-4e15-917d-5c5375e15166",
+  "account_type" : "CREDIT",
+  "balance" : 4294.096561792789
+}, {
+  "id" : 880,
+  "client_id" : "b935711e-3d9e-43dd-91ce-edf80102d9ad",
+  "account_type" : "CREDIT",
+  "balance" : 2481.2377615789674
+}, {
+  "id" : 881,
+  "client_id" : "0828fa7d-d371-44de-9ef1-81328e06cd77",
+  "account_type" : "DEBIT",
+  "balance" : 3493.5448445282514
+}, {
+  "id" : 882,
+  "client_id" : "d5c81fb4-8a47-485e-a525-328ac90d25fe",
+  "account_type" : "CREDIT",
+  "balance" : 2679.8617343655096
+}, {
+  "id" : 883,
+  "client_id" : "74c37ab1-6a0e-42d7-bd2f-6fdb46f2e57f",
+  "account_type" : "DEBIT",
+  "balance" : 1965.449605079832
+}, {
+  "id" : 884,
+  "client_id" : "952c8077-4ba0-48e9-84d6-9ffb86bdb811",
+  "account_type" : "DEBIT",
+  "balance" : 2427.8804913484364
+}, {
+  "id" : 885,
+  "client_id" : "4709c488-ca01-4250-8c2c-9f01e8ad8acc",
+  "account_type" : "CREDIT",
+  "balance" : 8893.55053239423
+}, {
+  "id" : 886,
+  "client_id" : "8f8ee15b-04fe-4db1-92b5-76e4091b9230",
+  "account_type" : "DEBIT",
+  "balance" : 2940.034639065011
+}, {
+  "id" : 887,
+  "client_id" : "fa5bc6c6-f9dd-43a4-bb24-74cd3c2f25db",
+  "account_type" : "CREDIT",
+  "balance" : 4248.063889556636
+}, {
+  "id" : 888,
+  "client_id" : "c405a8c3-454f-473a-90e1-9079ec94131d",
+  "account_type" : "DEBIT",
+  "balance" : 9664.31900818164
+}, {
+  "id" : 889,
+  "client_id" : "d5e15e9d-d1ec-4291-9a2b-0f3726a25dca",
+  "account_type" : "DEBIT",
+  "balance" : 9881.53653717448
+}, {
+  "id" : 890,
+  "client_id" : "172f888d-4068-424d-916e-34cdcae6669d",
+  "account_type" : "DEBIT",
+  "balance" : 8383.210816261611
+}, {
+  "id" : 891,
+  "client_id" : "2363883f-9a5b-4c48-a729-12b8b5918a1c",
+  "account_type" : "CREDIT",
+  "balance" : 5269.488381206279
+}, {
+  "id" : 892,
+  "client_id" : "e8bc9db6-1273-4747-bb67-e1dd8a6f1fa0",
+  "account_type" : "DEBIT",
+  "balance" : 8395.75876913046
+}, {
+  "id" : 893,
+  "client_id" : "a2ecc82e-1343-40d2-a820-3acf3d9c8c9e",
+  "account_type" : "CREDIT",
+  "balance" : 1153.3368350047913
+}, {
+  "id" : 894,
+  "client_id" : "456f5b6c-cf4e-44dd-9eff-d374a8b610ec",
+  "account_type" : "CREDIT",
+  "balance" : 8040.174858286882
+}, {
+  "id" : 895,
+  "client_id" : "161a1c17-4c5a-43e3-8703-235310a78fb4",
+  "account_type" : "DEBIT",
+  "balance" : 786.7784815686873
+}, {
+  "id" : 896,
+  "client_id" : "03f0221e-a901-4496-a610-075a513c71e0",
+  "account_type" : "CREDIT",
+  "balance" : 5731.311555447705
+}, {
+  "id" : 897,
+  "client_id" : "6ad3d70b-08e3-4c09-b03c-62722c00c8be",
+  "account_type" : "CREDIT",
+  "balance" : 6711.4144442503675
+}, {
+  "id" : 898,
+  "client_id" : "b5229d30-ff62-4e86-b998-a73b6d576197",
+  "account_type" : "DEBIT",
+  "balance" : 2396.1076499166356
+}, {
+  "id" : 899,
+  "client_id" : "4571a3fc-fa67-4847-b304-2e14041da01f",
+  "account_type" : "DEBIT",
+  "balance" : 3227.4243719688857
+}, {
+  "id" : 900,
+  "client_id" : "0f0b2bb4-83e0-4734-8d23-b0316208d747",
+  "account_type" : "CREDIT",
+  "balance" : 1071.0117953186716
+}, {
+  "id" : 901,
+  "client_id" : "7d8fea4e-773a-4303-a31b-ed79f65841cf",
+  "account_type" : "DEBIT",
+  "balance" : 8483.766036149676
+}, {
+  "id" : 902,
+  "client_id" : "3d4d7302-0325-4cf2-9cd0-c6ff313b68e9",
+  "account_type" : "DEBIT",
+  "balance" : 8990.955764309872
+}, {
+  "id" : 903,
+  "client_id" : "7eea4524-34a0-4a12-bd99-5f117fab6783",
+  "account_type" : "CREDIT",
+  "balance" : 855.2110204810615
+}, {
+  "id" : 904,
+  "client_id" : "468ad4eb-3bad-42af-8c32-036168cc89fa",
+  "account_type" : "CREDIT",
+  "balance" : 5041.47841018127
+}, {
+  "id" : 905,
+  "client_id" : "e06750e7-fbf7-49c7-bd73-fbb97a6d0578",
+  "account_type" : "DEBIT",
+  "balance" : 7823.955778112915
+}, {
+  "id" : 906,
+  "client_id" : "2d13ffe2-8f72-4438-97f7-df6c7a433f8d",
+  "account_type" : "DEBIT",
+  "balance" : 1769.1996135797795
+}, {
+  "id" : 907,
+  "client_id" : "d90df95d-e180-42e6-be5f-70f68ed9bd8c",
+  "account_type" : "CREDIT",
+  "balance" : 2603.44960540566
+}, {
+  "id" : 908,
+  "client_id" : "813e4f51-96d0-4eb3-b9fa-c2ccd1acaf48",
+  "account_type" : "DEBIT",
+  "balance" : 8681.462505139709
+}, {
+  "id" : 909,
+  "client_id" : "6caace2e-93b6-4734-bb34-407f51c8a095",
+  "account_type" : "DEBIT",
+  "balance" : 9617.71008733311
+}, {
+  "id" : 910,
+  "client_id" : "83d837fe-7b02-4153-89d6-a4597eec6c2b",
+  "account_type" : "CREDIT",
+  "balance" : 8835.741201353743
+}, {
+  "id" : 911,
+  "client_id" : "fb8a9eb3-832b-4026-8766-a6270a82af6b",
+  "account_type" : "CREDIT",
+  "balance" : 6840.304241534684
+}, {
+  "id" : 912,
+  "client_id" : "c5899a77-00a4-4bda-a161-70b16dcb1d88",
+  "account_type" : "DEBIT",
+  "balance" : 3322.2196206349454
+}, {
+  "id" : 913,
+  "client_id" : "4a66d0a7-0e88-42b6-b5f3-e44b624d6920",
+  "account_type" : "DEBIT",
+  "balance" : 6743.554521522414
+}, {
+  "id" : 914,
+  "client_id" : "a73b2a98-dddf-4433-9140-69da295d2380",
+  "account_type" : "CREDIT",
+  "balance" : 4209.423627652756
+}, {
+  "id" : 915,
+  "client_id" : "fff2da1a-f60c-46b5-ab27-2da791c7fc82",
+  "account_type" : "CREDIT",
+  "balance" : 629.7831869506065
+}, {
+  "id" : 916,
+  "client_id" : "d23d61ee-a461-4e15-87bf-5b943f0b6a96",
+  "account_type" : "CREDIT",
+  "balance" : 1079.7210939149581
+}, {
+  "id" : 917,
+  "client_id" : "2f6d9818-968f-4fb4-8109-dc40c1260470",
+  "account_type" : "CREDIT",
+  "balance" : 3371.238949490751
+}, {
+  "id" : 918,
+  "client_id" : "b6907d37-53c0-46bf-92b5-f1ae0dc9652a",
+  "account_type" : "DEBIT",
+  "balance" : 751.7375669431403
+}, {
+  "id" : 919,
+  "client_id" : "a438ee71-9703-4bb5-a979-4364a911b518",
+  "account_type" : "CREDIT",
+  "balance" : 9101.161640805638
+}, {
+  "id" : 920,
+  "client_id" : "d9cf4c6b-b777-4f3b-9d1b-e7c0567d32c4",
+  "account_type" : "CREDIT",
+  "balance" : 9539.092942965608
+}, {
+  "id" : 921,
+  "client_id" : "d8ed89bb-4cd0-4c4f-98d4-9dcd6229f73a",
+  "account_type" : "CREDIT",
+  "balance" : 6815.414725801906
+}, {
+  "id" : 922,
+  "client_id" : "56e1330d-e53a-4f38-a6f1-b14333cb4e22",
+  "account_type" : "CREDIT",
+  "balance" : 2445.3080487786683
+}, {
+  "id" : 923,
+  "client_id" : "fc669bf7-20aa-4a4c-85c2-d60631f07381",
+  "account_type" : "CREDIT",
+  "balance" : 7856.74708723931
+}, {
+  "id" : 924,
+  "client_id" : "9435fa12-845f-4d96-9e0a-640b349b3d68",
+  "account_type" : "CREDIT",
+  "balance" : 747.9620671236021
+}, {
+  "id" : 925,
+  "client_id" : "aea11542-3e56-406a-933d-96c83b9ab633",
+  "account_type" : "CREDIT",
+  "balance" : 770.1274978540818
+}, {
+  "id" : 926,
+  "client_id" : "ac468f51-15eb-4f06-89ca-db55f1ac0a36",
+  "account_type" : "DEBIT",
+  "balance" : 3833.33748122794
+}, {
+  "id" : 927,
+  "client_id" : "376e07ce-46b0-43e9-801b-d5802eac7e1b",
+  "account_type" : "DEBIT",
+  "balance" : 5294.327263522601
+}, {
+  "id" : 928,
+  "client_id" : "d450b85c-c627-45e6-8e75-3984bba6dbc8",
+  "account_type" : "DEBIT",
+  "balance" : 9444.996885479406
+}, {
+  "id" : 929,
+  "client_id" : "d27d591e-d088-4c8c-ba4c-c3c067d32773",
+  "account_type" : "CREDIT",
+  "balance" : 5202.882214698519
+}, {
+  "id" : 930,
+  "client_id" : "0b7fd807-b986-41d6-b311-072548207e29",
+  "account_type" : "DEBIT",
+  "balance" : 4904.5404327653105
+}, {
+  "id" : 931,
+  "client_id" : "3ecd1982-bc63-44b5-b3c9-78d1c2643c8c",
+  "account_type" : "CREDIT",
+  "balance" : 4001.3921527725092
+}, {
+  "id" : 932,
+  "client_id" : "f4609811-8fa5-4844-93ec-63cdf8a79e66",
+  "account_type" : "DEBIT",
+  "balance" : 3151.9968361013375
+}, {
+  "id" : 933,
+  "client_id" : "137e724a-eb98-4a04-be7f-625d0a08dc49",
+  "account_type" : "DEBIT",
+  "balance" : 6049.774460388173
+}, {
+  "id" : 934,
+  "client_id" : "e04246da-016d-47b0-b8d5-86a2563787a9",
+  "account_type" : "CREDIT",
+  "balance" : 8684.281406205024
+}, {
+  "id" : 935,
+  "client_id" : "f367f761-1283-4ff5-8691-84fb449366cc",
+  "account_type" : "CREDIT",
+  "balance" : 8542.192157099313
+}, {
+  "id" : 936,
+  "client_id" : "18ad2f86-081f-43fc-807f-10403e0883ee",
+  "account_type" : "CREDIT",
+  "balance" : 3690.291823065077
+}, {
+  "id" : 937,
+  "client_id" : "4da2b238-9569-41e2-b237-2bee805de986",
+  "account_type" : "CREDIT",
+  "balance" : 8283.675948433069
+}, {
+  "id" : 938,
+  "client_id" : "cd7b3473-3df9-434c-95c1-8edee850f42d",
+  "account_type" : "CREDIT",
+  "balance" : 1906.3755198143028
+}, {
+  "id" : 939,
+  "client_id" : "b3f6b019-9aa7-4c64-a898-457e81856cfc",
+  "account_type" : "DEBIT",
+  "balance" : 898.3763941231559
+}, {
+  "id" : 940,
+  "client_id" : "bd564b8e-9774-4394-89a1-035f6dc1fb45",
+  "account_type" : "CREDIT",
+  "balance" : 6401.617166183771
+}, {
+  "id" : 941,
+  "client_id" : "8ba07af4-4802-4fcc-ad11-e9b06f96d39d",
+  "account_type" : "DEBIT",
+  "balance" : 9677.646937368147
+}, {
+  "id" : 942,
+  "client_id" : "0a12bd66-3ecd-4d34-a6a9-e6994883054f",
+  "account_type" : "CREDIT",
+  "balance" : 2494.842877672733
+}, {
+  "id" : 943,
+  "client_id" : "cb6bfa6c-6a32-417a-ad7c-e16462ed29d8",
+  "account_type" : "DEBIT",
+  "balance" : 9275.764237073296
+}, {
+  "id" : 944,
+  "client_id" : "5e8e32f7-878b-4eb7-ad5c-4e86c7ab8007",
+  "account_type" : "DEBIT",
+  "balance" : 7135.3996768859215
+}, {
+  "id" : 945,
+  "client_id" : "5b355a2d-07ec-4eb9-bdda-6ec4736c2bca",
+  "account_type" : "CREDIT",
+  "balance" : 6501.349507827909
+}, {
+  "id" : 946,
+  "client_id" : "c8aae504-a8d3-4435-85ab-0a302d5ddcab",
+  "account_type" : "CREDIT",
+  "balance" : 253.1016436311262
+}, {
+  "id" : 947,
+  "client_id" : "f1ac245c-3309-4903-956a-e75b0f19d758",
+  "account_type" : "DEBIT",
+  "balance" : 3033.7447722177003
+}, {
+  "id" : 948,
+  "client_id" : "d0985dbd-2492-4f82-b2d2-0a636c8f4731",
+  "account_type" : "CREDIT",
+  "balance" : 4402.691854469064
+}, {
+  "id" : 949,
+  "client_id" : "c3d85968-d802-4687-9a99-1a55ee1e3105",
+  "account_type" : "CREDIT",
+  "balance" : 1908.684714911345
+}, {
+  "id" : 950,
+  "client_id" : "21e2d8d7-9c6a-415e-8b53-d8bd3ef87f06",
+  "account_type" : "CREDIT",
+  "balance" : 3680.6418131608298
+}, {
+  "id" : 951,
+  "client_id" : "5bc4b16c-135a-4783-8cb5-6e8ceb1e6a5a",
+  "account_type" : "DEBIT",
+  "balance" : 8053.7438875018715
+}, {
+  "id" : 952,
+  "client_id" : "94bf1037-9a7b-4a11-9f37-288c592c0290",
+  "account_type" : "CREDIT",
+  "balance" : 3204.688420990873
+}, {
+  "id" : 953,
+  "client_id" : "67d95d6a-6618-42e4-a00e-047d6ffbd877",
+  "account_type" : "DEBIT",
+  "balance" : 9433.39962587052
+}, {
+  "id" : 954,
+  "client_id" : "8acaaedf-664b-4902-b842-3536401f273e",
+  "account_type" : "CREDIT",
+  "balance" : 8723.921164686057
+}, {
+  "id" : 955,
+  "client_id" : "96b21664-62de-4e73-85d4-613605d48518",
+  "account_type" : "DEBIT",
+  "balance" : 7206.719698035981
+}, {
+  "id" : 956,
+  "client_id" : "64119cb8-6042-42a2-a13a-e9a31f820bc8",
+  "account_type" : "CREDIT",
+  "balance" : 352.52023618656426
+}, {
+  "id" : 957,
+  "client_id" : "dcccb818-0374-4e84-be19-2c82715576e4",
+  "account_type" : "CREDIT",
+  "balance" : 7932.931520708848
+}, {
+  "id" : 958,
+  "client_id" : "7e293b02-db0e-49f5-b639-724deacc19e4",
+  "account_type" : "CREDIT",
+  "balance" : 7497.567436391229
+}, {
+  "id" : 959,
+  "client_id" : "c3268736-fbde-4e0e-9b4f-931876726ecc",
+  "account_type" : "DEBIT",
+  "balance" : 8818.048212807005
+}, {
+  "id" : 960,
+  "client_id" : "24d61dff-ad51-4a80-b0cb-a1907ed6d47f",
+  "account_type" : "DEBIT",
+  "balance" : 7755.211725805139
+}, {
+  "id" : 961,
+  "client_id" : "68cc4a98-4a37-4bba-9b9b-726d1bd257e0",
+  "account_type" : "DEBIT",
+  "balance" : 6730.014260406983
+}, {
+  "id" : 962,
+  "client_id" : "d7544748-5ba0-4ea4-a1d9-0b47be96ef62",
+  "account_type" : "DEBIT",
+  "balance" : 2531.241013925162
+}, {
+  "id" : 963,
+  "client_id" : "92f327b5-b3f4-4bbf-a0fc-38eefe6bfebc",
+  "account_type" : "DEBIT",
+  "balance" : 8616.554035499006
+}, {
+  "id" : 964,
+  "client_id" : "3236a6a0-e569-4692-931d-331f62454307",
+  "account_type" : "CREDIT",
+  "balance" : 8533.458693140123
+}, {
+  "id" : 965,
+  "client_id" : "21c671bc-0854-4d82-b09d-5116f055bb40",
+  "account_type" : "DEBIT",
+  "balance" : 5410.9851612106695
+}, {
+  "id" : 966,
+  "client_id" : "8c50a29c-185d-4429-b4c8-da2fd085df43",
+  "account_type" : "CREDIT",
+  "balance" : 6322.700016113876
+}, {
+  "id" : 967,
+  "client_id" : "3bbc1f09-795f-4a47-a91f-c4984da1d640",
+  "account_type" : "DEBIT",
+  "balance" : 3891.631118255462
+}, {
+  "id" : 968,
+  "client_id" : "32baf120-69e6-4eb2-980e-7c0c5283dd56",
+  "account_type" : "CREDIT",
+  "balance" : 1006.144276086115
+}, {
+  "id" : 969,
+  "client_id" : "e86942c7-a5cf-442a-8b07-77687fe6d050",
+  "account_type" : "DEBIT",
+  "balance" : 7657.525264481056
+}, {
+  "id" : 970,
+  "client_id" : "e25b581e-e219-49a8-918a-efa31a703152",
+  "account_type" : "CREDIT",
+  "balance" : 6293.517178919211
+}, {
+  "id" : 971,
+  "client_id" : "958bf58d-e039-41d3-8364-a5b08d58ae51",
+  "account_type" : "DEBIT",
+  "balance" : 1110.963784485264
+}, {
+  "id" : 972,
+  "client_id" : "6e7175df-e160-45a8-bc72-87cceb59b3da",
+  "account_type" : "DEBIT",
+  "balance" : 1900.8515897292443
+}, {
+  "id" : 973,
+  "client_id" : "b8747cef-d367-4d8a-bdb2-d42843ba75d3",
+  "account_type" : "CREDIT",
+  "balance" : 2116.6882391356235
+}, {
+  "id" : 974,
+  "client_id" : "c403b50c-34da-49e9-8eb1-7a09dfa29aa6",
+  "account_type" : "CREDIT",
+  "balance" : 1503.9952264698475
+}, {
+  "id" : 975,
+  "client_id" : "5466c792-1d35-4659-857d-49cd2fa39590",
+  "account_type" : "DEBIT",
+  "balance" : 3557.6513409777845
+}, {
+  "id" : 976,
+  "client_id" : "977b3980-5b42-471f-9662-e369ef5311cf",
+  "account_type" : "CREDIT",
+  "balance" : 3584.5119754990305
+}, {
+  "id" : 977,
+  "client_id" : "b3e4fa5b-e6d4-4997-a1f8-0a07f522bbdd",
+  "account_type" : "DEBIT",
+  "balance" : 1248.2196416501156
+}, {
+  "id" : 978,
+  "client_id" : "3cd28371-0383-4b0f-b531-7ad864e39ae3",
+  "account_type" : "DEBIT",
+  "balance" : 2510.423657580263
+}, {
+  "id" : 979,
+  "client_id" : "bbc35be3-9f5d-470b-bf90-e0348801e2f9",
+  "account_type" : "CREDIT",
+  "balance" : 4459.600521304042
+}, {
+  "id" : 980,
+  "client_id" : "9bf6b5e1-1c88-4b7d-8f61-a859f92fd726",
+  "account_type" : "DEBIT",
+  "balance" : 939.8188228586324
+}, {
+  "id" : 981,
+  "client_id" : "5c0a80dc-48f9-4e10-9449-517e160c7e26",
+  "account_type" : "CREDIT",
+  "balance" : 5517.8093218884505
+}, {
+  "id" : 982,
+  "client_id" : "e64be8d8-8348-450f-8fb4-c6e54359b413",
+  "account_type" : "CREDIT",
+  "balance" : 7831.898039155506
+}, {
+  "id" : 983,
+  "client_id" : "2df1dfbb-618d-4a50-bc90-04fc446ba8c2",
+  "account_type" : "CREDIT",
+  "balance" : 4279.738732088021
+}, {
+  "id" : 984,
+  "client_id" : "1d2e1ec5-313e-4ae8-a794-fcb4d8f90045",
+  "account_type" : "CREDIT",
+  "balance" : 3690.0888524646
+}, {
+  "id" : 985,
+  "client_id" : "4a52cb7b-7799-479b-a8d1-177c7327fb0d",
+  "account_type" : "DEBIT",
+  "balance" : 513.2306744582593
+}, {
+  "id" : 986,
+  "client_id" : "1ec74b0a-e727-42e3-876c-8f4130b0fe19",
+  "account_type" : "DEBIT",
+  "balance" : 5895.273156153608
+}, {
+  "id" : 987,
+  "client_id" : "56a651d8-634d-4302-ad28-f342419e2e68",
+  "account_type" : "DEBIT",
+  "balance" : 1330.4855127865367
+}, {
+  "id" : 988,
+  "client_id" : "b6177ac6-5555-4f7b-b75f-a5fbe977c021",
+  "account_type" : "DEBIT",
+  "balance" : 5681.459070117643
+}, {
+  "id" : 989,
+  "client_id" : "72079e0a-71ab-44d2-a6a6-a9202be3881f",
+  "account_type" : "DEBIT",
+  "balance" : 7424.291611319964
+}, {
+  "id" : 990,
+  "client_id" : "a03e92c8-d301-4876-8f96-785233e51efa",
+  "account_type" : "CREDIT",
+  "balance" : 6773.93458669586
+}, {
+  "id" : 991,
+  "client_id" : "114688cd-bd80-479b-b07e-03eb9290e8ce",
+  "account_type" : "CREDIT",
+  "balance" : 531.317788413187
+}, {
+  "id" : 992,
+  "client_id" : "34670554-b750-4ac8-bc10-0e53df47bfde",
+  "account_type" : "DEBIT",
+  "balance" : 6767.092935325803
+}, {
+  "id" : 993,
+  "client_id" : "f6d57054-c645-45e7-854c-5b7601b7e914",
+  "account_type" : "CREDIT",
+  "balance" : 7817.815373206038
+}, {
+  "id" : 994,
+  "client_id" : "d58461bd-a02e-42e7-8fe5-f054024d9b1a",
+  "account_type" : "DEBIT",
+  "balance" : 3226.2440135621164
+}, {
+  "id" : 995,
+  "client_id" : "87a3b05b-0a63-4677-971e-97b677f09241",
+  "account_type" : "CREDIT",
+  "balance" : 1149.2706465063095
+}, {
+  "id" : 996,
+  "client_id" : "71d24f42-0a8b-457b-805d-64157e8b662c",
+  "account_type" : "CREDIT",
+  "balance" : 7622.552744430466
+}, {
+  "id" : 997,
+  "client_id" : "d224a0bd-5abb-4339-ad84-2964472a472e",
+  "account_type" : "CREDIT",
+  "balance" : 5319.975333492729
+}, {
+  "id" : 998,
+  "client_id" : "0b93a023-062e-4ee3-90da-b84d0daab989",
+  "account_type" : "DEBIT",
+  "balance" : 638.7267499155591
+}, {
+  "id" : 999,
+  "client_id" : "108afdbb-e3f6-47e8-a8e5-0cc967db44b1",
+  "account_type" : "DEBIT",
+  "balance" : 5797.647576090514
+}, {
+  "id" : 1000,
+  "client_id" : "080701c2-ff3f-42cc-a0c1-405f0607ca97",
+  "account_type" : "CREDIT",
+  "balance" : 5611.080900666187
+}]

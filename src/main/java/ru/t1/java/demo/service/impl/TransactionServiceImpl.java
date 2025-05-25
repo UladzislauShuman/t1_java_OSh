@@ -5,10 +5,11 @@ import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.t1.java.demo.dto.ClientDto;
-import ru.t1.java.demo.model.Client;
-import ru.t1.java.demo.repository.ClientRepository;
-import ru.t1.java.demo.util.ClientMapper;
+import ru.t1.java.demo.dto.AccountDto;
+import ru.t1.java.demo.dto.TransactionDto;
+import ru.t1.java.demo.model.Transaction;
+import ru.t1.java.demo.repository.TransactionRepository;
+import ru.t1.java.demo.util.TransactionMapper;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,30 +21,31 @@ import java.util.stream.Collectors;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-public class ClientServiceImpl implements ImplementService {
-    private final ClientRepository repository;
+public class TransactionServiceImpl implements ImplementService<Transaction, AccountDto> {
+    private final TransactionRepository repository;
     private final ObjectMapper mapper;
 
     @PostConstruct
     void init() {
-        List<Client> clients = new ArrayList<>();
+        List<Transaction> transactions = new ArrayList<>();
         try {
-            clients = parseJson();
+            transactions = parseJson();
         } catch (IOException e) {
             log.error("Ошибка во время обработки записей", e);
         }
-        repository.saveAll(clients);
+        repository.saveAll(transactions);
     }
 
     @Override
 //    @LogExecution
 //    @Track
 //    @HandlingResult
-    public List<Client> parseJson() throws IOException {
-        ClientDto[] clients = mapper.readValue(new File("src/main/resources/MOCK_DATA_CLIENTS.json"), ClientDto[].class);
+    public List<Transaction> parseJson() throws IOException {
+
+        TransactionDto[] clients = mapper.readValue(new File("src/main/resources/MOCK_DATA_TRANSACTIONS.json"), TransactionDto[].class);
 
         return Arrays.stream(clients)
-                .map(ClientMapper::toEntity)
+                .map(TransactionMapper::toEntity)
                 .collect(Collectors.toList());
     }
 }

@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
-import java.util.UUID;
+import java.math.BigDecimal;
 
 @Getter
 @Setter
@@ -18,18 +18,20 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "client")
-public class Client extends AbstractPersistable<Long> implements HasId {
-
-    @Column(name = "first_name")
-    private String firstName;
-
-    @Column(name = "last_name")
-    private String lastName;
-
-    @Column(name = "middle_name")
-    private String middleName;
+@Table(name = "account")
+public class Account extends AbstractPersistable<Long> implements HasId{
 
     @Column(name = "client_id")
-    private UUID clientId;
+    private Long clientId;
+
+    @Column(name = "account_type")
+    private AccountType accountType;
+
+    @Column(name = "balance")
+    private BigDecimal balance;
+
+    public enum AccountType {
+        DEBIT,
+        CREDIT
+    }
 }
