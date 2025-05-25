@@ -31,10 +31,15 @@ spring:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
 
+  output:
+    ansi:
+      enabled: always
+
 logging:
   level:
     ROOT: ${LOG_LEVEL:INFO}
     ru.t1.java.demo.controller.ClientController: DEBUG
+    ru.t1.java.demo.service: Error
 
 t1:
   scan-path: ru.t1.java.demo

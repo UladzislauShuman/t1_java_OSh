@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ru.t1.java.demo.aop.HandlingResult;
 import ru.t1.java.demo.aop.Track;
 import ru.t1.java.demo.aop.LogException;
+import ru.t1.java.demo.aop.my.LogDataSourceError;
 import ru.t1.java.demo.exception.ClientException;
 import ru.t1.java.demo.service.impl.ClientServiceImpl;
 
@@ -23,6 +24,7 @@ public class ClientController {
     @Track
     @GetMapping(value = "/client")
     @HandlingResult
+    @LogDataSourceError
     public void doSomething() throws IOException, InterruptedException {
 //        try {
 //            clientService.parseJson();
