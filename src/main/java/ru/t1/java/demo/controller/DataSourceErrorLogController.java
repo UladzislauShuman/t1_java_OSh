@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
+import ru.t1.java.demo.aop.my.Metric;
 import ru.t1.java.demo.dto.DataSourceErrorLogDto;
 import ru.t1.java.demo.service.DataSourceErrorLogService;
 
@@ -25,12 +26,14 @@ public class DataSourceErrorLogController {
     private final DataSourceErrorLogService errorLogService;
 
     @GetMapping
+    @Metric
     public PagedModel<DataSourceErrorLogDto> getAll(Pageable pageable) {
         Page<DataSourceErrorLogDto> errorLogs = errorLogService.findAll(pageable);
         return new PagedModel<>(errorLogs);
     }
 
     @GetMapping("/{id}")
+    @Metric
     public DataSourceErrorLogDto getOne(@PathVariable Long id) {
         Optional<DataSourceErrorLogDto> errorLogOptional = errorLogService.findById(id);
         return errorLogOptional.orElseThrow(() ->
@@ -38,6 +41,7 @@ public class DataSourceErrorLogController {
     }
 
     @GetMapping("/by-ids")
+    @Metric
     public Iterable<DataSourceErrorLogDto> getMany(@RequestParam List<Long> ids) {
         return errorLogService.findAllByIds(ids);
     }

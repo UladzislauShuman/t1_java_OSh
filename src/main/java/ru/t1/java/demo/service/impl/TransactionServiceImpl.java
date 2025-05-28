@@ -37,9 +37,6 @@ public class TransactionServiceImpl implements ImplementService<Transaction, Acc
     }
 
     @Override
-//    @LogExecution
-//    @Track
-//    @HandlingResult
     public List<Transaction> parseJson() throws IOException {
 
         TransactionDto[] clients = mapper.readValue(new File("src/main/resources/MOCK_DATA_TRANSACTIONS.json"), TransactionDto[].class);

@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import ru.t1.java.demo.aop.my.Metric;
 import ru.t1.java.demo.dto.TransactionDto;
 import ru.t1.java.demo.service.TransactionService;
 
@@ -36,12 +37,14 @@ public class TransactionController {
     private final ObjectMapper objectMapper;
 
     @GetMapping
+    @Metric
     public PagedModel<TransactionDto> getAll(Pageable pageable) {
         Page<TransactionDto> transactionDtos = transactionService.findAll(pageable);
         return new PagedModel<>(transactionDtos);
     }
 
     @GetMapping("/{id}")
+    @Metric
     public TransactionDto getOne(@PathVariable Long id) {
         Optional<TransactionDto> transactionOptional = transactionService.findById(id);
         return transactionOptional.orElseThrow(() ->
@@ -49,16 +52,19 @@ public class TransactionController {
     }
 
     @GetMapping("/by-ids")
+    @Metric
     public Iterable<TransactionDto> getMany(@RequestParam List<Long> ids) {
         return transactionService.findAllByIds(ids);
     }
 
     @PostMapping
+    @Metric
     public TransactionDto create(@RequestBody TransactionDto transactionDto) {
         return transactionService.save(transactionDto);
     }
 
     @PatchMapping("/{id}")
+    @Metric
     public TransactionDto patch(@PathVariable Long id, @RequestBody JsonNode patchNode) throws IOException {
         TransactionDto transactionDto = transactionService.findById(id).orElseThrow(() ->
                 new ResponseStatusException(HttpStatus.NOT_FOUND, "Entity with id `%s` not found".formatted(id)));
@@ -69,6 +75,7 @@ public class TransactionController {
     }
 
     @PatchMapping
+    @Metric
     public List<Long> patchMany(@RequestParam List<Long> ids, @RequestBody JsonNode patchNode) throws IOException {
         Collection<TransactionDto> transactionDtos = transactionService.findAllByIds(ids);
 
@@ -83,6 +90,7 @@ public class TransactionController {
     }
 
     @DeleteMapping("/{id}")
+    @Metric
     public TransactionDto delete(@PathVariable Long id) {
         TransactionDto transactionDto = transactionService.findById(id).orElse(null);
         if (transactionDto != null) {
@@ -92,6 +100,7 @@ public class TransactionController {
     }
 
     @DeleteMapping
+    @Metric
     public void deleteMany(@RequestParam List<Long> ids) {
         transactionService.deleteAllByIds(ids);
     }

@@ -37,9 +37,6 @@ public class AccountServiceImpl implements ImplementService<Account, AccountDto>
     }
 
     @Override
-//    @LogExecution
-//    @Track
-//    @HandlingResult
     public List<Account> parseJson() throws IOException {
         AccountDto[] clients = mapper.readValue(new File("src/main/resources/MOCK_DATA_ACCOUNTS.json"), AccountDto[].class);
 
