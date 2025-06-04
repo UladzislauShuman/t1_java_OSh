@@ -26,6 +26,7 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 import java.util.stream.StreamSupport;
 
 @RestController
@@ -56,6 +57,12 @@ public class AccountController {
     @Metric
     public Iterable<AccountDto> getMany(@RequestParam List<Long> ids) {
         return accountService.findAllByIds(ids);
+    }
+
+    @GetMapping("/by-account-id")
+    @Metric
+    public AccountDto getByAccountId(@RequestParam UUID accountId) {
+        return accountService.findByAccountId(accountId);
     }
 
     @PostMapping

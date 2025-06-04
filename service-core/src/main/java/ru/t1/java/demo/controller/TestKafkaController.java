@@ -29,9 +29,6 @@ public class TestKafkaController {
     private final KafkaProducerService kafkaProducerService;
     private final AccountRepository accountRepository;
 
-    // конкретный пользователь http://localhost:8080/test/kafka/send-transaction?accountUuid=12b3d36e-41ba-4e78-b772-856f05e50cea&amountStr=1.00&randomAccount=false
-    // рандомный http://localhost:8080/test/kafka/send-transaction?accountUuid=&amountStr=1.00&randomAccount=true
-
     @Metric
     @GetMapping("/send-transaction")
     public ResponseEntity<?> sendTestTransaction(
@@ -90,10 +87,10 @@ public class TestKafkaController {
             if (sendToKafka(dto)) {
                 return sendSuccess(dto);
             } else {
-                return sendError(dto, "Failed to send transaction to Kafka: " + dto);
+                return sendError("Failed to send transaction to Kafka: " + dto);
             }
         } catch (Exception e) {
-            return sendError(dto, "Kafka exception: " + e.getMessage());
+            return sendError("Kafka exception: " + e.getMessage());
         }
     }
 
@@ -130,7 +127,7 @@ public class TestKafkaController {
         return ResponseEntity.ok(successMessage);
     }
 
-    private ResponseEntity sendError(IncomingTransactionDto incomingTransactionDto, String errorMessage) {
+    private ResponseEntity sendError(String errorMessage) {
         log.error(errorMessage);
         return ResponseEntity.status(500).body(errorMessage);
     }

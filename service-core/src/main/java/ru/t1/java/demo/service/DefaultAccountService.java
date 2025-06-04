@@ -11,19 +11,22 @@ import ru.t1.java.demo.aop.my.Cached;
 import ru.t1.java.demo.aop.my.LogDataSourceError;
 import ru.t1.java.demo.aop.my.Metric;
 import ru.t1.java.demo.dto.AccountDto;
+import ru.t1.java.demo.exception.AccountException;
 import ru.t1.java.demo.model.Account;
 import ru.t1.java.demo.repository.AccountRepository;
 import ru.t1.java.demo.util.AccountMapper;
 
-import java.util.Collection;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 @Service
 @Slf4j
 @RequiredArgsConstructor
 public class DefaultAccountService extends AbstractCrudService<Account, AccountDto> implements AccountService {
+    public static final String ACCOUNT_ID_IS_NULL = "accountId is null";
+    public static final String ACCOUNT_NOT_FOUND = "account not found";
     private final AccountRepository repository;
 
     @Override
@@ -91,5 +94,19 @@ public class DefaultAccountService extends AbstractCrudService<Account, AccountD
     @Metric
     public void deleteAllByIds(List<Long> ids) {
         super.deleteAllByIds(ids);
+    }
+
+    @Override
+    @LogDataSourceError
+    @Metric
+    public AccountDto findByAccountId(UUID accountId) {
+        if (accountId == null)
+            throw new IllegalArgumentException(ACCOUNT_ID_IS_NULL);
+        Optional<Account> account = repository.findByAccountId(accountId);
+        if (account.isPresent()) {
+            return AccountMapper.toDto(account.get());
+        } else {
+            throw new AccountException(ACCOUNT_NOT_FOUND);
+        }
     }
 }
