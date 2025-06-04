@@ -11,6 +11,7 @@ import lombok.Setter;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 @Getter
 @Setter
@@ -22,7 +23,7 @@ import java.math.BigDecimal;
 public class Account extends AbstractPersistable<Long> implements HasId{
 
     @Column(name = "client_id")
-    private Long clientId;
+    private UUID clientId;
 
     @Column(name = "account_type")
     private AccountType accountType;
@@ -30,8 +31,23 @@ public class Account extends AbstractPersistable<Long> implements HasId{
     @Column(name = "balance")
     private BigDecimal balance;
 
+    @Column(name = "status")
+    private Status status;
+
+    @Column(name = "account_id", unique = true, nullable = false)
+    private UUID accountId;
+
+    @Column(name = "frozen_amount")
+    private BigDecimal frozenAmount;
+
     public enum AccountType {
         DEBIT,
         CREDIT
+    }
+    public enum Status {
+        OPEN,
+        ARRESTED,
+        BLOCKED,
+        CLOSED
     }
 }

@@ -2,6 +2,13 @@ package ru.t1.java.demo.generate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import lombok.extern.slf4j.Slf4j;
+import ru.t1.java.demo.dto.AccountDto;
+import ru.t1.java.demo.dto.TransactionDto;
+import ru.t1.java.demo.model.Account;
+import ru.t1.java.demo.model.Transaction;
+
 import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -10,60 +17,74 @@ import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.UUID;
 
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import ru.t1.java.demo.dto.AccountDto;
-import ru.t1.java.demo.dto.TransactionDto;
-import ru.t1.java.demo.model.Account;
-
+@Slf4j
 public class DataJsonGenerator {
     public static void main(String[] args) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         objectMapper.registerModule(new JavaTimeModule());
+        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+
 
         List<AccountDto> accounts = new ArrayList<>();
         List<TransactionDto> transactions = new ArrayList<>();
 
         Random random = new Random();
-        long minDay = LocalDateTime.now()
+        long minDayEpochSecond = LocalDateTime.now()
                 .minusYears(5)
                 .toEpochSecond(ZoneOffset.UTC);
 
-        long maxDay = LocalDateTime.now()
+        long maxDayEpochSecond = LocalDateTime.now()
                 .toEpochSecond(ZoneOffset.UTC);
 
-
-
         for (int i = 1; i <= 1000; i++) {
-
             AccountDto accountDto = AccountDto.builder()
                     .id((long) i)
-                    .clientId((long) i)
+                    .clientId(UUID.randomUUID())
                     .accountType(random.nextBoolean() ? Account.AccountType.DEBIT : Account.AccountType.CREDIT)
-                    .balance(BigDecimal.valueOf(random.nextInt(10000)))
+                    .balance(BigDecimal.valueOf(random.nextDouble() * 10000).setScale(2, BigDecimal.ROUND_HALF_UP))
+                    .accountId(UUID.randomUUID())
+                    .status(Account.Status.OPEN)
+                    .frozenAmount(BigDecimal.ZERO)
                     .build();
             accounts.add(accountDto);
 
-            TransactionDto transactionDto = TransactionDto.builder()
-                    .id((long) i)
-                    .accountId((long) i)
-                    .amount(BigDecimal.valueOf(random.nextInt(100)))
-                    .time(
-                            LocalDateTime.ofEpochSecond(
-                                    minDay + random.nextLong(maxDay - minDay),
-                                    0,
-                                    ZoneOffset.UTC
-                            )
-                    )
-                    .build();
-            transactions.add(transactionDto);
+            int numberOfTransactions = random.nextInt(5) + 1;
+            for (int j = 0; j < numberOfTransactions; j++) {
+                long transactionEpochSecond = minDayEpochSecond + random.nextLong(maxDayEpochSecond - minDayEpochSecond);
+                LocalDateTime transactionTime = LocalDateTime.ofEpochSecond(transactionEpochSecond, 0, ZoneOffset.UTC);
+
+                Transaction.Status randomStatus;
+                int statusRoll = random.nextInt(10);
+                if (statusRoll < 7) {
+                    randomStatus = Transaction.Status.ACCEPTED;
+                } else if (statusRoll < 9) {
+                    randomStatus = Transaction.Status.REQUESTED;
+                } else {
+                    randomStatus = Transaction.Status.REJECTED;
+                }
+
+                TransactionDto transactionDto = TransactionDto.builder()
+                        .id((long) (transactions.size() + 1))
+                        .accountId(accountDto.getId())
+                        .amount(BigDecimal.valueOf(random.nextDouble() * (random.nextBoolean() ? 100 : -50))
+                                .setScale(2, BigDecimal.ROUND_HALF_UP))
+                        .timestamp(transactionTime)
+                        .transactionId(UUID.randomUUID())
+                        .status(randomStatus)
+                        .build();
+                transactions.add(transactionDto);
+            }
         }
 
-        File fileAccounts = new File("src/main/resources/MOCK_DATA_ACCOUNTS.json");
-        File fileTransactions = new File("src/main/resources/MOCK_DATA_TRANSACTIONS.json");
+        String basePath = "service-core/src/main/resources/";
+        File fileAccounts = new File(basePath + "MOCK_DATA_ACCOUNTS.json");
+        File fileTransactions = new File(basePath + "MOCK_DATA_TRANSACTIONS.json");
 
         objectMapper.writeValue(fileAccounts, accounts);
         objectMapper.writeValue(fileTransactions, transactions);
+        log.error("generated {} Accounts and {} Transactions", accounts.size(), transactions.size());
     }
 }

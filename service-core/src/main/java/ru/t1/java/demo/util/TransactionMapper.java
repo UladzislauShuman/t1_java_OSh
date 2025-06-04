@@ -11,7 +11,9 @@ public class TransactionMapper {
         return Transaction.builder()
                 .accountId(dto.getAccountId())
                 .amount(dto.getAmount())
-                .time(dto.getTime())
+                .status(dto.getStatus())
+                .timestamp(dto.getTimestamp())
+                .transactionId(dto.getTransactionId())
                 .build();
     }
 
@@ -20,7 +22,9 @@ public class TransactionMapper {
                 .id(entity.getId())
                 .accountId(entity.getAccountId())
                 .amount(entity.getAmount())
-                .time(entity.getTime())
+                .status(entity.getStatus())
+                .timestamp(entity.getTimestamp())
+                .transactionId(entity.getTransactionId())
                 .build();
     }
 }
