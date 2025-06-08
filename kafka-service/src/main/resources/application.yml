@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: service-fraud-detection
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: fraud-detection-group
+      auto-offset-reset: earliest
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+  output:
+    ansi:
+      enabled: always
+server:
+  port: 8081
+
+app:
+  fraud:
+    max-transactions: 5
+    time-window-seconds: 60
+    test-blacklist: false # true -- режим тестирования включен

@@ -1,0 +1,71 @@
+spring:
+  application:
+    name: t1-java-demo
+#  datasource:
+#    url: "jdbc:postgresql://localhost:5432/t1_demo"
+#    username: "postgres"
+#    password: "0000"
+#    driverClassName: org.postgresql.Driver
+  datasource:
+    generate-unique-name: false
+    url: jdbc:h2:mem:t1_task1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+  liquibase:
+    enabled: false
+    change-log: db/changelog/db.changelog-master.xml
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+  output:
+    ansi:
+      enabled: always
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+  security:
+    user:
+      name: user
+      password: password
+
+logging:
+  level:
+    ROOT: ${LOG_LEVEL:INFO}
+    ru.t1.java.demo.controller.ClientController: DEBUG
+    ru.t1.java.demo.service: Error
+
+t1:
+  scan-path: ru.t1.java.demo
+
+app:
+  constants:
+    metric:
+      execution-time-limit: 200
+  cached:
+    live-limit: 60000
+    scanning-interval: 30000
+  services:
+    fraud-detection:
+      username: service-user
+      password: service-password
+      url: http://localhost:8081
+  fraud:
+    max-rejected-transactions: 3
