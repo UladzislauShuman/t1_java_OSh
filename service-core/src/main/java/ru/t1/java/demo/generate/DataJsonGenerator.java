@@ -5,8 +5,10 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import lombok.extern.slf4j.Slf4j;
 import ru.t1.java.demo.dto.AccountDto;
+import ru.t1.java.demo.dto.ClientDto;
 import ru.t1.java.demo.dto.TransactionDto;
 import ru.t1.java.demo.model.Account;
+import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.model.Transaction;
 
 import java.io.File;
@@ -27,7 +29,7 @@ public class DataJsonGenerator {
         objectMapper.registerModule(new JavaTimeModule());
         objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
 
-
+        List<ClientDto> clients = new ArrayList<>();
         List<AccountDto> accounts = new ArrayList<>();
         List<TransactionDto> transactions = new ArrayList<>();
 
@@ -40,13 +42,35 @@ public class DataJsonGenerator {
                 .toEpochSecond(ZoneOffset.UTC);
 
         for (int i = 1; i <= 1000; i++) {
+            UUID clientId = UUID.randomUUID();
+
+            Client.Status clientStatus;
+
+            if (random.nextInt(10) == 0) {
+                clientStatus = Client.Status.BLOCKED;
+            } else {
+                clientStatus = Client.Status.ACTIVE;
+            }
+
+            ClientDto clientDto = ClientDto.builder()
+                    .id((long) i)
+                    .firstName("Name " + i)
+                    .lastName("Surname " + i)
+                    .middleName("Patronymic " + i)
+                    .clientId(clientId)
+                    .status(clientStatus)
+                    .build();
+            clients.add(clientDto);
+
+            Account.Status accountStatus = clientStatus == Client.Status.BLOCKED ? Account.Status.BLOCKED : Account.Status.OPEN;
+
             AccountDto accountDto = AccountDto.builder()
                     .id((long) i)
-                    .clientId(UUID.randomUUID())
+                    .clientId(clientId)
                     .accountType(random.nextBoolean() ? Account.AccountType.DEBIT : Account.AccountType.CREDIT)
                     .balance(BigDecimal.valueOf(random.nextDouble() * 10000).setScale(2, BigDecimal.ROUND_HALF_UP))
                     .accountId(UUID.randomUUID())
-                    .status(Account.Status.OPEN)
+                    .status(accountStatus)
                     .frozenAmount(BigDecimal.ZERO)
                     .build();
             accounts.add(accountDto);
@@ -80,11 +104,14 @@ public class DataJsonGenerator {
         }
 
         String basePath = "service-core/src/main/resources/";
+        File fileClients = new File(basePath + "MOCK_DATA_CLIENTS.json");
         File fileAccounts = new File(basePath + "MOCK_DATA_ACCOUNTS.json");
         File fileTransactions = new File(basePath + "MOCK_DATA_TRANSACTIONS.json");
 
+        objectMapper.writeValue(fileClients, clients);
         objectMapper.writeValue(fileAccounts, accounts);
         objectMapper.writeValue(fileTransactions, transactions);
-        log.error("generated {} Accounts and {} Transactions", accounts.size(), transactions.size());
+
+        log.error("generated {} Clients, {} Accounts, and {} Transactions", clients.size(), accounts.size(), transactions.size());
     }
 }

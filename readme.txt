@@ -121,4 +121,68 @@
         // и снова узнать о нем
         http://localhost:8080/accounts/by-account-id?accountId=12b3d36e-41ba-4e78-b772-856f05e50cea
 
-        если выполнить 5 раз (или сколько указано в )
+
+- Задание 5 Дедлайн 09.06.2025
+    + 1. Сервис 1 при получении сообщения о новой транзакции обращается к Сервису 2 по http-запросу,
+    если статус клиента неизвестен. В сообщении передаются clientId, accountId.
+
+    + 2. Сервис 2 при получении запроса (может иметь собственную БД) проверяет,
+    находится ли клиент в черном списке
+     (факт нахождения можно сделать условным, рандомным или с низкой вероятностью - решение произвольно),
+     отправляет в ответ соответствующий статус.
+     Response-message может быть произвольным, можно взять пример из проекта.
+
+    + 3. Сервис 1 один при получении сообщения о нахождении в черном списке
+    выставляет клиенту [и счету] статус BLOCKED. Транзакции присваивать статус REJECTED.
+
+    + 4. http-запросы должны проходить аутентификацию
+
+    + 5. Если статус клиента при получении сообщения о транзакции известен и
+    транзакции в статусе REJECTED уже существуют,
+    то если приходит более N (значение настраивается в конфиге) транзакций,
+    по-прежнему выставить их в REJECTED, счету присвоить статус ARRESTED.
+
+    хочется добавить
+        в BlackListService у меня буквально все рандомно
+        изменил генерацию, теперь у меня генерируются и пользователи (Клиенты)
+
+        как проверить:
+            хотя бы запустим:
+                в kafka-service есть ClientBlackListController, где можно проверить на работоспособность
+                либо воспользоваться ссылкой, чтобы проверить пользователя 4 (если вы не перегенерировали данные)
+                http://localhost:8081/api/clients/870827da-4f43-4b92-bf7f-1b8ec37eea04/check-blacklist
+                при этом потребуется аутентификация: service-user и service-password
+
+            тестируем просто блокировку
+                так как проверка на черный список у меня случайная, то предлагаю Вам сделать ее гарантированной
+                для это в kafka-service/application.yml можете поменять параметр app.fraud.test-blacklist на true
+
+                отправляем тестовую транзакцию через TestKafkaController
+                это для пользователя 4
+                http://localhost:8080/test/kafka/send-transaction?accountUuid=db1e1e41-d0de-4eac-8bed-a2dd51bd1bbd&randomAccount=false
+
+                заходим в localhost:8080/h2-console
+
+                проверяем транзакции
+                SELECT * FROM TRANSACTION ORDER BY ID DESC LIMIT 4
+                аккаунт
+                SELECT * FROM ACCOUNT WHERE ACCOUNT_ID = 'db1e1e41-d0de-4eac-8bed-a2dd51bd1bbd'
+                клиента
+                SELECT * FROM CLIENT WHERE CLIENT_ID = '870827da-4f43-4b92-bf7f-1b8ec37eea04'
+
+            как работает блокировка по maxRejected (сейчас значение 3)
+                отключаем app.fraud.test-blacklist
+                перезапускаем два сервиса
+
+                пусть нашей жертвой будет пользователь 4
+                http://localhost:8081/api/clients/870827da-4f43-4b92-bf7f-1b8ec37eea04/check-blacklist
+
+                три раза делаем такие транзакции
+                http://localhost:8080/test/kafka/send-transaction?accountUuid=db1e1e41-d0de-4eac-8bed-a2dd51bd1bbd&amountStr=-1000000&randomAccount=false
+
+                и проверяем, чтобы все работало
+                SELECT * FROM TRANSACTION ORDER BY ID DESC LIMIT 4;
+                SELECT * FROM ACCOUNT WHERE ACCOUNT_ID = 'db1e1e41-d0de-4eac-8bed-a2dd51bd1bbd'; -- сначала статус 0
+                SELECT * FROM CLIENT WHERE CLIENT_ID = '870827da-4f43-4b92-bf7f-1b8ec37eea04';
+
+                на четвертой плохой транзакции, наш account имеет статус 1, т.е. -- arrested

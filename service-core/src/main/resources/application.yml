@@ -41,6 +41,11 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
+  security:
+    user:
+      name: user
+      password: password
+
 logging:
   level:
     ROOT: ${LOG_LEVEL:INFO}
@@ -57,3 +62,10 @@ app:
   cached:
     live-limit: 60000
     scanning-interval: 30000
+  services:
+    fraud-detection:
+      username: service-user
+      password: service-password
+      url: http://localhost:8081
+  fraud:
+    max-rejected-transactions: 3

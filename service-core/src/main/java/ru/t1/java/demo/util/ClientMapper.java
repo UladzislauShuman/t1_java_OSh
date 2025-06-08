@@ -16,6 +16,7 @@ public class ClientMapper {
                 .lastName(dto.getLastName())
                 .middleName(dto.getMiddleName())
                 .clientId(dto.getClientId())
+                .status(dto.getStatus())
                 .build();
     }
 
@@ -26,6 +27,7 @@ public class ClientMapper {
                 .lastName(entity.getLastName())
                 .middleName(entity.getMiddleName())
                 .clientId(entity.getClientId())
+                .status(entity.getStatus())
                 .build();
     }
 

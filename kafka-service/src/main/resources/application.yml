@@ -19,3 +19,4 @@ app:
   fraud:
     max-transactions: 5
     time-window-seconds: 60
+    test-blacklist: false # true -- режим тестирования включен

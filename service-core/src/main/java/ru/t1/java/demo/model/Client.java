@@ -1,8 +1,6 @@
 package ru.t1.java.demo.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -30,6 +28,15 @@ public class Client extends AbstractPersistable<Long> implements HasId {
     @Column(name = "middle_name")
     private String middleName;
 
-    @Column(name = "client_id")
+    @Column(name = "client_id", unique = true, nullable = false)
     private UUID clientId;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status")
+    private Status status;
+
+    public enum Status {
+        ACTIVE,
+        BLOCKED
+    }
 }

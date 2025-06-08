@@ -13,4 +13,5 @@ import java.util.UUID;
 public interface TransactionRepository extends CrudRepository<Transaction, Long> {
     Page<Transaction> findAll(Pageable pageable);
     Optional<Transaction> findByTransactionId(UUID transactionId);
+    long countByAccountIdAndStatus(Long accountId, Transaction.Status status);
 }
