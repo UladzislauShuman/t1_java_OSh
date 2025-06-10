@@ -20,7 +20,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "account")
-public class Account extends AbstractPersistable<Long> implements HasId{
+public class Account extends AbstractPersistable<Long> {
 
     @Column(name = "client_id")
     private UUID clientId;

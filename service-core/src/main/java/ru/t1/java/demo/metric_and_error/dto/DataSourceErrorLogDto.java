@@ -1,4 +1,4 @@
-package ru.t1.java.demo.dto;
+package ru.t1.java.demo.metric_and_error.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

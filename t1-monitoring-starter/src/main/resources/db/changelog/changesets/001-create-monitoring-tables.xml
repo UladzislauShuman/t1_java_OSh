@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="1" author="your_name">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="time_limit_exceed_log"/>
+            </not>
+        </preConditions>
+        <createTable tableName="time_limit_exceed_log">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="method_signature" type="VARCHAR(255)"/>
+            <column name="execution_time_ms" type="BIGINT"/>
+            <column name="limit_ms" type="BIGINT"/>
+            <column name="timestamp" type="TIMESTAMP"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2" author="your_name">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="data_source_error_log"/>
+            </not>
+        </preConditions>
+        <createTable tableName="data_source_error_log">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="stack_trace" type="TEXT"/>
+            <column name="message" type="VARCHAR(1024)"/>
+            <column name="method_signature" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

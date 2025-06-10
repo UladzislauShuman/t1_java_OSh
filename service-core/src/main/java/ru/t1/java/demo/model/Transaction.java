@@ -19,7 +19,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 @Table(name = "transaction")
-public class Transaction extends AbstractPersistable<Long> implements HasId {
+public class Transaction extends AbstractPersistable<Long> {
 
     public enum Status {
         REQUESTED,

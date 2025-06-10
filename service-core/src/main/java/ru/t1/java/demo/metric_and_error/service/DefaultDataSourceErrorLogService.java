@@ -1,4 +1,4 @@
-package ru.t1.java.demo.service;
+package ru.t1.java.demo.metric_and_error.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -6,13 +6,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
-import ru.t1.java.demo.aop.my.Cached;
-import ru.t1.java.demo.aop.my.LogDataSourceError;
-import ru.t1.java.demo.aop.my.Metric;
-import ru.t1.java.demo.dto.DataSourceErrorLogDto;
-import ru.t1.java.demo.model.DataSourceErrorLog;
-import ru.t1.java.demo.repository.DataSourceErrorLogRepository;
-import ru.t1.java.demo.util.DataSourceErrorLogMapper;
+import r1.t1.monitoring.starter.annotation.LogDataSourceError;
+import r1.t1.monitoring.starter.annotation.Metric;
+import r1.t1.monitoring.starter.model.DataSourceErrorLog;
+import r1.t1.monitoring.starter.repository.DataSourceErrorLogRepository;
+import ru.t1.java.demo.dto.AccountDto;
+import ru.t1.java.demo.metric_and_error.dto.DataSourceErrorLogDto;
+import ru.t1.java.demo.metric_and_error.util.DataSourceErrorLogMapper;
+import ru.t1.java.demo.service.AbstractCrudService;
 
 import java.util.Collection;
 import java.util.List;
@@ -45,7 +46,6 @@ public class DefaultDataSourceErrorLogService extends AbstractCrudService<DataSo
     @Override
     @LogDataSourceError
     @Metric
-    @Cached
     public Page<DataSourceErrorLogDto> findAll(Pageable pageable) {
         return repository.findAll(pageable).map(DataSourceErrorLogMapper::toDto);
     }
@@ -53,7 +53,6 @@ public class DefaultDataSourceErrorLogService extends AbstractCrudService<DataSo
     @Override
     @LogDataSourceError
     @Metric
-    @Cached
     public Optional<DataSourceErrorLogDto> findById(Long id) {
         return super.findById(id);
     }
@@ -61,7 +60,6 @@ public class DefaultDataSourceErrorLogService extends AbstractCrudService<DataSo
     @Override
     @LogDataSourceError
     @Metric
-    @Cached
     public List<DataSourceErrorLogDto> findAllByIds(List<Long> ids) {
         return super.findAllByIds(ids);
     }

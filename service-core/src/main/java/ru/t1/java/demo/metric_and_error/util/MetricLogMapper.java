@@ -1,9 +1,8 @@
-package ru.t1.java.demo.util;
+package ru.t1.java.demo.metric_and_error.util;
 
 import org.springframework.stereotype.Component;
-import ru.t1.java.demo.dto.MetricLogDto;
-import ru.t1.java.demo.model.MetricLog;
-
+import r1.t1.monitoring.starter.model.MetricLog;
+import ru.t1.java.demo.metric_and_error.dto.MetricLogDto;
 
 @Component
 public class MetricLogMapper {

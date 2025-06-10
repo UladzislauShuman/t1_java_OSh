@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.t1.java.demo.aop.my.Metric;
+import r1.t1.monitoring.starter.annotation.Metric;
 import ru.t1.java.demo.kafka.IncomingTransactionDto;
 import ru.t1.java.demo.kafka.KafkaProducerService;
 import ru.t1.java.demo.model.Account;

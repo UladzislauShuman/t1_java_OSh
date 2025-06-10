@@ -1,13 +1,13 @@
-package ru.t1.java.demo.controller;
+package ru.t1.java.demo.metric_and_error.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.t1.java.demo.aop.my.Metric;
-import ru.t1.java.demo.dto.MetricLogDto;
-import ru.t1.java.demo.service.MetricLogService;
+import r1.t1.monitoring.starter.annotation.Metric;
+import ru.t1.java.demo.metric_and_error.dto.MetricLogDto;
+import ru.t1.java.demo.metric_and_error.service.MetricLogService;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TestMetricController {
 
-    public static final int BAD_LIMIT_TIME = 250;
+    public static final int BAD_LIMIT_TIME = 300;
     public static final int GOOD_LIMIT_TIME = 1;
 
     private final MetricLogService service;

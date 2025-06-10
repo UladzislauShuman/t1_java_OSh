@@ -2,9 +2,8 @@ package ru.t1.java.demo.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Persistable;
 import org.springframework.data.repository.CrudRepository;
-import ru.t1.java.demo.aop.my.LogDataSourceError;
-import ru.t1.java.demo.model.HasId;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -15,7 +14,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-public abstract class AbstractCrudService<E extends HasId, D> {
+public abstract class AbstractCrudService<E extends Persistable<Long>, D> {
 
     protected abstract CrudRepository<E, Long> getRepository();
     protected abstract Function<E, D> toDto();

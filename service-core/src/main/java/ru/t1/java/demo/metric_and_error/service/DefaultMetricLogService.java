@@ -1,4 +1,4 @@
-package ru.t1.java.demo.service;
+package ru.t1.java.demo.metric_and_error.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -6,13 +6,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
-
-import ru.t1.java.demo.aop.my.Cached;
-import ru.t1.java.demo.aop.my.LogDataSourceError;
-import ru.t1.java.demo.dto.MetricLogDto;
-import ru.t1.java.demo.model.MetricLog;
-import ru.t1.java.demo.repository.MetricLogRepository;
-import ru.t1.java.demo.util.MetricLogMapper;
+import r1.t1.monitoring.starter.annotation.LogDataSourceError;
+import r1.t1.monitoring.starter.model.MetricLog;
+import r1.t1.monitoring.starter.repository.MetricLogRepository;
+import ru.t1.java.demo.dto.AccountDto;
+import ru.t1.java.demo.metric_and_error.dto.MetricLogDto;
+import ru.t1.java.demo.metric_and_error.util.MetricLogMapper;
+import ru.t1.java.demo.service.AbstractCrudService;
 
 import java.util.Collection;
 import java.util.List;
@@ -45,7 +45,6 @@ public class DefaultMetricLogService extends AbstractCrudService<MetricLog, Metr
 
     @Override
     @LogDataSourceError
-    @Cached
     public List<MetricLogDto> findAll() {
         Iterable<MetricLog> metricLogs = getRepository().findAll();
         return StreamSupport.stream(metricLogs.spliterator(), false)
@@ -55,21 +54,18 @@ public class DefaultMetricLogService extends AbstractCrudService<MetricLog, Metr
 
     @Override
     @LogDataSourceError
-    @Cached
     public Page<MetricLogDto> findAll(Pageable pageable) {
         return repository.findAll(pageable).map(MetricLogMapper::toDto);
     }
 
     @Override
     @LogDataSourceError
-    @Cached
     public Optional<MetricLogDto> findById(Long id) {
         return super.findById(id);
     }
 
     @Override
     @LogDataSourceError
-    @Cached
     public List<MetricLogDto> findAllByIds(List<Long> ids) {
         return super.findAllByIds(ids);
     }

@@ -1,8 +1,8 @@
-package ru.t1.java.demo.util;
+package ru.t1.java.demo.metric_and_error.util;
 
 import org.springframework.stereotype.Component;
-import ru.t1.java.demo.dto.DataSourceErrorLogDto;
-import ru.t1.java.demo.model.DataSourceErrorLog;
+import r1.t1.monitoring.starter.model.DataSourceErrorLog;
+import ru.t1.java.demo.metric_and_error.dto.DataSourceErrorLogDto;
 
 @Component
 public class DataSourceErrorLogMapper {

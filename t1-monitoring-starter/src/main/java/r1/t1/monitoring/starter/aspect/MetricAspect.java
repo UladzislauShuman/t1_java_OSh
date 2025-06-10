@@ -1,22 +1,19 @@
-package ru.t1.java.demo.aop.my;
+package r1.t1.monitoring.starter.aspect;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-import ru.t1.java.demo.kafka.KafkaProducerService;
-import ru.t1.java.demo.model.MetricLog;
-import ru.t1.java.demo.repository.MetricLogRepository;
+import r1.t1.monitoring.starter.kafka.MonitoringKafkaProducerService;
+import r1.t1.monitoring.starter.model.MetricLog;
+import r1.t1.monitoring.starter.repository.MetricLogRepository;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
 @Aspect
-@Component
 @Slf4j
 @RequiredArgsConstructor
 public class MetricAspect {
@@ -24,7 +21,7 @@ public class MetricAspect {
     public static final String METHOD_COMPLETED_IN = "Method {} completed in {}";
     public static final String METHOD_HAS_EXCEEDED_ITS_LIMIT = "Method {} has exceeded its limit, It: {}, and Limit: {}";
 
-    public static final String KAFKA_TOPIC_METRICS = "t1_demo_metrics";
+    //public static final String KAFKA_TOPIC_METRICS = "t1_demo_metrics";
     public static final String ERROR_TYPE_METRICS = "METRICS";
 
     public static final String PARAMETER_METHOD_SIGNATURE = "methodSignature";
@@ -33,12 +30,11 @@ public class MetricAspect {
     public static final String PARAMETER_TIMESTAMP = "timestamp";
 
     private final MetricLogRepository repository;
-    private final KafkaProducerService kafkaProducerService;
+    private final MonitoringKafkaProducerService kafkaProducerService;
+    private final long executionTimeLimitMs;
+    private final String kafkaTopic;
 
-    @Value("${app.constants.metric.execution-time-limit:100}")
-    private long EXECUTION_TIME_LIMITS_MS;
-
-    @Around("@annotation(ru.t1.java.demo.aop.my.Metric)")
+    @Around("@annotation(r1.t1.monitoring.starter.annotation.Metric)")
     public Object getMetric(ProceedingJoinPoint joinPoint) throws Throwable {
         long startTime = System.nanoTime();
         Object result;
@@ -53,7 +49,7 @@ public class MetricAspect {
 
             if (isInLimits(executionTime)) {
                 log.error(METHOD_HAS_EXCEEDED_ITS_LIMIT,
-                        methodSignature, executionTime, EXECUTION_TIME_LIMITS_MS);
+                        methodSignature, executionTime, executionTimeLimitMs);
                 Map<String, Object> payload = getPayload(methodSignature, executionTime);
                 sendMessageKafka(payload, methodSignature, executionTime);
             }
@@ -69,7 +65,7 @@ public class MetricAspect {
         Map<String, Object> payload = new HashMap<>();
         payload.put(PARAMETER_METHOD_SIGNATURE, methodSignature);
         payload.put(PARAMETER_EXECUTION_TIME, executionTime);
-        payload.put(PARAMETER_LIMIT_MS,EXECUTION_TIME_LIMITS_MS);
+        payload.put(PARAMETER_LIMIT_MS,executionTimeLimitMs);
         payload.put(PARAMETER_TIMESTAMP, LocalDateTime.now().toString());
         return payload;
     }
@@ -78,7 +74,7 @@ public class MetricAspect {
         boolean sentToKafka = false;
         try {
             sentToKafka = kafkaProducerService.sendMessage(
-                    KAFKA_TOPIC_METRICS,
+                    kafkaTopic,
                     payload,
                     ERROR_TYPE_METRICS
             );
@@ -102,13 +98,13 @@ public class MetricAspect {
         return MetricLog.builder()
                 .methodSignature(methodSignature)
                 .executionTimeMs(duration)
-                .limitMs(EXECUTION_TIME_LIMITS_MS)
+                .limitMs(executionTimeLimitMs)
                 .timestamp(LocalDateTime.now())
                 .build();
     }
 
     private boolean isInLimits(long duration) {
-        return duration > EXECUTION_TIME_LIMITS_MS;
+        return duration > executionTimeLimitMs;
     }
 
     private void saveMetricLog(MetricLog metricLog) {

@@ -1,15 +1,14 @@
-package ru.t1.java.demo.dto;
+package ru.t1.java.demo.metric_and_error.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.*;
-import ru.t1.java.demo.model.MetricLog;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-/**
- * DTO for {@link MetricLog}
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

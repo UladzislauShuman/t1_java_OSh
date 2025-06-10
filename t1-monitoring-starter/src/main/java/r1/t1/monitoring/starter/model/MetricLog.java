@@ -1,4 +1,4 @@
-package ru.t1.java.demo.model;
+package r1.t1.monitoring.starter.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -10,20 +10,28 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
-@Entity
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
+@Entity
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@Table(name = "data_source_error_log")
-public class DataSourceErrorLog extends AbstractPersistable<Long> implements HasId {
-    @Column(name = "stack_trace", columnDefinition = "TEXT")
-    private String stackTrace;
-
-    @Column(name = "message")
-    private String message;
+@Table(name = "time_limit_exceed_log")
+public class MetricLog extends AbstractPersistable<Long> implements HasId {
+    // id
 
     @Column(name = "method_signature")
     private String methodSignature;
+
+    @Column(name = "execution_time_ms")
+    private long executionTimeMs;
+
+    @Column(name = "limit_ms")
+    private long limitMs;
+
+    @Column(name = "timestamp")
+    private LocalDateTime timestamp;
+
 }

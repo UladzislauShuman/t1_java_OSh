@@ -1,15 +1,13 @@
-package ru.t1.java.demo.aop.my;
+package r1.t1.monitoring.starter.aspect;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
-import org.springframework.stereotype.Component;
-import ru.t1.java.demo.kafka.KafkaProducerService;
-import ru.t1.java.demo.model.DataSourceErrorLog;
-import ru.t1.java.demo.model.MetricLog;
-import ru.t1.java.demo.repository.DataSourceErrorLogRepository;
+import r1.t1.monitoring.starter.kafka.MonitoringKafkaProducerService;
+import r1.t1.monitoring.starter.model.DataSourceErrorLog;
+import r1.t1.monitoring.starter.repository.DataSourceErrorLogRepository;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -17,7 +15,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Aspect
-@Component
 @Slf4j
 @RequiredArgsConstructor
 public class LogDataSourceErrorAspect {
@@ -27,13 +24,13 @@ public class LogDataSourceErrorAspect {
     public static final String PARAMETER_STACK_TRACE = "stackTrace";
     public static final String PARAMETER_TIMESTAMP = "timestamp";
     private final DataSourceErrorLogRepository errorLogRepository;
-    private final KafkaProducerService kafkaProducerService;
+    private final MonitoringKafkaProducerService kafkaProducerService;
+    public  final String kafkaTopic; //"t1_demo_metrics";
 
-    public static final String KAFKA_TOPIC_METRICS = "t1_demo_metrics";
     public static final String ERROR_TYPE_DATA_SOURCE = "DATA_SOURCE";
 
     @AfterThrowing(
-            pointcut = "@annotation(ru.t1.java.demo.aop.my.LogDataSourceError)",
+            pointcut = "@annotation(r1.t1.monitoring.starter.annotation.LogDataSourceError)",
             throwing = "exception"
     )
     public void setErrorLogRepository(JoinPoint joinPoint, Throwable exception) {
@@ -64,7 +61,7 @@ public class LogDataSourceErrorAspect {
         boolean sentToKafka = false;
         try {
             sentToKafka = kafkaProducerService.sendMessage(
-                    KAFKA_TOPIC_METRICS,
+                    kafkaTopic,
                     payload,
                     ERROR_TYPE_DATA_SOURCE
             );

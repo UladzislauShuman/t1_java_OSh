@@ -54,6 +54,13 @@ logging:
 
 t1:
   scan-path: ru.t1.java.demo
+  monitoring:
+    enabled: true
+    metric-properties:
+      execute-time-limit-ms: 250
+      kafka-topic: "t1_demo_metrics"
+    data-source-error-log-properties:
+      kafka-topic: "t1_demo_errors"
 
 app:
   constants:

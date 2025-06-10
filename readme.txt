@@ -122,7 +122,7 @@
         http://localhost:8080/accounts/by-account-id?accountId=12b3d36e-41ba-4e78-b772-856f05e50cea
 
 
-- Задание 5 Дедлайн 09.06.2025
++ Задание 5 Дедлайн 09.06.2025
     + 1. Сервис 1 при получении сообщения о новой транзакции обращается к Сервису 2 по http-запросу,
     если статус клиента неизвестен. В сообщении передаются clientId, accountId.
 
@@ -186,3 +186,36 @@
                 SELECT * FROM CLIENT WHERE CLIENT_ID = '870827da-4f43-4b92-bf7f-1b8ec37eea04';
 
                 на четвертой плохой транзакции, наш account имеет статус 1, т.е. -- arrested
+- Задание 6 Дедлайн 11.06.2025
+    + 1. Вынести в отдельный стартер все ранее написанные аспекты по измерению времени работы
+    и логгированию DataSourceErrorLog.
+
+   +- 2. Для работы с кафкой аспектам прописать соответствующие проперти в yam и конфигурацию
+
+    + 3. Для работы с БД требуется соответствующая таблица, существование которой необходимо.
+     Для этого неободимо провалидировать схему целевого проекта, если таблица отсутствует - создать.
+
+    + 4. Для упрощения п.3 полагаться только на то, что СУБД - Postgres или иная,
+    если вы используете в проекте другую БД
+
+    хочется добавить
+        для тестирования функционала(что он работает, как прежде)
+        обратиться в service-core в ru.t1.java.demo.metric_and_error
+
+        я запускал Кафку через Докер, ну и просматривал что пришло в Метрики
+        docker-compose exec kafka /usr/bin/kafka-console-consumer \
+          --bootstrap-server localhost:9092 \
+          --topic t1_demo_metrics \
+          --from-beginning \
+          --property print.headers=true \
+          --property print.key=true \
+          --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
+
+      это для LogDataSourceError
+      docker-compose exec kafka /usr/bin/kafka-console-consumer \
+                --bootstrap-server localhost:9092 \
+                --topic t1_demo_errors \
+                --from-beginning \
+                --property print.headers=true \
+                --property print.key=true \
+                --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer

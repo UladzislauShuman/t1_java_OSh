@@ -1,19 +1,16 @@
-package ru.t1.java.demo.controller;
+package ru.t1.java.demo.metric_and_error.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PagedModel;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-import ru.t1.java.demo.aop.my.Metric;
-import ru.t1.java.demo.dto.DataSourceErrorLogDto;
-import ru.t1.java.demo.service.DataSourceErrorLogService;
+import r1.t1.monitoring.starter.annotation.LogDataSourceError;
+import r1.t1.monitoring.starter.annotation.Metric;
+import ru.t1.java.demo.metric_and_error.dto.DataSourceErrorLogDto;
+import ru.t1.java.demo.metric_and_error.service.DataSourceErrorLogService;
 
 import java.util.List;
 import java.util.Optional;
@@ -24,6 +21,13 @@ import java.util.Optional;
 public class DataSourceErrorLogController {
 
     private final DataSourceErrorLogService errorLogService;
+
+    @GetMapping("/exception")
+    @LogDataSourceError
+    @Metric
+    public void throwTestException() {
+        throw new RuntimeException("test of LogDataSourceErrorAspect");
+    }
 
     @GetMapping
     @Metric

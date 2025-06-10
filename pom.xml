@@ -18,6 +18,7 @@
     <modules>
         <module>kafka-service</module>
         <module>service-core</module>
+        <module>t1-monitoring-starter</module>
     </modules>
 
     <properties>
@@ -89,6 +90,7 @@
                             <path>
                                 <groupId>org.springframework.boot</groupId>
                                 <artifactId>spring-boot-configuration-processor</artifactId>
+                                <version>3.2.5</version>
                             </path>
                         </annotationProcessorPaths>
                     </configuration>
