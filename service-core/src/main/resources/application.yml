@@ -1,3 +1,7 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+
 spring:
   application:
     name: t1-java-demo
@@ -74,5 +78,35 @@ app:
       username: service-user
       password: service-password
       url: http://localhost:8081
+    unlock-service:
+      username: service-user
+      password: service-password
+      url: http://localhost:8082
+  scheduler:
+    unlock:
+      enabled: true
+      fixed-delay-ms: 60000
+      client-batch-size: 10
+      account-batch-size: 10
   fraud:
     max-rejected-transactions: 3
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "prometheus,health,info"
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    enable:
+      all: false
+      jvm: true
+      process: true
+      http: true
+      application.clients.blocked.count: true
+      application.accounts.arrested.count: true

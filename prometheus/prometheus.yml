@@ -1,0 +1,7 @@
+global:
+  sample_limit: 100000
+scrape_configs:
+  - job_name: 'service-core'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['host.docker.internal:8080']
