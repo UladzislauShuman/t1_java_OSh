@@ -246,3 +246,53 @@
 
         application_clients_blocked_count{application="t1-java-demo"}
         application_accounts_arrested_count{application="t1-java-demo"}
+
+- Задание 8 Дедлайн 18.06.2025
+    + 1. Написать юнит-тесты на классы, методы которых содержат независимую бизнес-логику, которую можно протестировать
+    +- 2. Написать интеграционные тесты для http-запросов, используя заглушки WireMock
+
+    хочу добавить:
+        тут я буду перечислять классы и методы, которые содержат бизнес-логику и которые потенциально я хочу протестировать
+        но -- есть класса, в которых логика настолько "проста" (грубо говоря, она и так будто "замокирована"), что проверять
+        нет особого смысла
+
+        буду проверять
+        unit-тестирование
+            kafka-service
+                + TransactionAcceptanceService
+            service-core
+                + CachedAspect
+                + CacheAspectService
+
+
+
+        не буду проверять (и почему)
+            kafka-service
+                BlackListService -- генерация ответа жесткая/ рандомная
+            service-core
+                DataJsonGenerator -- утилита (один раз запустил, данные получил -- больше с ним работать "не буду")
+                что наследуются от AbstractCrudService -- именно их не стоит, так как их функционал до жути прост
+                    (делегировать и замапить) (технически я их проверю, когда будут интеграционные тесты для котроллеров)
+                Mapper-ы -- их логика тут до жути проста (просто переложить поля)
+                DefaultAccountService и ему подобные -- они просто берут данные из репозитория, мапят и возвращают
+                    причина по сути такая же , как почему я не проверяю мапперы и репозитории
+
+            starter
+            unlock-service
+                DecisionService -- генерация ответа рандомная
+
+        интегрированное
+            - Controller-ы
+                + Account
+
+            starter
+                - MonitoringKafkaProducerService
+            service-core
+                + KafkaTransactionListenerService
+                - KafkaTransactionResultListener
+                - UnlockService (wiremock)
+                - UnlockSchedulerService
+                + KafkaProducerService
+            starter
+                - LogDataSourceErrorAspect
+                - MetricAspect
