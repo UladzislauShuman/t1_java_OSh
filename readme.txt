@@ -281,18 +281,24 @@
             unlock-service
                 DecisionService -- генерация ответа рандомная
 
-        интегрированное
+        + интегрированное
             - Controller-ы
-                + Account
-
+                kafka-service
+                    + ClientBlackListController
+                service-core
+                    + Account
+                    + TestMetricController
+                остальные контроллеры я не вижу смысла проверять, ибо: крайне простая логика, и нацелены просто
+                на демонстрацию того, как что-то работает/взять из БД
+                но я все равно показал, что могу сделать для них тесты
             starter
                 - MonitoringKafkaProducerService
             service-core
                 + KafkaTransactionListenerService
-                - KafkaTransactionResultListener
-                - UnlockService (wiremock)
-                - UnlockSchedulerService
+                + KafkaTransactionResultListener
+                + UnlockService (wiremock)
+                + UnlockSchedulerService
                 + KafkaProducerService
             starter
                 - LogDataSourceErrorAspect
-                - MetricAspect
+                + MetricAspect

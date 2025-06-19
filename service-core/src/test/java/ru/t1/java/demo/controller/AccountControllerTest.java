@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Import;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import ru.t1.java.demo.config.JacksonConfig;
@@ -15,6 +17,7 @@ import ru.t1.java.demo.security.SecurityConfig;
 import ru.t1.java.demo.service.AccountService;
 
 import java.math.BigDecimal;
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -92,5 +95,21 @@ class AccountControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id", is(1)))
                 .andExpect(jsonPath("$.account_id", is(accountUuid.toString())));
+    }
+
+    @Test
+    void whenGetAll_thenReturnsPagedModel() throws Exception {
+        AccountDto mockAccount = AccountDto.builder().id(1L).balance(BigDecimal.TEN).build();
+        PageImpl<AccountDto> page = new PageImpl<>(List.of(mockAccount));
+
+        given(accountService.findAll(any(Pageable.class))).willReturn(page);
+
+        mockMvc.perform(get("/accounts")
+                        .param("page", "0")
+                        .param("size", "1"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.content[0].id", is(1L), Long.class))
+                .andExpect(jsonPath("$.page.size", is(1)))
+                .andExpect(jsonPath("$.page.totalElements", is(1)));
     }
 }

@@ -1,6 +1,0 @@
-package ru.t1.java.demo.service;
-
-
-import ru.t1.java.demo.metric_and_error.dto.DataSourceErrorLogDto;
-
-public interface DataSourceErrorLogService extends CrudService<DataSourceErrorLogDto> {}

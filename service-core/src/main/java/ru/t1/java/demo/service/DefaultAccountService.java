@@ -16,7 +16,10 @@ import ru.t1.java.demo.model.Account;
 import ru.t1.java.demo.repository.AccountRepository;
 import ru.t1.java.demo.util.AccountMapper;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 import java.util.function.Function;
 
 @Service
