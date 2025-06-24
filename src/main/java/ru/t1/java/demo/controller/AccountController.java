@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import ru.t1.java.demo.aop.my.LogDataSourceError;
+import ru.t1.java.demo.aop.my.Metric;
 import ru.t1.java.demo.dto.AccountDto;
 import ru.t1.java.demo.service.AccountService;
 
@@ -37,7 +37,7 @@ public class AccountController {
 
     private final ObjectMapper objectMapper;
 
-    @LogDataSourceError
+    @Metric
     @GetMapping
     public PagedModel<AccountDto> getAll(Pageable pageable) {
         Page<AccountDto> accountDtos = accountService.findAll(pageable);
@@ -45,6 +45,7 @@ public class AccountController {
     }
 
     @GetMapping("/{id}")
+    @Metric
     public AccountDto getOne(@PathVariable Long id) {
         Optional<AccountDto> accountOptional = accountService.findById(id);
         return accountOptional.orElseThrow(() ->
@@ -52,16 +53,19 @@ public class AccountController {
     }
 
     @GetMapping("/by-ids")
+    @Metric
     public Iterable<AccountDto> getMany(@RequestParam List<Long> ids) {
         return accountService.findAllByIds(ids);
     }
 
     @PostMapping
+    @Metric
     public AccountDto create(@RequestBody AccountDto accountDto) {
         return accountService.save(accountDto);
     }
 
     @PatchMapping("/{id}")
+    @Metric
     public AccountDto patch(@PathVariable Long id, @RequestBody JsonNode patchNode) throws IOException {
         AccountDto accountDto = accountService.findById(id).orElseThrow(() ->
                 new ResponseStatusException(HttpStatus.NOT_FOUND, "Entity with id `%s` not found".formatted(id)));
@@ -72,6 +76,7 @@ public class AccountController {
     }
 
     @PatchMapping
+    @Metric
     public List<Long> patchMany(@RequestParam List<Long> ids, @RequestBody JsonNode patchNode) throws IOException {
         Collection<AccountDto> accountDtos = accountService.findAllByIds(ids);
 
@@ -86,6 +91,7 @@ public class AccountController {
     }
 
     @DeleteMapping("/{id}")
+    @Metric
     public AccountDto delete(@PathVariable Long id) {
         AccountDto accountDto = accountService.findById(id).orElse(null);
         if (accountDto != null) {
@@ -95,6 +101,7 @@ public class AccountController {
     }
 
     @DeleteMapping
+    @Metric
     public void deleteMany(@RequestParam List<Long> ids) {
         accountService.deleteAllByIds(ids);
     }

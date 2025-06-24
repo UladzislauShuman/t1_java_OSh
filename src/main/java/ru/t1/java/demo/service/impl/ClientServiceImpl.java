@@ -36,9 +36,6 @@ public class ClientServiceImpl implements ImplementService {
     }
 
     @Override
-//    @LogExecution
-//    @Track
-//    @HandlingResult
     public List<Client> parseJson() throws IOException {
         ClientDto[] clients = mapper.readValue(new File("src/main/resources/MOCK_DATA_CLIENTS.json"), ClientDto[].class);
 

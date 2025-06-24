@@ -43,3 +43,11 @@ logging:
 
 t1:
   scan-path: ru.t1.java.demo
+
+app:
+  constants:
+    metric:
+      execution-time-limit: 200
+  cached:
+    live-limit: 60000
+    scanning-interval: 30000
