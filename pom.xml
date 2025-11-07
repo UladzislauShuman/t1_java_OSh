@@ -19,6 +19,7 @@
         <module>kafka-service</module>
         <module>service-core</module>
         <module>t1-monitoring-starter</module>
+        <module>unlock-service</module>
     </modules>
 
     <properties>
