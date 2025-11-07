@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import ru.t1.java.demo.aop.my.Metric;
+import r1.t1.monitoring.starter.annotation.Metric;
 import ru.t1.java.demo.dto.AccountDto;
 import ru.t1.java.demo.service.AccountService;
 
@@ -85,7 +85,7 @@ public class AccountController {
     @PatchMapping
     @Metric
     public List<Long> patchMany(@RequestParam List<Long> ids, @RequestBody JsonNode patchNode) throws IOException {
-        Collection<AccountDto> accountDtos = accountService.findAllByIds(ids);
+        Collection<AccountDto> accountDtos = (Collection) accountService.findAllByIds(ids);
 
         for (AccountDto account : accountDtos) {
             objectMapper.readerForUpdating(account).readValue(patchNode);

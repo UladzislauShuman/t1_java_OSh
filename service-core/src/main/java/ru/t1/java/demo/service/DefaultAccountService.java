@@ -7,19 +7,20 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
 
+import r1.t1.monitoring.starter.annotation.LogDataSourceError;
+import r1.t1.monitoring.starter.annotation.Metric;
 import ru.t1.java.demo.aop.my.Cached;
-import ru.t1.java.demo.aop.my.LogDataSourceError;
-import ru.t1.java.demo.aop.my.Metric;
 import ru.t1.java.demo.dto.AccountDto;
 import ru.t1.java.demo.exception.AccountException;
 import ru.t1.java.demo.model.Account;
 import ru.t1.java.demo.repository.AccountRepository;
 import ru.t1.java.demo.util.AccountMapper;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.StreamSupport;
 
 @Service
 @Slf4j

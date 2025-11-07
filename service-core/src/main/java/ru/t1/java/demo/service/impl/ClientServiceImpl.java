@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.dto.ClientDto;
 import ru.t1.java.demo.model.Client;
@@ -25,6 +26,7 @@ public class ClientServiceImpl implements ImplementService {
     private final ObjectMapper mapper;
 
     @PostConstruct
+    @Profile("!test")
     void init() {
         List<Client> clients = new ArrayList<>();
         try {

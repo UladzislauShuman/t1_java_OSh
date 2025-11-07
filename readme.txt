@@ -122,7 +122,7 @@
         http://localhost:8080/accounts/by-account-id?accountId=12b3d36e-41ba-4e78-b772-856f05e50cea
 
 
-- Задание 5 Дедлайн 09.06.2025
++ Задание 5 Дедлайн 09.06.2025
     + 1. Сервис 1 при получении сообщения о новой транзакции обращается к Сервису 2 по http-запросу,
     если статус клиента неизвестен. В сообщении передаются clientId, accountId.
 
@@ -186,3 +186,119 @@
                 SELECT * FROM CLIENT WHERE CLIENT_ID = '870827da-4f43-4b92-bf7f-1b8ec37eea04';
 
                 на четвертой плохой транзакции, наш account имеет статус 1, т.е. -- arrested
+- Задание 6 Дедлайн 11.06.2025
+    + 1. Вынести в отдельный стартер все ранее написанные аспекты по измерению времени работы
+    и логгированию DataSourceErrorLog.
+
+   +- 2. Для работы с кафкой аспектам прописать соответствующие проперти в yam и конфигурацию
+
+    + 3. Для работы с БД требуется соответствующая таблица, существование которой необходимо.
+     Для этого неободимо провалидировать схему целевого проекта, если таблица отсутствует - создать.
+
+    + 4. Для упрощения п.3 полагаться только на то, что СУБД - Postgres или иная,
+    если вы используете в проекте другую БД
+
+    хочется добавить
+        для тестирования функционала(что он работает, как прежде)
+        обратиться в service-core в ru.t1.java.demo.metric_and_error
+
+        я запускал Кафку через Докер, ну и просматривал что пришло в Метрики
+        docker-compose exec kafka /usr/bin/kafka-console-consumer \
+          --bootstrap-server localhost:9092 \
+          --topic t1_demo_metrics \
+          --from-beginning \
+          --property print.headers=true \
+          --property print.key=true \
+          --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
+
+      это для LogDataSourceError
+      docker-compose exec kafka /usr/bin/kafka-console-consumer \
+                --bootstrap-server localhost:9092 \
+                --topic t1_demo_errors \
+                --from-beginning \
+                --property print.headers=true \
+                --property print.key=true \
+                --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
+
+- Задание 7 Дедлайн 16.06.2025
+    + 1. Разработать Сервис 3:
+        + Принимает http-запросы на:
+            + Разблокировку клиентов
+            + Разблокировку счетов (снятие ареста)
+    (Сервис может принимать рандомизированное решение (ну или однозначное) о разблокировке)
+
+    + 2. Сервис 1:
+        + Теперь должен иметь таску, которая, раз в период T:
+        + Забирает из базы N клиентов
+        + Отсылает в Сервис 3 запрос на разблокировку
+        + Вторая таска забирает из базы M счетов
+        + Отсылает в Сервис 3 запрос на снятие ареста
+
+    Прежние транзакции остаются в том же статусе.
+
+    + 3. Разработать метрики:
+        + Количество заблокированных клиентов
+        + Количество арестованных счетов
+
+    хочется отметить:
+        далее я минимально настроил прометеус и сделал очень простой дашборд в графане
+        вот метрики (чтобы в прометеусе спросить)
+
+        application_clients_blocked_count{application="t1-java-demo"}
+        application_accounts_arrested_count{application="t1-java-demo"}
+
+- Задание 8 Дедлайн 18.06.2025
+    + 1. Написать юнит-тесты на классы, методы которых содержат независимую бизнес-логику, которую можно протестировать
+    +- 2. Написать интеграционные тесты для http-запросов, используя заглушки WireMock
+
+    хочу добавить:
+        тут я буду перечислять классы и методы, которые содержат бизнес-логику и которые потенциально я хочу протестировать
+        но -- есть класса, в которых логика настолько "проста" (грубо говоря, она и так будто "замокирована"), что проверять
+        нет особого смысла
+
+        буду проверять
+        unit-тестирование
+            kafka-service
+                + TransactionAcceptanceService
+            service-core
+                + CachedAspect
+                + CacheAspectService
+
+
+
+        не буду проверять (и почему)
+            kafka-service
+                BlackListService -- генерация ответа жесткая/ рандомная
+            service-core
+                DataJsonGenerator -- утилита (один раз запустил, данные получил -- больше с ним работать "не буду")
+                что наследуются от AbstractCrudService -- именно их не стоит, так как их функционал до жути прост
+                    (делегировать и замапить) (технически я их проверю, когда будут интеграционные тесты для котроллеров)
+                Mapper-ы -- их логика тут до жути проста (просто переложить поля)
+                DefaultAccountService и ему подобные -- они просто берут данные из репозитория, мапят и возвращают
+                    причина по сути такая же , как почему я не проверяю мапперы и репозитории
+
+            starter
+            unlock-service
+                DecisionService -- генерация ответа рандомная
+
+        + интегрированное
+            - Controller-ы
+                kafka-service
+                    + ClientBlackListController
+                service-core
+                    + Account
+                    + TestMetricController
+                остальные контроллеры я не вижу смысла проверять, ибо: крайне простая логика, и нацелены просто
+                на демонстрацию того, как что-то работает/взять из БД
+                но я все равно показал, что могу сделать для них тесты
+            starter
+                - MonitoringKafkaProducerService
+            service-core
+                + KafkaTransactionListenerService
+                + KafkaTransactionResultListener
+                + UnlockService (wiremock)
+                + UnlockSchedulerService
+                + KafkaProducerService
+            starter
+                - LogDataSourceErrorAspect
+                + MetricAspect

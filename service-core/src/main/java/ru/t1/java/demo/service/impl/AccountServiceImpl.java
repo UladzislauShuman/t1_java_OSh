@@ -4,10 +4,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.dto.AccountDto;
 import ru.t1.java.demo.model.Account;
-
 import ru.t1.java.demo.repository.AccountRepository;
 import ru.t1.java.demo.util.AccountMapper;
 
@@ -26,6 +26,7 @@ public class AccountServiceImpl implements ImplementService<Account, AccountDto>
     private final ObjectMapper mapper;
 
     @PostConstruct
+    @Profile("!test")
     void init() {
         List<Account> accounts = new ArrayList<>();
         try {

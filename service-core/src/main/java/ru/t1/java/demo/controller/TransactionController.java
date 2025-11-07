@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import ru.t1.java.demo.aop.my.Metric;
+import r1.t1.monitoring.starter.annotation.Metric;
 import ru.t1.java.demo.dto.TransactionDto;
 import ru.t1.java.demo.service.TransactionService;
 
@@ -77,7 +77,7 @@ public class TransactionController {
     @PatchMapping
     @Metric
     public List<Long> patchMany(@RequestParam List<Long> ids, @RequestBody JsonNode patchNode) throws IOException {
-        Collection<TransactionDto> transactionDtos = transactionService.findAllByIds(ids);
+        Collection<TransactionDto> transactionDtos = (Collection) transactionService.findAllByIds(ids);
 
         for (TransactionDto transaction : transactionDtos) {
             objectMapper.readerForUpdating(transaction).readValue(patchNode);

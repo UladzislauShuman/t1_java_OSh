@@ -13,4 +13,7 @@ import java.util.UUID;
 public interface AccountRepository extends CrudRepository<Account, Long> {
     Page<Account> findAll(Pageable pageable);
     Optional<Account> findByAccountId(UUID accountId);
+
+    Page<Account> findByStatus(Account.Status status, Pageable pageable);
+    long countByStatus(Account.Status status);
 }

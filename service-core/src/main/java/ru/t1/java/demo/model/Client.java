@@ -17,7 +17,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "client")
-public class Client extends AbstractPersistable<Long> implements HasId {
+public class Client extends AbstractPersistable<Long> {
 
     @Column(name = "first_name")
     private String firstName;
